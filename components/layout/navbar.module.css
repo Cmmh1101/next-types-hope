@@ -2,8 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    padding: 1rem 10%;
+    align-items: center;
+    padding: 2rem 10%;
     height: 5rem;
     background-color: #202020;
 }
@@ -28,6 +28,7 @@
     text-decoration: none;
     color: #74dacc;
     font-size: 1rem;
+    margin: 0 8px;
 }
 
 @media (min-width: 768px) {
