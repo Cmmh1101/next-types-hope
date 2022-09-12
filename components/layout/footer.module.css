@@ -2,4 +2,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+.navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 33%;
+}
+.socials {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.socials a {
+    width: 33%;
+    margin: 0 15px;
+}
+
+.donate {
+    margin: 0 15px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.donate a {
+    color: #000000;
+    background-color: #73b2ee;
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+

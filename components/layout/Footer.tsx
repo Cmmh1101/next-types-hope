@@ -3,16 +3,25 @@ import Image from 'next/image'
 import React from 'react'
 import classes from './footer.module.css'
 import logo from '/public/logo.png'
+import NavLinks from './NavLinks'
+import SocialIcons from '../ui/SocialIcons'
+import DonateBtn from '../ui/DonateBtn'
 
-type Props = {}
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
-    <footer className={classes.footer}>footer <Link href="/">
-    <a>
-    <Image src={logo} alt="logo" height={80} width={80} />
-    </a>
-  </Link></footer>
+    <footer className={`container ${classes.footer}`}>
+      <NavLinks className={classes.navigation} />
+      <div className={classes.section}>
+      <Link href="/" className={classes.logo}>
+        <a>
+        <Image src={logo} alt="logo" height={200} width={200} />
+        </a>
+      </Link>
+      <DonateBtn className={classes.donate} />
+      <SocialIcons className={classes.socials} />
+      </div>
+    </footer>
   )
 }
 

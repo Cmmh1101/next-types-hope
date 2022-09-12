@@ -15,6 +15,10 @@ a {
   box-sizing: border-box;
 }
 
+.container {
+  padding: 5rem 10%;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

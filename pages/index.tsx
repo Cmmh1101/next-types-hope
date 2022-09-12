@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1 className={`container ${styles.title}`}>
           Welcome to Hope for the nations next js
         </h1>
       </main>
