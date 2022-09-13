@@ -1,21 +1,20 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from '../components/ui/Header'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Hope For The Nations</title>
         <meta name="description" content="Non-profit organization" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={`container ${styles.title}`}>
-          Welcome to Hope for the nations next js
-        </h1>
+      <main>
+        <Header title='Hope For The Nations' description="Blesing our communities with the tools and resources needed to improve their living situation through hope and God's word" />
       </main>
     </div>
   )
