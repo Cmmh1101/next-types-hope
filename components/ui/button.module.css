@@ -1,15 +1,19 @@
 .btn {
     color: #000000;
-    background-color: #d4e6f7;
-    padding: 5px 15px;
+    background-color: #67bbef;
+    font-weight: 400;
+    padding: 10px 20px;
     font-size: 1.5rem;
     border-radius: 5px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     margin-top: 5rem;
+    transition: all 0.4s ease-in-out;
+
 }
 .btn:hover, .btn:focus {
     color: #1323b6;
+    background-color: #FFF;
     border: 8px solid #53b6f4;
     border-style: inset;
     transform: scale(1.1);
