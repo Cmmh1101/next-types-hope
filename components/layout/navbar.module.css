@@ -24,11 +24,39 @@
     height: 100%;
 }
 
+.navigation {
+    width: 100%;
+}
+
+.navigation div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 .navigation a {
+    padding-bottom: 10px;
     text-decoration: none;
-    color: #74dacc;
     font-size: 1rem;
-    margin: 0 8px;
+    margin: 0 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.navigation span {
+    width: 15px;
+    height: 30px;
+    border-bottom: solid 3px #73bfee;
+    animation-name: example;
+    animation-duration: 0.1s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+}
+.navigation a:hover span {
+    width: 100%;
+    border-bottom: solid 3px #2934ca;
 }
 
 @media (min-width: 768px) {

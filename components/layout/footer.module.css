@@ -11,12 +11,43 @@
     align-items: center;
     justify-content: space-between;
 }
+.navigation div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navigation a {
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 5;
+}
+
+.navigation span {
+    width: 15px;
+    height: 30px;
+    color: #73b2ee!important;
+    border-bottom: solid 3px #73b2ee;
+    animation-name: example;
+    animation-duration: 0.1s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+}
+.navigation div:hover span {
+    width: 100%;
+    border-bottom: solid 3px #2934ca;
+}
 
 .section {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .logo {

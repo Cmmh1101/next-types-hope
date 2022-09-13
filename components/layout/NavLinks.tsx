@@ -7,11 +7,13 @@ interface Props {
 
 const NavLinks = ({className}: Props) => {
   return (
-    <div className={className}><Link href="/">Home</Link>
-    <Link href="/">Who we are</Link>
-    <Link href="/">Programs</Link>
-    <Link href="/">Blog</Link>
-    <Link href="/">Donate</Link></div>
+    <div className={className}>
+      <div><Link href="/"><a>Home<span></span></a></Link></div>
+      <div><Link href="/"><a>About us<span></span></a></Link></div>
+      <div><Link href="/"><a>Programs<span></span></a></Link></div>
+      <div><Link href="/"><a>Blog<span></span></a></Link></div>
+      <div><Link href="/"><a>Donate<span></span></a></Link></div>
+    </div>
   )
 }
 
