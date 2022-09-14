@@ -1,4 +1,4 @@
-const articles = [
+const programs = [
   {
     name: "hunger-relief",
     title: "Hunger Relief",
@@ -198,4 +198,4 @@ The project integrates solutions to socio-economic and environmental challenges 
   },
 ];
 
-export default articles;
+export default programs;
