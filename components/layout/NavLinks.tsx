@@ -10,7 +10,7 @@ const NavLinks = ({className}: Props) => {
     <div className={className}>
       <div><Link href="/"><a>Home<span></span></a></Link></div>
       <div><Link href="/"><a>About us<span></span></a></Link></div>
-      <div><Link href="/"><a>Programs<span></span></a></Link></div>
+      <div><Link href="/programs"><a>Programs<span></span></a></Link></div>
       <div><Link href="/"><a>Blog<span></span></a></Link></div>
       <div><Link href="/"><a>Donate<span></span></a></Link></div>
     </div>
