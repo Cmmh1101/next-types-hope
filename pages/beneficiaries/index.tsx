@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import StoriesList from "../../components/stories/StoriesList";
 import Header from "../../components/ui/Header";
 import articles from "../../storiesData";
+import { getAllStories } from "../../storiesData";
 
 const BlogPage = () => {
 const [searching, setSearching] = useState(false)
@@ -15,12 +17,12 @@ const [filteredStories, setFilteredStories] = useState<any>([])
     );
 
     setFilteredStories(filteredStory)
-    console.log(input, "input");
-    console.log(filteredStory);
+    // console.log(input, "input");
+    // console.log(filteredStory);
     setSearching(false)
   };
 
-
+const story = getAllStories()
 
   return (
     <>
@@ -37,12 +39,15 @@ const [filteredStories, setFilteredStories] = useState<any>([])
           />
         </div>
         <div><h2>filtered stories:</h2>
-          {setFilteredStories.length > 0 && filteredStories.map((item: any) => { return (<li key={item.name}>{item.name}</li>)} )}
+          {!searching ? articles.map((item: any) => { return (<li key={item.name}>{item.name}</li>)} ) : setFilteredStories.length > 0 && filteredStories.map((item: any) => { return (<li key={item.name}>{item.name}</li>)} )}
         </div>
 
         {/* {articles.map((item: any) => {
           return <p key={item.name}>{item.name}</p>;
         })} */}
+
+        <StoriesList stories={story} />
+
       </main>
     </>
   );

@@ -4,7 +4,7 @@ const articles = [
     title: "Dylan's story",
     date: "08/04/2021",
     image: "../../../images/storiesImgs/Dylan-Baseball.png",
-    icon: "../../../images/bread.png",
+    // icon: "../../../images/bread.png",
     // description: "Dylans's Story",
     storyImage1: {
         image: "../../../images/storiesImgs/Dylan-casa-esperanza.jpeg",
@@ -14,10 +14,10 @@ const articles = [
         image: "../../../images/storiesImgs/Dylan-escuela.jpeg",
         alt: "Dylan at School"
     },
-    // storyImage3: {
-    //     image: "../../../images/storiesImgs/Dylan-bandera-Venezuela.jpeg",
-    //     alt: "Dylan"
-    // },
+    storyImage3: {
+        image: "../../../images/storiesImgs/Dylan-bandera-Venezuela.jpeg",
+        alt: "Dylan"
+    },
     // storyImage4: {
     //     image: "../../../images/storiesImgs/Dylan-Baseball.png",
     //     alt: "Dylan with a baseball trophy"
@@ -37,7 +37,7 @@ const articles = [
     title: "Ana's story",
     date: "08/04/2021",
     image: "../../../images/storiesImgs/ana1.jpg",
-    icon: "../../../images/bread.png",
+    // icon: "../../../images/bread.png",
     // description: "Ana Jimenez",
     storyImage1: {
         image: "../../../images/storiesImgs/ana1.jpg",
@@ -47,10 +47,10 @@ const articles = [
         image: "../../../images/storiesImgs/ana2.jpg",
         alt: "Ana Jimenez"
     },
-    // storyImage3: {
-    //     image: "../../../images/storiesImgs/ana1.jpg",
-    //     alt: "Ana Jimenez"
-    // },
+    storyImage3: {
+        image: "../../../images/storiesImgs/ana1.jpg",
+        alt: "Ana Jimenez"
+    },
     // storyImage4: {
     //     image: "../../../images/storiesImgs/ana1.jpg",
     //     alt: "Dylan with a baseball trophy"
@@ -70,7 +70,7 @@ const articles = [
     title: "Hectors's story",
     date: "08/04/2021",
     image: "../../../images/storiesImgs/ana1.jpg",
-    icon: "../../../images/bread.png",
+    // icon: "../../../images/bread.png",
     // description: "Hector Romero Entrepreneurship Program",
     storyImage1: {
         image: "../../../images/storiesImgs/ana1.jpg",
@@ -80,10 +80,10 @@ const articles = [
         image: "../../../images/storiesImgs/ana2.jpg",
         alt: "Hector romero"
     },
-    // storyImage3: {
-    //     image: "../../../images/storiesImgs/ana1.jpg",
-    //     alt: "Hector Romero"
-    // },
+    storyImage3: {
+        image: "../../../images/storiesImgs/ana1.jpg",
+        alt: "Hector Romero"
+    },
     // storyImage4: {
     //     image: "../../../images/storiesImgs/ana1.jpg",
     //     alt: "Hector Romero"
@@ -102,7 +102,7 @@ const articles = [
     title: "Karla's story",
     date: "08/04/2021",
     image: "../../../images/storiesImgs/ana1.jpg",
-    icon: "../../../images/bread.png",
+    // icon: "../../../images/bread.png",
     // description: "Hector Romero Entrepreneurship Program",
     storyImage1: {
         image: "../../../images/storiesImgs/ana1.jpg",
@@ -112,10 +112,10 @@ const articles = [
         image: "../../../images/storiesImgs/ana2.jpg",
         alt: "Karla Reyes"
     },
-    // storyImage3: {
-    //     image: "../../../images/storiesImgs/ana1.jpg",
-    //     alt: "Karla Reyes"
-    // },
+    storyImage3: {
+        image: "../../../images/storiesImgs/ana1.jpg",
+        alt: "Karla Reyes"
+    },
     // storyImage4: {
     //     image: "../../../images/storiesImgs/ana1.jpg",
     //     alt: "Karla Reyes"
@@ -134,7 +134,7 @@ const articles = [
     title: "Daniela's story",
     date: "08/04/2021",
     image: "../../../images/storiesImgs/ana1.jpg",
-    icon: "../../../images/bread.png",
+    // icon: "../../../images/bread.png",
     // description: "Hector Romero Entrepreneurship Program",
     storyImage1: {
         image: "../../../images/storiesImgs/ana1.jpg",
@@ -144,10 +144,10 @@ const articles = [
         image: "../../../images/storiesImgs/ana2.jpg",
         alt: "Daniela Castillo"
     },
-    // storyImage3: {
-    //     image: "../../../images/storiesImgs/ana1.jpg",
-    //     alt: "Daniela Castillo"
-    // },
+    storyImage3: {
+        image: "../../../images/storiesImgs/ana1.jpg",
+        alt: "Daniela Castillo"
+    },
     // storyImage4: {
     //     image: "../../../images/storiesImgs/ana1.jpg",
     //     alt: "Daniela Castillo"
@@ -166,20 +166,20 @@ const articles = [
     title: "Alsimyr's story",
     date: "08/04/2021",
     image: "../../../images/storiesImgs/ana1.jpg",
-    icon: "../../../images/bread.png",
+    // icon: "../../../images/bread.png",
     // description: "Alsimyr Vargas Entrepreneurship Program",
     storyImage1: {
-        image1: "../../../images/storiesImgs/ana1.jpg",
+        image: "../../../images/storiesImgs/ana1.jpg",
         alt: "Alsimyr Vargas"
     },
       storyImage2: {
         image: "../../../images/storiesImgs/ana2.jpg",
         alt: "Alsimyr Vargas"
     },
-    // storyImage3: {
-    //     image: "../../../images/storiesImgs/ana1.jpg",
-    //     alt: "Alsimyr Vargas"
-    // },
+    storyImage3: {
+        image: "../../../images/storiesImgs/ana1.jpg",
+        alt: "Alsimyr Vargas"
+    },
     // storyImage4: {
     //     image: "../../../images/storiesImgs/ana1.jpg",
     //     alt: "Alsimyr Vargas"
@@ -197,3 +197,10 @@ const articles = [
 ];
 
 export default articles;
+
+export function getStoryByName(name: string | string[] | undefined) {
+  return articles.find((story) => story.name === name)
+}
+export function getAllStories() {
+  return articles
+}
