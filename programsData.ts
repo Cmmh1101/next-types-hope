@@ -206,3 +206,11 @@ The project integrates solutions to socio-economic and environmental challenges 
 ];
 
 export default programs;
+
+
+export function getProgramByName(name: string | string[] | undefined) {
+  return programs.find((program) => program.name === name)
+}
+export function getAllPrograms() {
+  return programs
+}

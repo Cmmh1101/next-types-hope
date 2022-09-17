@@ -17,8 +17,6 @@ const [filteredStories, setFilteredStories] = useState<any>([])
     );
 
     setFilteredStories(filteredStory)
-    // console.log(input, "input");
-    // console.log(filteredStory);
     setSearching(false)
   };
 

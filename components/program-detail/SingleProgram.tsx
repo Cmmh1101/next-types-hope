@@ -5,10 +5,10 @@ interface Props {
     content: string[]
 }
 
-const StoryPost = ({title, content}: Props) => {
+const SingleProgram = ({title, content}: Props) => {
   return (
     <div>
-        <h1>single story post</h1>
+        <h1>Programs</h1>
         <h2>{title}</h2>
         <div>{content.map((paragraph, i) => {
             return (
@@ -19,4 +19,4 @@ const StoryPost = ({title, content}: Props) => {
   )
 }
 
-export default StoryPost
+export default SingleProgram

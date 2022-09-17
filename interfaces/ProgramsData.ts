@@ -6,15 +6,15 @@ export interface IProgramsData {
     video: string
     image: string
     alt: string
-    storyImage1: StoryImage
-    storyImage2:StoryImage
-    storyImage3: StoryImage
+    programImage1: ProgramImage
+    programImage2: ProgramImage
+    programImage3: ProgramImage
     featured: boolean
     highligh: string
     content: string[]
 }
 
-export interface StoryImage {
+export interface ProgramImage {
     image: string
     alt: string
 }

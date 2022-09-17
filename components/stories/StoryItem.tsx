@@ -8,8 +8,7 @@ interface IStory {
 const StoryItem = ({story}: IStory) => {
   return (
     <>
-    <div>{story.name}</div>
-    
+      <div>{story.name}</div>
     </>
     
   )

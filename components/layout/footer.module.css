@@ -29,7 +29,7 @@
 .navigation span {
     width: 15px;
     height: 30px;
-    color: #73b2ee!important;
+    /* color: #73b2ee!important; */
     border-bottom: solid 3px #73b2ee;
     animation-name: example;
     animation-duration: 0.1s;
