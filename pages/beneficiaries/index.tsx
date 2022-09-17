@@ -28,7 +28,7 @@ const story = getAllStories()
     <>
       <Header
         title="Meet Some Of Our Beneficiaries"
-        description="We have a variety of programs that target different communities, from the little ones to the elderly. We help the needed with tools, assistance, love, adn God's word"
+        description="We have a variety of programs that benefit different communities, from the little ones to the elderly. We help the needed with tools, assistance, love, adn God's word"
       />
       <main>
         <div>

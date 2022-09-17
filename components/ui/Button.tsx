@@ -5,7 +5,7 @@ import classes from './button.module.css'
 interface Props {
     className?: string
     link: string
-    text: string
+    text: string | undefined
 }
 
 const ctaButton = ({text, link}: Props) => {

@@ -8,7 +8,7 @@ interface Props {
   title?: string;
   titleWIthEffect?: string;
   description?: string;
-  buttonText?: string;
+  buttonText?: string | undefined;
   className?: string;
   bannerTitle?: string;
   overlay?: boolean;
@@ -30,7 +30,7 @@ const Header = ({
             <div className={classes.section}>
                 <h1>{title}</h1>
                 <p>{description}</p>
-                <Button link="/programs" text="go to programs" />
+                {buttonText && <Button link="/programs" text={buttonText} />}
             </div>
             <div className={classes.img}>
                 <div><Image src={heroImg} alt='litle boy' height={500} width={500} layout="intrinsic" /></div>
