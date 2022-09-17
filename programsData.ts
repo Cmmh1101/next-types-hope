@@ -5,21 +5,22 @@ const programs = [
     date: "08/04/2021",
     image: "../../../../images/programs/hunger9.png",
     icon: "../../../images/soup-light.png",
-    description: "Hunger Relief",
-    alt: "",
-    programImage2: {
+    // description: "Hunger Relief",
+    alt: "hope for the nations crew serving the community",
+    video:"https://www.youtube.com/embed/Pch09DVpw10",
+    programImage1: {
         image: "../../../images/dylanStory/Dylan-escuela.jpeg",
         alt: "Dylan at School"
     },
-    programImage3: {
+    programImage2: {
         image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
         alt: "Dylan"
     },
-    programImage4: {
+    programImage3: {
         image: "../../../images/dylanStory/Dylan-Baseball.png",
         alt: "Dylan with a baseball trophy"
     },
-    featured: "true",
+    featured: true,
     highligh:
       "We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.",
     content: [
@@ -32,21 +33,22 @@ const programs = [
     date: "05/03/2021",
     image: "../images/programs/community-garden-fruit.jpg",
     icon: "../../../images/carrot-light.png",
-    description: "Sustainable Community Gardens and Raising chicken for Hope",
+    // description: "Sustainable Community Gardens and Raising chicken for Hope",
     alt: "",
-    programImage2: {
+    video:"https://www.youtube.com/embed/Pch09DVpw10",
+    programImage1: {
         image: "../images/programs/farming4.png",
         alt: "Men working the garden"
     },
-    programImage3: {
+    programImage2: {
         image: "../images/programs/community-garden-fruit.jpg",
         alt: "Papaya from the community garden"
     },
-    programImage4: {
+    programImage3: {
         image: "../images/programs/community-garden-banner.jpg",
         alt: "Community garden banner"
     },
-    featured: "true",
+    featured: true,
     highligh: `This project builds community-managed organic vegetables and medicinal plant nurseries, giving the community access to a sustainable source of income. After the harvest, food can be shared among gardeners and their families, and the remaining produce will be for sale to the local community and surrounding markets.Each harvest not only provides members of the cooperative with food, but that food is nutritionally diverse.`,
     content: [
       `Genesis 1:29 - “And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you, it shall be for food.”`,
@@ -59,21 +61,22 @@ const programs = [
     date: "04/20/2021",
     image: "../../../../images/programs/fish1.png",
     icon: "../../../images/fish.png",
-    description: "Fish Farming Program",
+    // description: "Fish Farming Program",
     alt: "",
-    programImage2: {
+    video:"https://www.youtube.com/embed/Pch09DVpw10",
+    programImage1: {
         image: "../../../images/dylanStory/Dylan-escuela.jpeg",
         alt: "Dylan at School"
     },
-    programImage3: {
+    programImage2: {
         image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
         alt: "Dylan"
     },
-    programImage4: {
+    programImage3: {
         image: "../../../images/dylanStory/Dylan-Baseball.png",
         alt: "Dylan with a baseball trophy"
     },
-    featured: "true",
+    featured: true,
     highligh: `The fish harvest will provide a great resource of protein food sources. Also, farmers can sell part of the fish to the community in order to generate income. Fish will be selling for half price in order to benefit the community giving farmers a sustainable source of income.
 
 The project integrates solutions to socio-economic and environmental challenges and will empower Christians women and men from the city of Maracay, Aragua in Venezuela.`,
@@ -89,21 +92,22 @@ The project integrates solutions to socio-economic and environmental challenges 
     date: "04/16/2021",
     image: "../../../../images/programs/entrepreneurship.png",
     icon: "../../../images/entrepreneurship.png",
-    description: "Sustainable Work Program, 'Lights of Hope'",
+    // description: "Sustainable Work Program, 'Lights of Hope'",
     alt: "",
-    programImage2: {
+    video:"https://www.youtube.com/embed/Pch09DVpw10",
+    programImage1: {
         image: "../images/programs/05b72859-b164-4083-8d88-1566b273c68b (1).JPG",
         alt: "Dylan at School"
     },
-    programImage3: {
+    programImage2: {
         image: "../images/programs/lights-of-hope.jpg",
         alt: "Hair salon supplies beneficiary"
     },
-    programImage4: {
+    programImage3: {
         image: "../images/programs/lights-of-hope-1.jpg",
         alt: "Dylan with a baseball trophy"
     },
-    featured: "false",
+    featured: false,
     highligh: `Participants will gain the necessary skills to confidently engage in society and help change not only their own lives but countless others through their local communities, with the essential knowledge and skills for the creation of new employment opportunities, a deeper understanding of sustainable development. Here some of the participants of the work program "Light of Hope."`,
     content: [
       `This project enables families to become economically independent. We provide the tools and resources families needed to begin a micro-business and become independently self-sufficient.`,
@@ -119,21 +123,22 @@ The project integrates solutions to socio-economic and environmental challenges 
     date: "04/20/2021",
     image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
     icon: "../../../images/couple.png",
-    description: "Elderly Care Program",
+    // description: "Elderly Care Program",
+    video:"https://www.youtube.com/embed/Pch09DVpw10",
     alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers.",
-    programImage2: {
+    programImage1: {
         image: "../images/programs/elderly-program.jpg",
         alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers."
     },
-    programImage3: {
+    programImage2: {
         image: "../../../../images/programs/casa-Hogar-el-conde2.jpg",
         alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers."
     },
-    programImage4: {
+    programImage3: {
         image: "../../../../images/programs/casa-hogar-en-caracas.jpg",
         alt: "Elderly members of Hasa Hogar in Caracas Vzla with Hope for the nations Volunteers"
     },
-    featured: "true",
+    featured: true,
     highligh: `Honor those grandparents who, in one way or another, pass through your life. The Word of God teaches to respect our elders, honor them, listen to them, accompany them, hug them, value their advice, and learn from their stories. “Stand up in the presence of the aged, show respect for the elderly…..Leviticus 19:32.`,
     content: [
       `We enjoyed seeing their smiles, knowing we can show them love and remind them that God cares for them. Disfrutamos viendo sus sonrisas, sabiendo que podemos mostrarle amor y recordarles que Dios se preocupa por ellos.`,
@@ -147,21 +152,22 @@ The project integrates solutions to socio-economic and environmental challenges 
     date: "04/16/2021",
     image: "../../../../images/programs/sports3.png",
     icon: "../../../images/sports.png",
-    description: "Hope Sports Program",
+    // description: "Hope Sports Program",
     alt: "",
-    programImage2: {
+    video:"https://www.youtube.com/embed/Pch09DVpw10",
+    programImage1: {
         image: "../images/programs/hope-sports-1.jpg",
         alt: "Dylan at School"
     },
-    programImage3: {
+    programImage2: {
         image: "../images/programs/hope-sports.jpg",
         alt: "Dylan"
     },
-    programImage4: {
+    programImage3: {
         image: "../images/programs/sports3.png",
         alt: "Dylan with a baseball trophy"
     },
-    featured: "true",
+    featured: true,
     highligh: `We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.`,
     content: [
       `Hope for the Nations is a non-profit, Christian organization. We count on a ministry of ambassadors that serves children, older people, and families in Venezuela’s most impoverished area. As we help them, we bring the gospel nurturing not only with physical needs but we spiritual needs as well.`,
@@ -175,21 +181,22 @@ The project integrates solutions to socio-economic and environmental challenges 
     date: "04/16/2021",
     image: "../../../../images/programs/sports3.png",
     icon: "../../../images/sports.png",
-    description: "Hope Sports Program",
+    // description: "Hope Sports Program",
     alt: "",
-    programImage2: {
+    video:"https://www.youtube.com/embed/Pch09DVpw10",
+    programImage1: {
         image: "../../../images/dylanStory/Dylan-escuela.jpeg",
         alt: "Dylan at School"
     },
-    programImage3: {
+    programImage2: {
         image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
         alt: "Dylan"
     },
-    programImage4: {
+    programImage3: {
         image: "../../../images/dylanStory/Dylan-Baseball.png",
         alt: "Dylan with a baseball trophy"
     },
-    featured: "true",
+    featured: true,
     highligh: `We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.`,
     content: [
       `School of Hope supports schools in low-income communities with the tools they need to provide an excellent education focused on God’s Word. School of Hope equip schools with the resources they need to operate and provides children with a strong foundation in the Word of God.`,
