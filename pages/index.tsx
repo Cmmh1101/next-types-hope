@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Header title='Hope For The Nations' description="Blesing our communities with the tools and resources needed to improve their living situation through hope and God's word" />
+        <Header title='Hope For The Nations' description="Blesing our communities with the tools and resources needed to improve their living situation through hope and God's word" buttonText='Go to our programs' />
       </main>
     </div>
   )

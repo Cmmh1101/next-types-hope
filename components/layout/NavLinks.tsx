@@ -38,6 +38,13 @@ const NavLinks = ({ className }: Props) => {
         </Link>
       </div>
       <div>
+        <Link href="/beneficiaries">
+          <a>
+            Contact Us<span></span>
+          </a>
+        </Link>
+      </div>
+      <div>
         <Link
           href="https://www.paypal.com/donate?hosted_button_id=JWBZEQHW76WC4"
           target="_blank"
