@@ -11,7 +11,7 @@ import DonateBtn from '../ui/DonateBtn'
 const Footer = () => {
   return (
     <footer className={`container ${classes.footer}`}>
-      <NavLinks className={classes.navigation} />
+      <NavLinks className={classes.navigation} donateLink={classes.donateLink} />
       <div className={classes.section}>
       <Link href="/" className={classes.logo}>
         <a>

@@ -3,9 +3,10 @@ import React from "react";
 
 interface Props {
   className?: string;
+  donateLink?: string
 }
 
-const NavLinks = ({ className }: Props) => {
+const NavLinks = ({ className, donateLink }: Props) => {
   return (
     <div className={className}>
       <div>
@@ -44,7 +45,8 @@ const NavLinks = ({ className }: Props) => {
           </a>
         </Link>
       </div>
-      <div>
+
+      <div className={donateLink}>
         <Link
           href="https://www.paypal.com/donate?hosted_button_id=JWBZEQHW76WC4"
           target="_blank"
