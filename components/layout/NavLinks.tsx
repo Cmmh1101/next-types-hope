@@ -1,5 +1,7 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
+import classes from './navlinks.module.css'
 
 interface Props {
   className?: string;
@@ -7,25 +9,27 @@ interface Props {
 }
 
 const NavLinks = ({ className, donateLink }: Props) => {
+  const router = useRouter()
+
   return (
     <div className={className}>
       <div>
         <Link href="/">
-          <a>
+          <a className={`${router.pathname == '/' && classes.active}`}>
             Home<span></span>
           </a>
         </Link>
       </div>
       <div>
         <Link href="/aboutUs">
-          <a>
+          <a className={`${router.pathname == '/aboutUs' && classes.active}`}>
             About us<span></span>
           </a>
         </Link>
       </div>
       <div>
         <Link href="/programs">
-          <a>
+          <a className={`${router.pathname.includes('/programs') && classes.active}`}>
             Programs
             <span></span>
           </a>
@@ -33,14 +37,14 @@ const NavLinks = ({ className, donateLink }: Props) => {
       </div>
       <div>
         <Link href="/beneficiaries">
-          <a>
+          <a className={`${router.pathname.includes('/beneficiaries') && classes.active}`}>
             Beneficiaries<span></span>
           </a>
         </Link>
       </div>
       <div>
         <Link href="/ContactUs">
-          <a>
+          <a className={`${router.pathname == '/ContactUs' && classes.active}`}>
             Contact Us<span></span>
           </a>
         </Link>

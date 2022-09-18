@@ -1,0 +1,9 @@
+.active {
+    color: #023490 ;
+}
+
+@media (prefers-color-scheme: dark) {
+    .active{
+        color: #00b7ff;
+    }
+  }
