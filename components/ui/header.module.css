@@ -1,10 +1,8 @@
-
-
 .header {
     width: 100%;
     height: 80vh;
     min-height: auto;
-    /* background-color: #11286e; */
+    background-color: #11286e;
     background-image: linear-gradient(to right, #16085d, #141164, #12186b, #0f1f71, #0a2678, #043687, #004695, #0056a3, #0073ba, #0090ca, #00acd5, #0cc7dd);
     display: flex;
     justify-content: center;
@@ -39,18 +37,15 @@
     line-height: 30px;
     letter-spacing: 2.5px;
 }
+
 .img div {
     width: 450px;
     height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: solid 8px white;
+    border-radius: 50%;
 }
 
 .img img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 50%;
 }
 
@@ -82,10 +77,13 @@
         letter-spacing: 2.5px;
     }
 
+    .img {
+        margin-top: 3rem;
+    }
+    
     .img div {
         width: 400px;
         height: 400px;
-        margin-top: 3rem;
     }
   }
 
