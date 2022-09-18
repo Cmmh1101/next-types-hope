@@ -39,7 +39,7 @@ const NavLinks = ({ className, donateLink }: Props) => {
         </Link>
       </div>
       <div>
-        <Link href="/beneficiaries">
+        <Link href="/ContactUs">
           <a>
             Contact Us<span></span>
           </a>

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+.heading {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.heading span {
+    font-size: 3rem;
+    font-family: 'Grape Nuts', cursive;
+    color: #022F80;
+}
+
+@media (prefers-color-scheme: dark) {
+    .heading span {
+        color: #00b7ff;
+    }
+  }

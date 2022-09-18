@@ -19,6 +19,18 @@ a {
   padding: 5rem 10%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 2.5px;
+}
+
+
+
+p {
+  font-size: 1.2rem;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -27,4 +39,5 @@ a {
     color: white;
     background: black;
   }
+
 }
