@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import MobileNav from './MobileNav';
 
 type Props = {
     children: JSX.Element | JSX.Element[]
@@ -10,9 +11,10 @@ type Props = {
 const Layout = ({children}: Props) => {
   return (
     <>
-    <Navbar />
-    <main>{children}</main>
-    <Footer />
+      <Navbar />
+      {/* <MobileNav /> */}
+      <main>{children}</main>
+      <Footer />
     </>
   )
 }

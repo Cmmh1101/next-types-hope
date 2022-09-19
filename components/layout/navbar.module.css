@@ -6,6 +6,8 @@
     padding: 3rem 10%;
     height: 5rem;
     background-color: #202020;
+    position: relative;
+    z-index: 50;
 }
 
 .logo {
@@ -40,15 +42,13 @@
     font-size: 1rem;
     margin: 0 15px;
     position: relative;
-    z-index: 5;
+    z-index: 40;
 }
 
 .navigation span {
     width: 15px;
     height: 30px;
     border-bottom: solid 3px #73bfee;
-    animation-name: example;
-    animation-duration: 0.1s;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -60,9 +60,107 @@
     border-bottom: solid 3px #2934ca;
 }
 
-@media (min-width: 768px) {
+
+.navigation .show {
+    display: none;
+}
+
+@media (max-width: 980px) {
+    /* .navigation div {
+        display: none;
+    } */
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navigation {
+        width: 20%;
+        justify-content: flex-end;
+    }
+
+    .navigation .show {
+        display: flex;
+        cursor: pointer;
+        text-align: right!important;
+        justify-content: flex-end;
+    }
+
+    .navigation .hide {
+        display: none;
+    }
+    .navigation .mobileNav {
+        position: absolute;
+        background-color: #030303;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 95px;
+        left: 0;
+        z-index: 35;
+        transition: all 0.5s ease-in-out;
+
+    }
+    .navigation .mobileNav a {
+        width: 180px;
+        padding: 20px 0;
+        text-decoration: none;
+        font-size: 2rem;
+        position: relative;
+    }
+
+    .navigation .show {
+        display: flex;
+        cursor: pointer;
+    }
+
+    /* .header {
+        width: 100%;
+        height: 100vh!important;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding: 3rem 10%;
+        height: 5rem;
+        background-color: #202020;
+        z-index: 50;
+    } */
+/* 
+    .header-show {
+        width: 100%;
+        height: 100vh!important;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding: 3rem 10%;
+        height: 5rem;
+        background-color: #202020;
+        z-index: 50;
+    }
+    
+    .navigation {
+        width: 100%;
+    }
+    
+    .navigation div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
     .navigation a {
-        font-size: 1.2rem;
-    }
+        width: 180px;
+        padding: 20px 0;
+        text-decoration: none;
+        font-size: 2rem;
+        position: relative;
+        display: flex;
+    } */
 }
