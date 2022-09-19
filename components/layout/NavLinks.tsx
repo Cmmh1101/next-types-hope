@@ -6,30 +6,31 @@ import classes from './navlinks.module.css'
 interface Props {
   className?: string;
   donateLink?: string
+  toggle?: () => void
 }
 
-const NavLinks = ({ className, donateLink }: Props) => {
+const NavLinks = ({ className, donateLink, toggle }: Props) => {
   const router = useRouter()
 
   return (
     <div className={className}>
       <div>
         <Link href="/">
-          <a className={`${router.pathname == '/' && classes.active}`}>
+          <a className={`${router.pathname == '/' && classes.active}`} onClick={toggle}>
             Home<span></span>
           </a>
         </Link>
       </div>
       <div>
         <Link href="/aboutUs">
-          <a className={`${router.pathname == '/aboutUs' && classes.active}`}>
+          <a className={`${router.pathname == '/aboutUs' && classes.active}`} onClick={toggle}>
             About us<span></span>
           </a>
         </Link>
       </div>
       <div>
         <Link href="/programs">
-          <a className={`${router.pathname.includes('/programs') && classes.active}`}>
+          <a className={`${router.pathname.includes('/programs') && classes.active}`} onClick={toggle}>
             Programs
             <span></span>
           </a>
@@ -37,14 +38,14 @@ const NavLinks = ({ className, donateLink }: Props) => {
       </div>
       <div>
         <Link href="/beneficiaries">
-          <a className={`${router.pathname.includes('/beneficiaries') && classes.active}`}>
+          <a className={`${router.pathname.includes('/beneficiaries') && classes.active}`} onClick={toggle}>
             Beneficiaries<span></span>
           </a>
         </Link>
       </div>
       <div>
         <Link href="/ContactUs">
-          <a className={`${router.pathname == '/ContactUs' && classes.active}`}>
+          <a className={`${router.pathname == '/ContactUs' && classes.active}`} onClick={toggle}>
             Contact Us<span></span>
           </a>
         </Link>

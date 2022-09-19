@@ -24,8 +24,8 @@ const Navbar = () => {
         </Link>
       </div>
       <div className={classes.navigation}>
-          <p className={classes.show} onClick={() => setOpen(!open)}>toggle</p>
-          <NavLinks className={open ? `${classes.mobileNav}` : `${classes.hide}`} />
+          <p className={classes.show} onClick={setNavOpen}>toggle</p>
+          <NavLinks className={open ? `${classes.mobileNav}` : `${classes.hide}`} toggle={setNavOpen} />
       </div>
     </nav>
   )
