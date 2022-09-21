@@ -3,27 +3,30 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .navigation {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     /* flex-direction: row; */
     flex-flow: wrap;
+    
     
 }
 .navigation div {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center!important;
     
 }
 .navigation a {
     padding-bottom: 10px;
     position: relative;
     z-index: 5;
+
 }
 
 .navigation span {
