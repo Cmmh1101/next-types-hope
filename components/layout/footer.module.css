@@ -10,23 +10,23 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    /* flex-direction: row; */
+    justify-content: space-between;
     flex-flow: wrap;
-    
-    
 }
-.navigation div {
+
+.navigation nav {
+    width: auto;
     display: flex;
     align-items: center;
-    justify-content: center!important;
-    
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
 }
+
 .navigation a {
     padding-bottom: 10px;
     position: relative;
     z-index: 5;
-
 }
 
 .navigation span {
@@ -48,7 +48,6 @@
 
 .donateLink a {
     display: none;
-
 }
 
 .section {
@@ -87,7 +86,7 @@
 }
 
 @media (max-width: 980px) {
-    .navigation div {
+    .navigation nav {
         display: flex;
         align-items: center;
         justify-content: center;
