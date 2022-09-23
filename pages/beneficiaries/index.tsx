@@ -14,7 +14,7 @@ const [filteredStories, setFilteredStories] = useState<any>([])
     const input = e.target.value;
 
     const filteredStory = articles.filter((article: any) =>
-      article.name.toLowerCase().includes(input.toLocaleLowerCase())
+      article.name.toLowerCase().includes(input.toLowerCase())
     );
 
     setFilteredStories(filteredStory)
