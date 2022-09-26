@@ -13,7 +13,7 @@ const StoriesList = ({stories}: IStories ) => {
         <h1>Story List</h1>
         <h2>{stories.map((story, i) => {
             return (
-                <Link href={`/beneficiaries/${story.name}`} key={i}><a><StoryItem story={story} /></a></Link>
+                <Link href={`/newsAndStories/${story.name}`} key={i}><a><StoryItem story={story} /></a></Link>
             )
         })} </h2>
     </div>
