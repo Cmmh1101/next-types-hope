@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactPlayer from 'react-player/youtube'
+import classes from './HomeIntro.module.css'
 
 type Props = {}
 
 const HomeIntro = (props: Props) => {
   return (
-    <section>
+    <section className={classes.section}>
         <div>
         <p>Hope for the Nations was born from the desperate situation that the people of Venezuela are experiencing an economic crisis so deep that it brought with it</p>
           <ul>

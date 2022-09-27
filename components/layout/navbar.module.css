@@ -66,20 +66,17 @@
 }
 
 @media (max-width: 980px) {
-
     .header{
         display: flex;
         justify-content: space-between;
         z-index: 200;
     }
-
     .navigation {
         transition: all 0.8s ease-in-out;
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
-
     .navigation .mobileNav {
         position: absolute;
         background-color: #030303;
