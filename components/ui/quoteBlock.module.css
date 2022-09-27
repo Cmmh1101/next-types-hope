@@ -1,0 +1,13 @@
+.verse {
+    color: #000000;
+    background-color: rgb(214, 214, 213);
+    padding: 20px;
+    border-radius: 10px;
+}
+.verse q {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    font-style: italic;
+    padding: 20px;
+}

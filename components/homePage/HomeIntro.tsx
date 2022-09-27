@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactPlayer from 'react-player/youtube'
+import QuoteBlock from '../ui/QuoteBlock'
 import classes from './HomeIntro.module.css'
 
 type Props = {}
@@ -26,8 +27,7 @@ const HomeIntro = (props: Props) => {
             a great, unprecedented exile in this Latin American country
             </li>
           </ul>
-          <p>The Lord Jesus Christ told us in Matthew 25:35, “Because I was hungry, and you gave me food; I was thirsty, and you gave me to drink; I was a stranger, and you took me in; I was naked, and you covered me; sick, and you visited me; I was in prison, and you came to me.”
-        </p>
+          <QuoteBlock><p>The Lord Jesus Christ told us in Matthew 25:35,</p><q>Because I was hungry, and you gave me food; I was thirsty, and you gave me to drink; I was a stranger, and you took me in; I was naked, and you covered me; sick, and you visited me; I was in prison, and you came to me.</q></QuoteBlock>
         </div>
         <div>
         <ReactPlayer url='https://www.youtube.com/embed/Pch09DVpw10' />
