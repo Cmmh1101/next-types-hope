@@ -39,7 +39,7 @@ const NavLinks = ({ className, donateLink, toggle }: Props) => {
       <div>
         <Link href="/newsAndStories">
           <a className={`${router.pathname.includes('/newsAndStories') && classes.active}`} onClick={toggle}>
-            Beneficiaries<span></span>
+            News & Stories<span></span>
           </a>
         </Link>
       </div>

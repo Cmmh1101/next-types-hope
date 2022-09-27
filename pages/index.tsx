@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import HomeIntro from '../components/homePage/HomeIntro'
 import Header from '../components/ui/Header'
 import Heading from '../components/ui/Heading'
 import MainSections from '../components/ui/MainSections'
@@ -20,7 +21,7 @@ const Home: NextPage = () => {
         <Header title='Hope For The Nations' description="Blesing our communities with the tools and resources needed to improve their living situation through hope and God's word" buttonText='Go to our programs' image={heroImg} altText="Little kid seated on the steets" />
         <MainSections>
           <Heading title="How is God calling you to..." decoText='Help, Love, Give!' />
-          <p>this is a p tag this is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tagthis is a p tag</p>
+          <HomeIntro />
         </MainSections>
       </main>
     </div>
