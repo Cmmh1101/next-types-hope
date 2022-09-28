@@ -32,8 +32,6 @@ const HomeIntro = (props: Props) => {
         <div>
         {/* <ReactPlayer url='https://www.youtube.com/embed/Pch09DVpw10' /> */}
         <iframe
-              width="100%"
-              height="500"
               src="https://www.youtube.com/embed/Pch09DVpw10"
               title="YouTube video player"
               frameBorder="0"
