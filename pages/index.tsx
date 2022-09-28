@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import HomeIntro from '../components/homePage/HomeIntro'
 import Header from '../components/ui/Header'
 import Heading from '../components/ui/Heading'
