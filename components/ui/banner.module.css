@@ -19,8 +19,11 @@
 }
 
 .banner main h2 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: #0f98fa;
+    background: -webkit-linear-gradient(90deg,#0875f1, #fdfdfd);
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .overlay {
