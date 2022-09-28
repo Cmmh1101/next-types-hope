@@ -37,12 +37,8 @@ const HomeIntro = (props: Props) => {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-            ></iframe>
-        <video>
-
-        </video>
+            />
         </div>
-        {/* <h3>Our Beginnings</h3> */}
         
     </section>
   )
