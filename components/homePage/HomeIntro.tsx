@@ -9,7 +9,7 @@ const HomeIntro = (props: Props) => {
   return (
     <section className={classes.section}>
         <div>
-        <p>Hope for the Nations was born from the desperate situation that the people of Venezuela are experiencing an economic crisis so deep that it brought with it</p>
+        <p>Hope for the Nations was born from the desperate situation that the people of Venezuela are experiencing, an economic crisis so deep that it brought with it</p>
           <ul>
             <li>
               a lack of food
@@ -27,6 +27,8 @@ const HomeIntro = (props: Props) => {
             a great, unprecedented exile in this Latin American country
             </li>
           </ul>
+          <p>It was necessary to bring  hope to people who felt hopeless by sharing the hope we have in Christ. We can take a bad situation and be the hands and feet that the Lord uses to turn it into something good and special.</p>
+          <p>My hope is for our brothers in Venezuela to know and embrace “The Hope” and to know that God has NOT forgotten this nation. </p>
           <QuoteBlock><p>The Lord Jesus Christ told us in Matthew 25:35,</p><q>Because I was hungry, and you gave me food; I was thirsty, and you gave me to drink; I was a stranger, and you took me in; I was naked, and you covered me; sick, and you visited me; I was in prison, and you came to me.</q></QuoteBlock>
         </div>
         <div>
@@ -39,7 +41,6 @@ const HomeIntro = (props: Props) => {
               allowFullScreen
             />
         </div>
-        
     </section>
   )
 }
