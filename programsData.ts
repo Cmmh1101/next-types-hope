@@ -24,7 +24,7 @@ const programs = [
     highligh:
       "We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.",
     content: [
-      `A hand full of Hope are two food programs. The spoon of love’s program: provide weekly food to people in the street and impoverished communities around Venezuela while we evangelize, giving them spiritual bread. A hand of Hope: provide grocery bags to the most vulnerable families in Venezuela. Our goal is to continue spreading the gospel of Jesus Christ while we help them.`,
+      `A hand full of Hope are two food programs. The spoon of love's program: provide weekly food to people in the street and impoverished communities around Venezuela while we evangelize, giving them spiritual bread. A hand of Hope: provide grocery bags to the most vulnerable families in Venezuela. Our goal is to continue spreading the gospel of Jesus Christ while we help them.`,
     ],
   },
   {
@@ -50,9 +50,7 @@ const programs = [
     },
     featured: true,
     highligh: `This project builds community-managed organic vegetables and medicinal plant nurseries, giving the community access to a sustainable source of income. After the harvest, food can be shared among gardeners and their families, and the remaining produce will be for sale to the local community and surrounding markets.Each harvest not only provides members of the cooperative with food, but that food is nutritionally diverse.`,
-    content: [
-      `Genesis 1:29 - “And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you, it shall be for food.”`,
-      `Hope for the Nations Urban gardens are intended to support communities to take advantage of the resources found in the same area. These crops allow the communities to supply themselves with fruits, vegetables, at a low cost. These gardens help provide a job and food to families living in underprivileged circumstances.`,
+    content: [`Hope for the Nations Urban gardens are intended to support communities to take advantage of the resources found in the same area. These crops allow the communities to supply themselves with fruits, vegetables, at a low cost. These gardens help provide a job and food to families living in underprivileged circumstances.`,`Genesis 1:29 - “And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you, it shall be for food.”`,
     ],
   },
   {

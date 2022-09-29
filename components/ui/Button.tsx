@@ -8,9 +8,9 @@ interface Props {
     text: string | undefined
 }
 
-const ctaButton = ({text, link}: Props) => {
+const ctaButton = ({text, link, className}: Props) => {
   return (
-    <Link href={link}><a className={`className ${classes.btn}`}>{text}</a></Link>
+    <Link href={link}><a className={`${className} ${classes.btn}`}>{text}</a></Link>
   )
 }
 
