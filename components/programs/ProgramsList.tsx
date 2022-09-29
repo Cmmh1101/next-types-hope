@@ -3,6 +3,7 @@ import React from 'react'
 import { IProgramsData } from '../../interfaces/ProgramsData'
 import Heading from '../ui/Heading'
 import ProgramItem from './ProgramItem'
+import classes from './programsList.module.css'
 
 interface IPrograms {
     programs: IProgramsData[]
@@ -10,14 +11,20 @@ interface IPrograms {
 
 const ProgramsList = ({programs}: IPrograms) => {
   return (
-    <div>
+    <section className={classes.menu}>
         <Heading title="Our Programs" />
-        <h2>{programs.map((program, i) => {
+        <ul>
+        {programs.map((program, i) => {
             return (
-                <Link href={`/programs/${program.name}`} key={i}><a><ProgramItem program={program} /></a></Link>
+              <li key={i}>
+                <Link href={`/programs/${program.name}`}><a><ProgramItem program={program} /></a></Link>
+              </li>
+                
             )
-        })} </h2>
-    </div>
+        })}
+        </ul>
+        <h2> </h2>
+    </section>
   )
 }
 

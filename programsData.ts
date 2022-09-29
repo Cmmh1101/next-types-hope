@@ -3,21 +3,21 @@ const programs = [
     name: "hunger-relief",
     title: "Hunger Relief",
     date: "08/04/2021",
-    image: "../../../../images/programs/hunger9.png",
-    icon: "../../../images/soup-light.png",
+    image: "/images/programs/hunger9.png",
+    icon: "/images/general/soup-light.png",
     // description: "Hunger Relief",
     alt: "hope for the nations crew serving the community",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        image: "/images/dylanStory/Dylan-escuela.jpeg",
         alt: "Dylan at School"
     },
     programImage2: {
-        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        image: "/images/dylanStory/Dylan-bandera-Venezuela.jpeg",
         alt: "Dylan"
     },
     programImage3: {
-        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        image: "/images/dylanStory/Dylan-Baseball.png",
         alt: "Dylan with a baseball trophy"
     },
     featured: true,
@@ -31,21 +31,21 @@ const programs = [
     name: "sustainable-community-garden",
     title: "Community Garden",
     date: "05/03/2021",
-    image: "../images/programs/community-garden-fruit.jpg",
-    icon: "../../../images/carrot-light.png",
+    image: "/images/programs/community-garden-fruit.jpg",
+    icon: "/images/general/carrot-light.png",
     // description: "Sustainable Community Gardens and Raising chicken for Hope",
     alt: "",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "../images/programs/farming4.png",
+        image: "/images/programs/farming4.png",
         alt: "Men working the garden"
     },
     programImage2: {
-        image: "../images/programs/community-garden-fruit.jpg",
+        image: "/images/programs/community-garden-fruit.jpg",
         alt: "Papaya from the community garden"
     },
     programImage3: {
-        image: "../images/programs/community-garden-banner.jpg",
+        image: "/images/programs/community-garden-banner.jpg",
         alt: "Community garden banner"
     },
     featured: true,
@@ -59,21 +59,21 @@ const programs = [
     name: "fish-farming-program",
     title: "Farming Program",
     date: "04/20/2021",
-    image: "../../../../images/programs/fish1.png",
-    icon: "../../../images/fish.png",
+    image: "/images/programs/fish1.png",
+    icon: "/images/general/fish.png",
     // description: "Fish Farming Program",
     alt: "",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        image: "/images/dylanStory/Dylan-escuela.jpeg",
         alt: "Dylan at School"
     },
     programImage2: {
-        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        image: "/images/dylanStory/Dylan-bandera-Venezuela.jpeg",
         alt: "Dylan"
     },
     programImage3: {
-        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        image: "/images/dylanStory/Dylan-Baseball.png",
         alt: "Dylan with a baseball trophy"
     },
     featured: true,
@@ -90,21 +90,21 @@ The project integrates solutions to socio-economic and environmental challenges 
     name: "sustainable-work-program",
     title: "Lights Of Hope",
     date: "04/16/2021",
-    image: "../../../../images/programs/entrepreneurship.png",
-    icon: "../../../images/entrepreneurship.png",
+    image: "/images/programs/entrepreneurship.png",
+    icon: "/images/general/entrepreneurship.png",
     // description: "Sustainable Work Program, 'Lights of Hope'",
     alt: "",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "../images/programs/05b72859-b164-4083-8d88-1566b273c68b (1).JPG",
+        image: "/images/programs/05b72859-b164-4083-8d88-1566b273c68b (1).JPG",
         alt: "Dylan at School"
     },
     programImage2: {
-        image: "../images/programs/lights-of-hope.jpg",
+        image: "/images/programs/lights-of-hope.jpg",
         alt: "Hair salon supplies beneficiary"
     },
     programImage3: {
-        image: "../images/programs/lights-of-hope-1.jpg",
+        image: "/images/programs/lights-of-hope-1.jpg",
         alt: "Dylan with a baseball trophy"
     },
     featured: false,
@@ -121,21 +121,21 @@ The project integrates solutions to socio-economic and environmental challenges 
     name: "elderly-care-program",
     title: "Elderly Minister",
     date: "04/20/2021",
-    image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
-    icon: "../../../images/couple.png",
+    image: "/images/programs/casa-Hogar-el-conde1.jpg",
+    icon: "/images/general/couple.png",
     // description: "Elderly Care Program",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers.",
     programImage1: {
-        image: "../images/programs/elderly-program.jpg",
+        image: "/images/programs/elderly-program.jpg",
         alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers."
     },
     programImage2: {
-        image: "../../../../images/programs/casa-Hogar-el-conde2.jpg",
+        image: "/images/programs/casa-Hogar-el-conde2.jpg",
         alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers."
     },
     programImage3: {
-        image: "../../../../images/programs/casa-hogar-en-caracas.jpg",
+        image: "/images/programs/casa-hogar-en-caracas.jpg",
         alt: "Elderly members of Hasa Hogar in Caracas Vzla with Hope for the nations Volunteers"
     },
     featured: true,
@@ -150,21 +150,21 @@ The project integrates solutions to socio-economic and environmental challenges 
     name: "hope-sports-program",
     title: "Hope Sports",
     date: "04/16/2021",
-    image: "../../../../images/programs/sports3.png",
-    icon: "../../../images/sports.png",
+    image: "/images/programs/sports3.png",
+    icon: "/images/general/sports.png",
     // description: "Hope Sports Program",
     alt: "",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "../images/programs/hope-sports-1.jpg",
+        image: "/images/programs/hope-sports-1.jpg",
         alt: "Dylan at School"
     },
     programImage2: {
-        image: "../images/programs/hope-sports.jpg",
+        image: "/images/programs/hope-sports.jpg",
         alt: "Dylan"
     },
     programImage3: {
-        image: "../images/programs/sports3.png",
+        image: "/images/programs/sports3.png",
         alt: "Dylan with a baseball trophy"
     },
     featured: true,
@@ -179,21 +179,21 @@ The project integrates solutions to socio-economic and environmental challenges 
     name: "school-of-hope-program",
     title: "School of Hope",
     date: "04/16/2021",
-    image: "../../../../images/programs/sports3.png",
-    icon: "../../../images/sports.png",
+    image: "/images/programs/sports3.png",
+    icon: "/images/general/sports.png",
     // description: "Hope Sports Program",
     alt: "",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        image: "/images/dylanStory/Dylan-escuela.jpeg",
         alt: "Dylan at School"
     },
     programImage2: {
-        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        image: "/images/dylanStory/Dylan-bandera-Venezuela.jpeg",
         alt: "Dylan"
     },
     programImage3: {
-        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        image: "/images/dylanStory/Dylan-Baseball.png",
         alt: "Dylan with a baseball trophy"
     },
     featured: true,
