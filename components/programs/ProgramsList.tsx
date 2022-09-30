@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import React from 'react'
 import { IProgramsData } from '../../interfaces/ProgramsData'
 import Heading from '../ui/Heading'
@@ -17,7 +16,7 @@ const ProgramsList = ({programs}: IPrograms) => {
         {programs.map((program, i) => {
             return (
               <li key={i}>
-                <Link href={`/programs/${program.name}`}><a><ProgramItem program={program} /></a></Link>
+                <ProgramItem program={program} />
               </li>
                 
             )

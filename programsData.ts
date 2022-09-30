@@ -63,15 +63,15 @@ const programs = [
     alt: "",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "/images/dylanStory/Dylan-escuela.jpeg",
+        image: "/images/programs/fish1.png",
         alt: "Dylan at School"
     },
     programImage2: {
-        image: "/images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        image: "/images/programs/fish1.png",
         alt: "Dylan"
     },
     programImage3: {
-        image: "/images/dylanStory/Dylan-Baseball.png",
+        image: "/images/programs/fish1.png",
         alt: "Dylan with a baseball trophy"
     },
     featured: true,
@@ -94,7 +94,7 @@ The project integrates solutions to socio-economic and environmental challenges 
     alt: "",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "/images/programs/05b72859-b164-4083-8d88-1566b273c68b (1).JPG",
+        image: "/images/programs/entrepreneurship.jpg",
         alt: "Dylan at School"
     },
     programImage2: {

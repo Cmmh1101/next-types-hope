@@ -12,7 +12,7 @@ interface Props {
   className?: string;
   bannerTitle?: string;
   overlay?: boolean;
-  image?: StaticImageData
+  image: StaticImageData
   altText?: string
 }
 
@@ -37,7 +37,7 @@ const Header = ({
                 {buttonText && <Button link="/programs" text={buttonText} />}
             </div>
             <div className={classes.img}>
-              {image && <div><Image src={image} alt={altText} height={450} width={450} layout="intrinsic" placeholder='blur' /></div>}
+              {image && <div><Image src={image} alt={altText} height={450} width={450} layout="intrinsic" /></div>}
             </div>
         </div>
     </header>
