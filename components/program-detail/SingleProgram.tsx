@@ -1,4 +1,7 @@
 import React from 'react'
+import ArticleSections from '../ui/ArticleSection'
+import Heading from '../ui/Heading'
+import classes from './'
 
 interface Props {
     title: string
@@ -7,15 +10,14 @@ interface Props {
 
 const SingleProgram = ({title, content}: Props) => {
   return (
-    <article>
-        <h1>Programs</h1>
-        <h2>{title}</h2>
+    <ArticleSections>
+        <Heading title={title} />
         <div>{content.map((paragraph, i) => {
             return (
                 <p key={i}>{paragraph}</p>
             )
         })}</div>
-    </article>
+    </ArticleSections>
   )
 }
 
