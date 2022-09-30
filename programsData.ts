@@ -24,6 +24,7 @@ const programs = [
     highligh:
       "We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.",
     content: [
+      `Our food program includes the provision of food in vulnerable areas. There are team of ambassadors and volunteers that partner with Christian churches locally and in Venezuela  that helps show the love of  God by bringing both physical and spiritual food.`,
       `A hand full of Hope are two food programs. The spoon of love's program: provide weekly food to people in the street and impoverished communities around Venezuela while we evangelize, giving them spiritual bread. A hand of Hope: provide grocery bags to the most vulnerable families in Venezuela. Our goal is to continue spreading the gospel of Jesus Christ while we help them.`,
     ],
   },

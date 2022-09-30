@@ -7,7 +7,7 @@ interface Props {
 
 const SingleProgram = ({title, content}: Props) => {
   return (
-    <div>
+    <article>
         <h1>Programs</h1>
         <h2>{title}</h2>
         <div>{content.map((paragraph, i) => {
@@ -15,7 +15,7 @@ const SingleProgram = ({title, content}: Props) => {
                 <p key={i}>{paragraph}</p>
             )
         })}</div>
-    </div>
+    </article>
   )
 }
 
