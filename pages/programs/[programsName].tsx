@@ -28,7 +28,7 @@ const SingleProgramPage = () => {
   return (
     <>
       <Header title='Our Programs' description={program.title} image={program.image} />
-      <SingleProgram title={program.title} content={program.content} />
+      <SingleProgram program={program} />
       <ProgramsList programs={programs} listTitle='More Programs' />
     </>
     

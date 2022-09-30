@@ -5,6 +5,17 @@
     width: 100%;
     /* background-color: aliceblue; */
 }
+.article section{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .article h2{
     text-align: left;
+}
+
+.article section img{
+    border-radius: 5px;
+    float: right!important;
 }
