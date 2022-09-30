@@ -6,23 +6,22 @@ import classes from './programsList.module.css'
 
 interface IPrograms {
     programs: IProgramsData[]
+    listTitle: string
 }
 
-const ProgramsList = ({programs}: IPrograms) => {
+const ProgramsList = ({programs, listTitle}: IPrograms) => {
   return (
     <section className={classes.menu}>
-        <Heading title="Our Programs" />
+        <Heading title={listTitle} />
         <ul>
         {programs.map((program, i) => {
             return (
               <li key={i}>
                 <ProgramItem program={program} />
               </li>
-                
             )
         })}
         </ul>
-        <h2> </h2>
     </section>
   )
 }
