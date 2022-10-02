@@ -90,7 +90,7 @@
     }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .container {
         height: 100vh;
         min-height: auto;

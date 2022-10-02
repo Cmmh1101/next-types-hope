@@ -1,0 +1,40 @@
+.section .article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section .article .text {
+    width: 100%;
+    padding-right: 15px;
+}
+.section .article .text p{
+    margin-top: 0;
+}
+.section .article .text .float{
+    float: right;
+}
+.section .article .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 680px) {
+    .section .article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section .article .text {
+        width: 100%;
+        padding-right: 0;
+    }
+    .section .article .text .float{
+        display: none;
+    }
+    .section .article .imgs{
+        display: none;
+    }
+  }

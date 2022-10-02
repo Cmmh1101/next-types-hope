@@ -1,20 +1,22 @@
 .box {
-    width: 300px;
+    width: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 2rem 0;
-    padding: 15px;
+    padding: 20px 15px;
     text-align: center;
+    border-radius: 5px;
 }
 .box:hover {
-    border: 0.5px solid #ffffff;
+    border: 0.5px solid #a6a4a4fe;
 }
 
 .box h3 {
     font-size: 1.4rem;
     padding-bottom: 10px;
+    color: #134ef1;
 }
 .box p {
     font-size: 1rem;
@@ -40,8 +42,14 @@
     }
   }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .box {
         width: 400px;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .box h3{
+        color: #00b7ff;
     }
   }
