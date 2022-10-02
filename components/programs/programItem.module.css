@@ -4,9 +4,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 3rem 2rem;
-    padding: 0 5px;
+    margin: 2rem 0;
+    padding: 15px;
     text-align: center;
+}
+.box:hover {
+    border: 0.5px solid #ffffff;
 }
 
 .box h3 {
@@ -21,7 +24,8 @@
     color: #ffffff;
     background-color: #134ef1;
     border: 2px solid #ffffff;
-    font-size: 1rem;
+    font-size: 1rem!important;
+    padding: 5px 10px!important;
 }
 
 .btn:hover, .btn:focus  {
@@ -31,7 +35,9 @@
 }
 
 @media (max-width: 980px) {
-    
+    .box {
+        width: 300px;
+    }
   }
 
 @media (max-width: 600px) {

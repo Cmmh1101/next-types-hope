@@ -14,12 +14,16 @@ const SingleProgram = ({program}: IPrograms) => {
     <ArticleSections>
         <section>
         <Heading title={program.title} />
-          {program.content.map((paragraph, i) => {
+        {program.content.map((paragraph, i) => {
             return (
               <p key={i}>{paragraph}</p>
             )
           })}
-          <Image src={program.image} alt={program.alt} height={400} width={400} />
+        <div>
+        <Image src={program.image} alt={program.alt} height={400} width={400} />
+        <Image src={program.programImage1.image} alt={program.alt} height={200} width={400} />
+        </div>
+          
         </section>
         
         <QuoteBlock><p>{program.highligh}</p></QuoteBlock>

@@ -9,7 +9,7 @@ const programs = [
     alt: "hope for the nations crew serving the community",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "/images/dylanStory/Dylan-escuela.jpeg",
+        image: "/images/programs/hunger5.png",
         alt: "Dylan at School"
     },
     programImage2: {
