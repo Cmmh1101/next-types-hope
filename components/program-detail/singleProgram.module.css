@@ -1,16 +1,18 @@
 .section .article {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .section .article .text {
     width: 100%;
-    padding-right: 15px;
+    margin: 2rem 0;
 }
 .section .article .text p{
     margin-top: 0;
 }
 .section .article .text .float{
+    padding: 0 0 1rem 1rem;
     float: right;
 }
 .section .article .images {
@@ -34,7 +36,7 @@
     .section .article .text .float{
         display: none;
     }
-    .section .article .imgs{
+    .section .article .images{
         display: none;
     }
   }
