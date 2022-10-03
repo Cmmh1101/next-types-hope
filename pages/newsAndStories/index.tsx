@@ -45,7 +45,7 @@ const story = getAllStories()
           return <p key={item.name}>{item.name}</p>;
         })} */}
 
-        <StoriesList stories={story} />
+        <StoriesList stories={story} listTitle='Beneficiaries' />
 
       </main>
     </>

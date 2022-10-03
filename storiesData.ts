@@ -3,23 +3,23 @@ const articles = [
     name: "dylans-story",
     title: "Dylan's story",
     date: "08/04/2021",
-    image: "../../../images/storiesImgs/Dylan-Baseball.png",
-    // icon: "../../../images/bread.png",
+    image: "/images/storiesImgs/Dylan-Baseball.png",
+    // icon: "/images/bread.png",
     // description: "Dylans's Story",
     storyImage1: {
-        image: "../../../images/storiesImgs/Dylan-casa-esperanza.jpeg",
+        image: "/images/storiesImgs/Dylan-casa-esperanza.jpeg",
         alt: "Familia Perez recibiendo herramientas de trabajo para su reposteria en el hogar"
     },
     storyImage2: {
-        image: "../../../images/storiesImgs/Dylan-escuela.jpeg",
+        image: "/images/storiesImgs/Dylan-escuela.jpeg",
         alt: "Dylan at School"
     },
     storyImage3: {
-        image: "../../../images/storiesImgs/Dylan-bandera-Venezuela.jpeg",
+        image: "/images/storiesImgs/Dylan-bandera-Venezuela.jpeg",
         alt: "Dylan"
     },
     // storyImage4: {
-    //     image: "../../../images/storiesImgs/Dylan-Baseball.png",
+    //     image: "/images/storiesImgs/Dylan-Baseball.png",
     //     alt: "Dylan with a baseball trophy"
     // },
     alt: "",
@@ -36,23 +36,23 @@ const articles = [
     name: "anas-story",
     title: "Ana's story",
     date: "08/04/2021",
-    image: "../../../images/storiesImgs/ana1.jpg",
-    // icon: "../../../images/bread.png",
+    image: "/images/storiesImgs/ana1.jpg",
+    // icon: "/images/bread.png",
     // description: "Ana Jimenez",
     storyImage1: {
-        image: "../../../images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/ana1.jpg",
         alt: "Ana Jimenez"
     },
       storyImage2: {
-        image: "../../../images/storiesImgs/ana2.jpg",
+        image: "/images/storiesImgs/ana2.jpg",
         alt: "Ana Jimenez"
     },
     storyImage3: {
-        image: "../../../images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/ana1.jpg",
         alt: "Ana Jimenez"
     },
     // storyImage4: {
-    //     image: "../../../images/storiesImgs/ana1.jpg",
+    //     image: "/images/storiesImgs/ana1.jpg",
     //     alt: "Dylan with a baseball trophy"
     // },
     alt: "Ana after receiving her Glasses Donation",
@@ -69,23 +69,23 @@ const articles = [
     name: "hector-story",
     title: "Hectors's story",
     date: "08/04/2021",
-    image: "../../../images/storiesImgs/ana1.jpg",
-    // icon: "../../../images/bread.png",
+    image: "/images/storiesImgs/ana1.jpg",
+    // icon: "/images/bread.png",
     // description: "Hector Romero Entrepreneurship Program",
     storyImage1: {
-        image: "../../../images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/ana1.jpg",
         alt: "Hector Romero"
     },
       storyImage2: {
-        image: "../../../images/storiesImgs/ana2.jpg",
+        image: "/images/storiesImgs/ana2.jpg",
         alt: "Hector romero"
     },
     storyImage3: {
-        image: "../../../images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/ana1.jpg",
         alt: "Hector Romero"
     },
     // storyImage4: {
-    //     image: "../../../images/storiesImgs/ana1.jpg",
+    //     image: "/images/storiesImgs/ana1.jpg",
     //     alt: "Hector Romero"
     // },
     alt: "Hector receiving work tools to start his business",
@@ -101,23 +101,23 @@ const articles = [
     name: "karla-story",
     title: "Karla's story",
     date: "08/04/2021",
-    image: "../../../images/storiesImgs/ana1.jpg",
-    // icon: "../../../images/bread.png",
+    image: "/images/storiesImgs/ana1.jpg",
+    // icon: "/images/bread.png",
     // description: "Hector Romero Entrepreneurship Program",
     storyImage1: {
-        image: "../../../images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/ana1.jpg",
         alt: "Karla Reyes"
     },
       storyImage2: {
-        image: "../../../images/storiesImgs/ana2.jpg",
+        image: "/images/storiesImgs/ana2.jpg",
         alt: "Karla Reyes"
     },
     storyImage3: {
-        image: "../../../images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/ana1.jpg",
         alt: "Karla Reyes"
     },
     // storyImage4: {
-    //     image: "../../../images/storiesImgs/ana1.jpg",
+    //     image: "/images/storiesImgs/ana1.jpg",
     //     alt: "Karla Reyes"
     // },
     alt: "Hector receiving work tools to start his business",
@@ -133,23 +133,23 @@ const articles = [
     name: "daniela-story",
     title: "Daniela's story",
     date: "08/04/2021",
-    image: "../../../images/storiesImgs/ana1.jpg",
-    // icon: "../../../images/bread.png",
+    image: "/images/storiesImgs/ana1.jpg",
+    // icon: "/images/bread.png",
     // description: "Hector Romero Entrepreneurship Program",
     storyImage1: {
-        image: "../../../images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/ana1.jpg",
         alt: "Daniela Castillo"
     },
     storyImage2: {
-        image: "../../../images/storiesImgs/ana2.jpg",
+        image: "/images/storiesImgs/ana2.jpg",
         alt: "Daniela Castillo"
     },
     storyImage3: {
-        image: "../../../images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/ana1.jpg",
         alt: "Daniela Castillo"
     },
     // storyImage4: {
-    //     image: "../../../images/storiesImgs/ana1.jpg",
+    //     image: "/images/storiesImgs/ana1.jpg",
     //     alt: "Daniela Castillo"
     // },
     alt: "Daniela Castillo receiving work tools to start his business",
@@ -165,23 +165,23 @@ const articles = [
     name: "alsimyr-story",
     title: "Alsimyr's story",
     date: "08/04/2021",
-    image: "../../../images/storiesImgs/ana1.jpg",
-    // icon: "../../../images/bread.png",
+    image: "/images/storiesImgs/ana1.jpg",
+    // icon: "/images/bread.png",
     // description: "Alsimyr Vargas Entrepreneurship Program",
     storyImage1: {
-        image: "../../../images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/ana1.jpg",
         alt: "Alsimyr Vargas"
     },
       storyImage2: {
-        image: "../../../images/storiesImgs/ana2.jpg",
+        image: "/images/storiesImgs/ana2.jpg",
         alt: "Alsimyr Vargas"
     },
     storyImage3: {
-        image: "../../../images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/ana1.jpg",
         alt: "Alsimyr Vargas"
     },
     // storyImage4: {
-    //     image: "../../../images/storiesImgs/ana1.jpg",
+    //     image: "/images/storiesImgs/ana1.jpg",
     //     alt: "Alsimyr Vargas"
     // },
     alt: "Daniela Castillo receiving work tools to start his business",
