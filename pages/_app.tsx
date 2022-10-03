@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Layout>
       <Head>
         <title>Hope for the nations</title>
-        <meta name="description" content="Non profit home for the nations helping the needed with hope and God's word" />
+        <meta name="description" content="Non profit hope for the nations helping the needed with love, hope, and God's word" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Component {...pageProps} />
