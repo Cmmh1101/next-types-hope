@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { IStoriesData } from "../../interfaces/storiesData";
+import classes from "./story-item.module.css";
 
 interface IStory {
   story: IStoriesData;
@@ -8,13 +9,23 @@ interface IStory {
 
 const StoryItem = ({ story }: IStory) => {
   return (
-    <div>
-      <Image src={story.image} alt={story.alt} width={200} height={200} />
-      <div>
-        <h4>{story.name}</h4>
-        <p>{story.content.toString().substring(0, 100)}...</p>
+    <section className={classes.story}>
+      <div className={classes.img}>
+        <Image
+          src={story.image}
+          alt={story.title}
+          width={300}
+          height={300}
+          layout="responsive"
+        />
       </div>
-    </div>
+
+      <div className={classes.description}>
+        <h3>{story.title}</h3>
+        <p>{story.content.toString().substring(0, 100)}...</p>
+        <span>Read full story...</span>
+      </div>
+    </section>
   );
 };
 
