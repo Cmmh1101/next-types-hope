@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { IStoriesData } from "../../interfaces/storiesData";
+import { IStoriesData } from '../../interfaces/StoriesData';
 import classes from "./story-item.module.css";
 
 interface IStory {

@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "../../components/ui/Header";
 import { useRouter } from "next/router";
-import { getStoryByName } from "../../storiesData";
+import { getAllStories, getStoryByName } from "../../storiesData";
 import StoryPost from "../../components/story-detail/StoryPost";
 import heroImg from "../../public/images/programs/light-of-hope-hair-style.jpg";
+import StoriesList from "../../components/stories/StoriesList";
 
 type Props = {};
 
@@ -14,6 +15,8 @@ const SingleStoryPage = (props: Props) => {
 
   const story = getStoryByName(storyName);
 
+  const stories = getAllStories().filter(story => story.name !== storyName)
+
   if (!story) {
     return <p>No story found</p>;
   }
@@ -21,12 +24,13 @@ const SingleStoryPage = (props: Props) => {
   return (
     <>
       <Header
-        title="Single Beneficiary Story"
+        title="News & Stories"
         description={story.title}
         image={heroImg}
         altText={""}
       />
       <StoryPost title={story.title} content={story.content} />
+      <StoriesList stories={stories} listTitle='All Stories' />
     </>
   );
 };
