@@ -26,7 +26,7 @@ const SingleStoryPage = (props: Props) => {
       <Header
         title="News & Stories"
         description={story.title}
-        image={heroImg}
+        image={story.image}
         altText={""}
       />
       <StoryPost story={story} />

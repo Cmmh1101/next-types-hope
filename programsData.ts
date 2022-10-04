@@ -1,4 +1,6 @@
-const programs = [
+import { IProgramsData } from "./interfaces/ProgramsData";
+
+const programs: IProgramsData[] = [
   {
     name: "hunger-relief",
     title: "Hunger Relief",

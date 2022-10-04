@@ -1,7 +1,6 @@
 import Button from './Button';
 import classes from './header.module.css'
 import Image, { StaticImageData } from 'next/image'
-// import heroImg from '../../public/images/general/hero-image.jpg'
 
 interface Props {
   background?: string;
@@ -12,7 +11,7 @@ interface Props {
   className?: string;
   bannerTitle?: string;
   overlay?: boolean;
-  image: StaticImageData
+  image: StaticImageData | string
   altText?: string
 }
 

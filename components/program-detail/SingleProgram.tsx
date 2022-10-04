@@ -25,7 +25,7 @@ const SingleProgram = ({ program }: IPrograms) => {
                 width={300}
               />
             </div>
-            {program.content.map((paragraph, i) => {
+            {program.content?.map((paragraph, i) => {
               return <p key={i}>{paragraph}</p>;
             })}
           </div>

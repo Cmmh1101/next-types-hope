@@ -1,4 +1,6 @@
-const articles = [
+import { IStoriesData } from "./interfaces/StoriesData";
+
+const articles: IStoriesData[] = [
   {
     name: "dylans-story",
     title: "Dylan's story",
