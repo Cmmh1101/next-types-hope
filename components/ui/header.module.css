@@ -24,7 +24,7 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
     text-align: left;
 }
@@ -39,11 +39,12 @@
     line-height: 30px;
     letter-spacing: 2.5px;
 }
-/* 
-.img div {
-    width: 450px;
-    height: 450px;
-} */
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} 
 .img .imgBox img {
     width: 450px;
     height: 450px;
@@ -60,8 +61,11 @@
         width: 100%;
         min-height: auto;
         height: auto;
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container div {
+        width: 50%;
         align-items: center;
         flex-direction: column;
     }
