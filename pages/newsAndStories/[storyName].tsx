@@ -29,8 +29,8 @@ const SingleStoryPage = (props: Props) => {
         image={heroImg}
         altText={""}
       />
-      <StoryPost title={story.title} content={story.content} />
-      <StoriesList stories={stories} listTitle='All Stories' />
+      <StoryPost story={story} />
+      <StoriesList stories={stories} listTitle='More Stories' />
     </>
   );
 };

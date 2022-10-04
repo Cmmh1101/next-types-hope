@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React, { FC } from 'react'
-import { IStoriesData } from '../../interfaces/storiesData'
+import { IStoriesData } from '../../interfaces/StoriesData'
 import StoryItem from './StoryItem'
 import classes from "./story-list.module.css"
 import Heading from '../ui/Heading'
