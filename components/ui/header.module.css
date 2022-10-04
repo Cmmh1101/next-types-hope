@@ -39,15 +39,15 @@
     line-height: 30px;
     letter-spacing: 2.5px;
 }
-
+/* 
 .img div {
     width: 450px;
     height: 450px;
+} */
+.img .imgBox img {
+    width: 450px;
+    height: 450px;
     border: solid 8px white;
-    border-radius: 50%;
-}
-
-.img img {
     border-radius: 50%;
 }
 
@@ -56,7 +56,6 @@
         height: auto;
         background-image: linear-gradient(to bottom, #16085d, #141164, #12186b, #0f1f71, #0a2678, #043687, #004695, #0056a3, #0073ba, #0090ca, #00acd5, #0cc7dd);
     }
-
     .container {
         width: 100%;
         min-height: auto;
@@ -84,9 +83,11 @@
         margin-top: 3rem;
     }
     
-    .img div {
-        width: 400px;
-        height: 400px;
+    .img .imgBox img {
+        width: 300px!important;
+        height: 300px!important;
+        border: solid 8px white;
+        border-radius: 50%;
     }
   }
 

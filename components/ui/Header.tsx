@@ -36,7 +36,7 @@ const Header = ({
                 {buttonText && <Button link="/programs" text={buttonText} />}
             </div>
             <div className={classes.img}>
-              {image && <div><Image src={image} alt={altText} height={450} width={450} layout="intrinsic" /></div>}
+              {image && <div className={classes.imgBox}><Image src={image} alt={altText} height={450} width={450} layout="fixed" /></div>}
             </div>
         </div>
     </header>
