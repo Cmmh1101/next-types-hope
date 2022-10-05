@@ -32,7 +32,6 @@ const HomeIntro = (props: Props) => {
           <QuoteBlock><p>The Lord Jesus Christ told us in Matthew 25:35,</p><q>Because I was hungry, and you gave me food; I was thirsty, and you gave me to drink; I was a stranger, and you took me in; I was naked, and you covered me; sick, and you visited me; I was in prison, and you came to me.</q></QuoteBlock>
         </div>
         <div>
-        {/* <ReactPlayer url='https://www.youtube.com/embed/Pch09DVpw10' /> */}
         <iframe
               src="https://www.youtube.com/embed/Pch09DVpw10"
               title="YouTube video player"
