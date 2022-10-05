@@ -12,9 +12,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 1rem;
+}
+.section .div h3 {
+    margin-top: 2rem;
 }
 
+.section ul {
+    margin: 2rem 0;
+   }
 .section ul li {
     line-height: 30px;
     font-size: 1.2rem;
@@ -25,12 +30,22 @@
 
 .divImg {
     width: 100%;
-    margin-top: 3rem;
+    
 }
 .div .imgFloat {
     float: right;
     width: 250px;
     height: 250px;
+    margin-left: 1rem;
+    /* margin-left: 2.5rem; */
+}
+.div .imgFloatLeft {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 0 3rem 2.5rem 0;
+    border-radius: 5px;
+    overflow: hidden;
     /* margin-left: 2.5rem; */
 }
 

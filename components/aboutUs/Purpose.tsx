@@ -4,6 +4,7 @@ import QuoteBlock from "../ui/QuoteBlock";
 import classes from "./purpose.module.css";
 import Heading from "../ui/Heading";
 import logo from "../../public/logo.png";
+import volunteeers from '../../public/images/team/voluntarios.jpg'
 
 const Purpose = () => {
   return (
@@ -41,7 +42,6 @@ const Purpose = () => {
         <div className={classes.imgFloat}>
             <Image src={logo} width={350} height={350} alt="Founder Luzbell Woods" layout="intrinsic" />
           </div>
-          
           <p>
             Hope for the Nations is a non-profit, Christian organization. We
             count on a ministry of ambassadors that serves children, older
@@ -55,9 +55,12 @@ const Purpose = () => {
             Hope.
           </p>
         </div>
-
+        <div className={classes.divImg}>
         <Heading subtitle="Our Mission" />
-        <p>
+        <div className={classes.imgFloatLeft}>
+            <Image src={volunteeers} width={350} height={350} alt="Founder Luzbell Woods" layout="intrinsic" />
+          </div>
+          <p>
           Our mission is to bring hope through the gospel of Christ to
           Venezuelans by teaching the word of God to all people so that everyone
           knows the good news of this Gospel to meet the physical needs for
@@ -72,6 +75,7 @@ const Purpose = () => {
           participate and grow as they become independent and productive
           community members.
         </p>
+        </div>
         <QuoteBlock>
           <q>
             We plant the seed in them, and we hope this seed flourish and give
