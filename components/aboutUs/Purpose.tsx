@@ -64,11 +64,13 @@ const Purpose = () => {
           Our mission is to bring hope through the gospel of Christ to
           Venezuelans by teaching the word of God to all people so that everyone
           knows the good news of this Gospel to meet the physical needs for
-          families living in extreme poverty, and to transform lives and
-          communities through the Word of God. We created different sustainable
-          programs to allow them to participate and grow as they become
-          independent.
+          families living in extreme poverty, to transform lives and
+          communities through the Word of God.
+          
         </p>
+        <p>We created different sustainable
+          programs to allow them to participate and grow as they become
+          independent.</p>
         <p>
           Our purpose is to transform lives and communities through the Word of
           God. We created different sustainable programs to allow them to
