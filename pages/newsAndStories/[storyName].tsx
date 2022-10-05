@@ -27,7 +27,7 @@ const SingleStoryPage = (props: Props) => {
         title="News & Stories"
         description={story.title}
         image={story.image}
-        altText={""}
+        altText={story.title}
       />
       <StoryPost story={story} />
       <StoriesList stories={stories} listTitle='More Stories' />
