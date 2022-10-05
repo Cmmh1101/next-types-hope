@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-.section div {
+.section .div {
     width: 100%;
     height: auto;
     display: flex;
@@ -23,27 +23,20 @@
     margin-bottom: 1rem;
    }
 
-/* .floatImgSec {
-    display: flex;
-} */
-.div {
+.divImg {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    margin-top: 3rem;
 }
-.div .float {
-    float: right!important;
-    width: 350px;
-    background-color: aliceblue;
-    height: 300px;
-    
+.div .imgFloat {
+    float: right;
+    width: 250px;
+    height: 250px;
+    /* margin-left: 2.5rem; */
 }
 
 @media (max-width: 980px) {
 
-   .section div {
+   .section .div {
         width: 100%;
         display: flex;
         justify-content: center;

@@ -3,7 +3,7 @@ import Image from "next/image";
 import QuoteBlock from "../ui/QuoteBlock";
 import classes from "./purpose.module.css";
 import Heading from "../ui/Heading";
-import luzImg from "../../public/images/team/profile-luz.png";
+import logo from "../../public/logo.png";
 
 const Purpose = () => {
   return (
@@ -12,7 +12,7 @@ const Purpose = () => {
         title="How is God calling you to..."
         decoText="Help, Love, Give!"
       />
-      <div>
+      <div className={classes.div}>
         <p>
           Hope for the Nations was born from the desperate situation that the
           people of Venezuela are experiencing, an economic crisis so deep that
@@ -36,11 +36,12 @@ const Purpose = () => {
           special. My hope is for our brothers in Venezuela to know and embrace
           “The Hope” and to know that God has NOT forgotten this nation.
         </p>
+        <div className={classes.divImg}>
         <Heading subtitle="Who we are" />
-        <div className={classes.div}>
-          <div className={classes.float}>
-            <Image src={luzImg} width={300} height={300} layout="intrinsic" />
+        <div className={classes.imgFloat}>
+            <Image src={logo} width={350} height={350} alt="Founder Luzbell Woods" layout="intrinsic" />
           </div>
+          
           <p>
             Hope for the Nations is a non-profit, Christian organization. We
             count on a ministry of ambassadors that serves children, older

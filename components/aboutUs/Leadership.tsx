@@ -1,8 +1,16 @@
 import React from 'react'
+import Heading from '../ui/Heading'
+import QuoteBlock from '../ui/QuoteBlock'
+import classes from './leadership.module.css'
 
 const Leadership = () => {
   return (
-    <div>Leadership</div>
+    <section className={classes.section}>
+      
+        <Heading subtitle="USA Leadership" />
+        
+        <Heading subtitle="Venezuela Ambassadors" />
+    </section>
   )
 }
 
