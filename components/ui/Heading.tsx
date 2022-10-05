@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './heading.module.css'
 
 interface Props {
-    title: string
+    title?: string
     subtitle?: string 
     decoText?: string
 }
