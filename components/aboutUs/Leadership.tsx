@@ -7,7 +7,7 @@ const Leadership = () => {
   return (
     <section className={classes.section}>
       
-        <Heading subtitle="USA Leadership" />
+        <Heading subtitle="Meet Our Leadership Team" />
         
         <Heading subtitle="Venezuela Ambassadors" />
     </section>

@@ -20,7 +20,6 @@ const SingleProgramPage = () => {
 
   const programs = getAllPrograms().filter(program => program.name !== programName)
 
-
   if (!program) {
     return <p>No program found</p>
   }

@@ -6,7 +6,7 @@ import classes from './programsList.module.css'
 
 interface IPrograms {
     programs: IProgramsData[]
-    listTitle: string
+    listTitle?: string
 }
 
 const ProgramsList = ({programs, listTitle}: IPrograms) => {

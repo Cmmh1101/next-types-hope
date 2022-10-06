@@ -45,7 +45,6 @@ const StoryPost = ({story}: Props) => {
           />
         </div>
       </section>
-
       <QuoteBlock>
         <p>{story.highligh}</p>
       </QuoteBlock>
