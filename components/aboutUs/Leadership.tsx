@@ -6,7 +6,6 @@ import classes from './leadership.module.css'
 const Leadership = () => {
   return (
     <section className={classes.section}>
-      
         <Heading subtitle="Meet Our Leadership Team" />
         
         <Heading subtitle="Venezuela Ambassadors" />
