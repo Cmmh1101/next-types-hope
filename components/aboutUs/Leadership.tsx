@@ -129,8 +129,10 @@ const Leadership = () => {
         {volunteers.map((member) => {
           return (
             <div key={member.fullName} className={classes.memberBox}>
-              <h4>{member.fullName}</h4>
-              <p>{member.ocupation}</p>
+              <div className={classes.smallBox}>
+                <h4>{member.fullName}</h4>
+                <p>{member.ocupation}</p>
+              </div>
             </div>
           );
         })}
