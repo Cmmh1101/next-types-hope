@@ -15,3 +15,52 @@
     flex-direction: column;
     margin-top: 1rem;
 }
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-bottom: 3rem;
+}
+.flex .img{
+    margin-left: 2rem;
+}
+.flex .content{
+    width: 50%;
+}
+
+.memberBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.memberBox {
+    width: 300px;
+}
+.memberBox h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.memberBox p {
+    font-size: 1rem;
+}
+
+@media (max-width: 980px) {
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: wrap;
+        margin-bottom: 1rem;
+    }
+    .flex .img{
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+    .flex .content{
+        width: 100%;
+    }
+}

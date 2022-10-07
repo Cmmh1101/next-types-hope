@@ -23,6 +23,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2.5px;
+  color: #03307d;
 }
 
 p {
@@ -40,7 +41,10 @@ p {
     color: white;
     background: black;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3 {
     color: #00b7ff;
+  }
+  h4, h5, h6 {
+    color: #bff7f7;
   }
 }
