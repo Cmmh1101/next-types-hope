@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* margin-top: 3rem; */
     padding: 0 10% 3rem;
 }
 .menu h2 {
@@ -17,6 +16,7 @@
     justify-content: center; 
     flex-wrap: wrap; 
 }
+
 .menu a {
     width: 50%;
     display: flex;
@@ -27,6 +27,12 @@
 
 @media (max-width: 980px) {
     .menu a {
-        width: 400px;
+        width: 300px;
+        margin: 3rem 1rem;
+    }
+}
+@media (max-width: 680px) {
+    .menu a {
+        width: 100%;
     }
 }

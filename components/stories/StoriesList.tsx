@@ -4,7 +4,6 @@ import { IStoriesData } from '../../interfaces/StoriesData'
 import StoryItem from './StoryItem'
 import classes from "./story-list.module.css"
 import Heading from '../ui/Heading'
-import FacebookFeed from '../utils/FacebookFeed'
 
 interface IStories {
     stories: IStoriesData[]
