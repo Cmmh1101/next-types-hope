@@ -12,11 +12,13 @@
 }
 
 @media (max-width: 980px) {
-
     .section {
          flex-direction: column;
     }
     .section div {
         text-align: center;
+    }
+    .section .info {
+        margin-right: 0;
     }
  }
