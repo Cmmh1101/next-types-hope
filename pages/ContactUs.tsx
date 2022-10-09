@@ -4,6 +4,7 @@ import Heading from '../components/ui/Heading'
 import MainSections from '../components/ui/MainSections'
 import heroImg from '../public/images/team/voluntarios.jpg'
 import Contact from '../components/contactUs/Contact'
+import ContactForm from '../components/contactUs/ContactForm'
 
 const ContactUs = () => {
   return (
@@ -12,6 +13,8 @@ const ContactUs = () => {
       <MainSections>
         <Heading title='Contact Details' />
         <Contact />
+        <Heading title='Contact Form' />
+        <ContactForm />
       </MainSections>
     </>
   )
