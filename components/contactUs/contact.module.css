@@ -6,6 +6,7 @@
 .section div {
     width: 50%;
     text-align: end;
+    margin-bottom: 5rem;
 }
 .section .info {
     margin-right: 1rem;

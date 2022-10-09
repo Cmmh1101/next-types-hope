@@ -1,29 +1,32 @@
 import React from "react";
-import Button from "../ui/Button";
-import classes from './contactForm.module.css'
+import classes from "./contactForm.module.css";
 
 type Props = {};
 
 const ContactForm = (props: Props) => {
   return (
-    <form className={classes.form} name="contact" method="POST" data-netlify="true">
+    <form
+      className={classes.form}
+      name="contact"
+      method="POST"
+      action="/Success"
+      data-netlify="true"
+    >
+      <input type="hidden" name="contact" value="contact" />
       <p>
-        <label>
-          Your Name: <input type="text" name="name" placeholder="Name" />
-        </label>
+        <label htmlFor="name">Your Name:</label> <br />
+        <input type="text" name="name" id="name" />
       </p>
       <p>
-        <label>
-          Your Email: <input type="email" name="email" placeholder="Email" />
-        </label>
+        <label htmlFor="email">Your Email:</label> <br />
+        <input type="email" name="email" id="email" />
       </p>
       <p>
-        <label>
-          Message: <textarea name="message" placeholder="Write our message" />
-        </label>
+        <label htmlFor="message">Message:</label> <br />
+        <textarea name="message" id="message"></textarea>
       </p>
       <p>
-        <button className={classes.btn} type="submit">Send</button>
+        <button type="submit">Send</button>
       </p>
     </form>
   );
