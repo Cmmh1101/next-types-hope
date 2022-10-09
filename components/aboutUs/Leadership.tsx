@@ -103,7 +103,7 @@ const Leadership = () => {
           />
         </div>
       </div>
-      <Heading subtitle="Us Team" />
+      <Heading subtitle="U.S. Team" />
       <div className={classes.flex}>
         {teamMembers.map((member) => {
           return (

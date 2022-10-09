@@ -10,8 +10,7 @@ const Purpose = () => {
   return (
     <section className={classes.section}>
       <Heading
-        title="How is God calling you to..."
-        decoText="Help, Love, Give!"
+        title="Our Beginning"
       />
       <div className={classes.div}>
         <p>

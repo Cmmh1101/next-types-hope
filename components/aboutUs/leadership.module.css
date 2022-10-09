@@ -25,6 +25,13 @@
 }
 .flex .img{
     margin-left: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.flex .img img{
+    margin-left: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
 }
 .flex .content{
     width: 50%;
