@@ -52,7 +52,8 @@
     z-index: 0;
 }
 .memberBox .info {
-    background: #1c92c0;
+    background: #56caf9;
+    color: #2c3136;
     width: 300px;
     padding: 15px;
     position: relative;
@@ -60,6 +61,7 @@
     text-align: center;
     z-index: 10;
 }
+/* temp while add more photos */
 .memberBox img {
     background-color: aliceblue;
 }
@@ -74,7 +76,8 @@
 
 .memberBox .smallBox {
     width: 300px;
-    background: #1c92c0;
+    background: #56caf9;
+    color: #2c3136;
     padding: 15px;
     position: relative;
     border-radius: 5px;

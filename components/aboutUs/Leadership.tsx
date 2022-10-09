@@ -114,6 +114,7 @@ const Leadership = () => {
                   width={100}
                   height={100}
                   layout="fixed"
+                  alt={member.fullName}
                 />
               </div>
               <div className={classes.info}>
