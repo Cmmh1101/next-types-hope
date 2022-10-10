@@ -41,6 +41,7 @@
     z-index: 100;
     transition: all 0.3s ease-in-out;
 }
+
 .navigation div:hover span {
     width: 100%;
     border-bottom: solid 3px #2934ca;
@@ -49,7 +50,6 @@
 .donateLink a {
     display: none;
 }
-
 .section {
     width: 100%;
     display: flex;
@@ -57,15 +57,16 @@
     align-items: center;
     margin-top: 20px;
 }
-
 .logo {
     width: 33%;
 }
+
 .socials {
     width: 33%;
     display: flex;
     justify-content: center;
 }
+
 .socials a {
     width: 33%;
     margin: 0 15px;
@@ -77,6 +78,7 @@
     display: flex;
     justify-content: center;
 }
+
 .donate a {
     color: #000000;
     background-color: #73b2ee;

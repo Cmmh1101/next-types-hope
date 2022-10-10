@@ -32,11 +32,17 @@
     font-size: 5rem;
     margin-top: 0;
     letter-spacing: 3px;
+    color:#00b7ff;
+    color: #0f98fa;
+        background: -webkit-linear-gradient(90deg,#00b7ff, #fdfdfd);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 .container div p {
     font-size: 1.5rem;
     line-height: 30px;
     letter-spacing: 2.5px;
+    color: #ffffff;
 }
 
 .img {
