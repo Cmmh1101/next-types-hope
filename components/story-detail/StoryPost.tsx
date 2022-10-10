@@ -23,6 +23,7 @@ const StoryPost = ({story}: Props) => {
                 alt={story.alt}
                 height={300}
                 width={300}
+                layout="responsive"
               />
             </div>
             {story.content.map((paragraph, i) => {
@@ -36,6 +37,7 @@ const StoryPost = ({story}: Props) => {
             alt={story.alt}
             height={400}
             width={400}
+
           />
           <Image
             src={story.storyImage1.image}
