@@ -20,6 +20,13 @@
     overflow: hidden;
 }
 
+@media (max-width: 980px) {
+    .float{
+        width: 400px;
+        height: 400px;
+    }
+  }
+
 @media (max-width: 680px) {
     .section .article {
         display: flex;
@@ -31,7 +38,8 @@
         width: 100%;
         padding-right: 0;
     }
-    .section .article .text .float{
-        display: none;
+    .float{
+        width: 250px;
+        height: 250px;
     }
   }

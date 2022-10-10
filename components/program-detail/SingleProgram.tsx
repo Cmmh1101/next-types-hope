@@ -32,9 +32,13 @@ const SingleProgram = ({ program }: IPrograms) => {
             })}
           </div>
         </div>
-        <ImagesSection imageLeft={program.image} altLeft={program.alt} imageRight={program.programImage1.image} altRight={program.alt} />
+        <ImagesSection
+          imageLeft={program.image}
+          altLeft={program.alt}
+          imageRight={program.programImage1.image}
+          altRight={program.alt}
+        />
       </section>
-
       <QuoteBlock>
         <p>{program.highligh}</p>
       </QuoteBlock>
