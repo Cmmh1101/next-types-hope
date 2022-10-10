@@ -50,13 +50,13 @@ const Purpose = () => {
           <p>
             Hope for the Nations is a non-profit, Christian organization. We
             count on a ministry of ambassadors that serves children, older
-            people, and families in Venezuela's most impoverished area. As we
+            people, and families in Venezuela`&aposs most impoverished area. As we
             help them, we bring the gospel nurturing not only with physical
             needs but we spiritual needs as well.
           </p>
           <p>
             We began our work formerly in 2018. In 2020 we started with a series
-            of sustainable programs to bring solutions while bringing God's
+            of sustainable programs to bring solutions while bringing God`&aposs
             Hope.
           </p>
         </div>
