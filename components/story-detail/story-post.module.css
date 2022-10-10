@@ -19,20 +19,6 @@
     border-radius: 5px;
     overflow: hidden;
 }
-/* .images {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    border-radius: 5px;
-    overflow: hidden;
-}
-.images .img {
-    width: 49%;
-    border-radius: 5px;
-    overflow: hidden;
-} */
 
 @media (max-width: 980px) {
     .section .article .text .float{
@@ -55,7 +41,4 @@
         width: 250px;
         height: 250px;
     }
-    /* .section .article .images{
-        display: none;
-    } */
   }
