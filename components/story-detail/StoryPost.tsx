@@ -5,6 +5,7 @@ import ArticleSections from "../ui/ArticleSection";
 import Heading from "../ui/Heading";
 import QuoteBlock from "../ui/QuoteBlock";
 import classes from "./story-post.module.css";
+import ImagesSection from "../ui/ImagesSection";
 
 interface Props {
   story: IStoriesData;
@@ -31,26 +32,7 @@ const StoryPost = ({ story }: Props) => {
             })}
           </div>
         </div>
-        <div className={classes.images}>
-          <div className={`${classes.img} ${classes.imgLeft}`}>
-            <Image
-              src={story.image}
-              alt={story.alt}
-              height={400}
-              width={400}
-              layout="responsive"
-            />
-          </div>
-          <div className={classes.img}>
-            <Image
-              src={story.storyImage1.image}
-              alt={story.alt}
-              height={400}
-              width={400}
-              layout="responsive"
-            />
-          </div>
-        </div>
+        <ImagesSection imageLeft={story.image} altLeft={story.alt} imageRight={story.storyImage1.image} altRight={story.alt} />
       </section>
       <QuoteBlock>
         <p>{story.highligh}</p>

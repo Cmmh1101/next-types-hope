@@ -11,15 +11,13 @@
 .section .article .text p{
     margin-top: 0;
 }
-.section .article .text .float{
-    padding: 0 0 1rem 1rem;
+.float{
+    width: 500px;
+    height: 500px;
+    margin: 0 0 1rem 1rem;
     float: right;
-}
-.section .article .images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 @media (max-width: 680px) {
@@ -34,9 +32,6 @@
         padding-right: 0;
     }
     .section .article .text .float{
-        display: none;
-    }
-    .section .article .images{
         display: none;
     }
   }

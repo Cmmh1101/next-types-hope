@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './main-section.module.css'
+import classes from './mainSection.module.css'
 
 interface Props {
     children: JSX.Element | JSX.Element[]

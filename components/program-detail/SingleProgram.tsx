@@ -5,6 +5,7 @@ import ArticleSections from "../ui/ArticleSection";
 import Heading from "../ui/Heading";
 import QuoteBlock from "../ui/QuoteBlock";
 import classes from "./singleProgram.module.css";
+import ImagesSection from "../ui/ImagesSection";
 
 interface IPrograms {
   program: IProgramsData;
@@ -23,6 +24,7 @@ const SingleProgram = ({ program }: IPrograms) => {
                 alt={program.alt}
                 height={300}
                 width={300}
+                layout="responsive"
               />
             </div>
             {program.content?.map((paragraph, i) => {
@@ -30,20 +32,7 @@ const SingleProgram = ({ program }: IPrograms) => {
             })}
           </div>
         </div>
-        <div className={classes.images}>
-          <Image
-            src={program.image}
-            alt={program.alt}
-            height={400}
-            width={400}
-          />
-          <Image
-            src={program.programImage1.image}
-            alt={program.alt}
-            height={400}
-            width={400}
-          />
-        </div>
+        <ImagesSection imageLeft={program.image} altLeft={program.alt} imageRight={program.programImage1.image} altRight={program.alt} />
       </section>
 
       <QuoteBlock>
