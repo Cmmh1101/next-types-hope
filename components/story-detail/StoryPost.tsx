@@ -1,24 +1,24 @@
-import React from 'react'
-import Image from 'next/image'
-import { IStoriesData } from '../../interfaces/StoriesData'
-import ArticleSections from '../ui/ArticleSection'
-import Heading from '../ui/Heading'
-import QuoteBlock from '../ui/QuoteBlock'
-import classes from './story-post.module.css'
+import React from "react";
+import Image from "next/image";
+import { IStoriesData } from "../../interfaces/StoriesData";
+import ArticleSections from "../ui/ArticleSection";
+import Heading from "../ui/Heading";
+import QuoteBlock from "../ui/QuoteBlock";
+import classes from "./story-post.module.css";
 
 interface Props {
-    story: IStoriesData;
+  story: IStoriesData;
 }
 
-const StoryPost = ({story}: Props) => {
+const StoryPost = ({ story }: Props) => {
   return (
-      <ArticleSections>
+    <ArticleSections>
       <section className={classes.section}>
         <Heading title={story.title} />
         <div className={classes.article}>
           <div className={classes.text}>
             <div className={classes.float}>
-            <Image
+              <Image
                 src={story.image}
                 alt={story.alt}
                 height={300}
@@ -32,26 +32,31 @@ const StoryPost = ({story}: Props) => {
           </div>
         </div>
         <div className={classes.images}>
-        <Image
-            src={story.image}
-            alt={story.alt}
-            height={400}
-            width={400}
-
-          />
-          <Image
-            src={story.storyImage1.image}
-            alt={story.alt}
-            height={400}
-            width={400}
-          />
+          <div className={`${classes.img} ${classes.imgLeft}`}>
+            <Image
+              src={story.image}
+              alt={story.alt}
+              height={400}
+              width={400}
+              layout="responsive"
+            />
+          </div>
+          <div className={classes.img}>
+            <Image
+              src={story.storyImage1.image}
+              alt={story.alt}
+              height={400}
+              width={400}
+              layout="responsive"
+            />
+          </div>
         </div>
       </section>
       <QuoteBlock>
         <p>{story.highligh}</p>
       </QuoteBlock>
-      </ArticleSections>
-  )
-}
+    </ArticleSections>
+  );
+};
 
-export default StoryPost
+export default StoryPost;
