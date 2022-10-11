@@ -45,6 +45,7 @@ const Purpose = () => {
               height={350}
               alt="Founder Luzbell Woods"
               layout="intrinsic"
+              priority
             />
           </div>
           <p>

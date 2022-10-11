@@ -13,7 +13,7 @@ const ProgramItem = ({program}: IProgram) => {
     <div className={classes.box}>
       <Image src={program.icon} alt={program.alt} width={70} height={70} />
       <h3>{program.title}</h3>
-      <p>{program?.content?.toString().substring(0, 120)}...</p>
+      <p>{program?.content?.toString().substring(0, 110)}...</p>
       <Button link={`/programs/${program.name}`} text="Learn More" className={classes.btn} />
     </div>
   )

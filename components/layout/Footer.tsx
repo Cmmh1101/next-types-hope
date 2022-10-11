@@ -24,6 +24,7 @@ const Footer = () => {
                 height={200}
                 width={200}
                 layout="responsive"
+                priority
               />
             </a>
           </Link>

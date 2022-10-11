@@ -13,7 +13,7 @@ const MobileNav = (props: Props) => {
       <div className={classes.logo}>
         <Link href="/">
           <a>
-          <Image src={logo} alt="logo" layout='responsive' />
+          <Image src={logo} alt="logo" layout='responsive' width={200} height={200} priority />
           </a>
         </Link>
       </div>
