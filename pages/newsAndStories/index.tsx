@@ -14,6 +14,7 @@ const story = getAllStories()
       <Header
         title="Meet Some Of Our Beneficiaries"
         description="We have a variety of programs that benefit different communities, from the little ones to the elderly. We help the needed with tools, assistance, love, adn God's word" image={heroImg} altText="Beneficiarie of light of hope program, receiving tools to open their heir style business"
+        overlay
       />
       <main>
         <StoriesList stories={story} listTitle='Beneficiaries' />

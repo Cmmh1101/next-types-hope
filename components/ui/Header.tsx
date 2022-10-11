@@ -5,7 +5,8 @@ import Image, { StaticImageData } from 'next/image'
 interface Props {
   background?: string | StaticImageData;
   title?: string;
-  titleWIthEffect?: string;
+  titleDeco?: string
+  subtitleDeco?: string;
   description?: string;
   buttonText?: string | undefined;
   className?: string;
@@ -18,31 +19,29 @@ interface Props {
 const Header = ({
   background,
   title,
-  titleWIthEffect,
+  subtitleDeco,
   buttonText,
   description,
   className,
-  bannerTitle,
+  titleDeco,
   overlay,
   altText,
   image
 }: Props) => {
   return (
     <header className={classes.header} style={{ backgroundImage: `url(${background})` }}>
-      <Image className={classes.imgBox} src={image} alt={altText} height={450} width={400} layout="fill" objectFit='cover' objectPosition='center bottom' />
+      <Image className={classes.imgBox} src={image} alt={altText} layout="fill" objectFit='cover' objectPosition='center bottom' />
         <div className={`${classes.container} container`}>
             <div className={classes.section}>
                 <h1>{title}</h1>
+
+                {titleDeco && <><span>{subtitleDeco}</span><h1 className={classes.titleDeco}>{titleDeco}</h1></>}
                 <p>{description}</p>
                 {buttonText && <Button link="/programs" text={buttonText} />}
             </div>
-            {/* <div className={classes.img}>
-              {image && <div className={classes.imgBox}><Image src={image} alt={altText} height={450} width={450} layout="fixed" priority /></div>}
-            </div> */}
         </div>
         {overlay && <div className={classes.overlay}
         ></div>}
-        {/* <Image className={classes.imgBox} src={image} alt={altText} height={450} width={400} layout="fill" objectFit='cover' objectPosition='center' /> */}
     </header>
   );
 };

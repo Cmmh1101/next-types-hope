@@ -24,10 +24,11 @@ const SingleStoryPage = (props: Props) => {
   return (
     <>
       <Header
-        title="News & Stories"
-        description={story.title}
+        subtitleDeco="Stories"
+        titleDeco={story.title}
         image={story.image}
         altText={story.title}
+        overlay
       />
       <StoryPost story={story} />
       <StoriesList stories={stories} listTitle='More Stories' />
