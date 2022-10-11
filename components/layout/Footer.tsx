@@ -29,7 +29,7 @@ const Footer = () => {
             </a>
           </Link>
         </div>
-        <DonateBtn className={classes.donate} />
+        <DonateBtn />
         <SocialIcons className={classes.socials} />
       </div>
     </footer>

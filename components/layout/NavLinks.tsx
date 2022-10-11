@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
+import DonateBtn from "../ui/DonateBtn";
 import classes from './navlinks.module.css'
 
 interface Props {
@@ -44,22 +45,21 @@ const NavLinks = ({ className, donateLink, toggle }: Props) => {
         </Link>
       </div>
       <div>
+        <Link href="/events">
+          <a className={`${router.pathname.includes('/newsAndStories') && classes.active}`} onClick={toggle}>
+            Events<span></span>
+          </a>
+        </Link>
+      </div>
+      <div>
         <Link href="/ContactUs">
           <a className={`${router.pathname == '/ContactUs' && classes.active}`} onClick={toggle}>
             Contact Us<span></span>
           </a>
         </Link>
       </div>
-
       <div className={donateLink}>
-        <Link
-          href="https://www.paypal.com/donate?hosted_button_id=JWBZEQHW76WC4"
-          target="_blank"
-        >
-          <a>
-            Donate<span></span>
-          </a>
-        </Link>
+        <DonateBtn />
       </div>
     </nav>
   );

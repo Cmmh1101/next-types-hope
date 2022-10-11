@@ -4,6 +4,8 @@ import classes from './navbar.module.css'
 import Image from 'next/image'
 import logo from '/public/logo.png'
 import NavLinks from './NavLinks'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import {AiOutlineClose} from 'react-icons/ai' 
 
 const Navbar = () => {
 
@@ -24,7 +26,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className={classes.navigation}>
-          <button className={classes.toggle} onClick={setNavOpen}>toggle</button>
+          <button className={classes.toggle} onClick={setNavOpen}>{open ? <AiOutlineClose />  : <GiHamburgerMenu />}</button>
           <NavLinks className={open ? `${classes.mobileNav}` : `${classes.mobileNav} ${classes.hide}`} toggle={setNavOpen} />
       </div>
     </nav>

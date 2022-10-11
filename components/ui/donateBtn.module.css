@@ -1,0 +1,15 @@
+.btn {
+    color: #1323b6;
+    font-weight: 400;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    transition: all 0.4s ease-in-out;
+    background-color: #00b7ff;
+}
+.btn:hover, .btn:focus {
+    color: #FFF;
+    transform: scale(1.05);
+}
