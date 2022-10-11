@@ -4,10 +4,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 10% 3rem;
+    padding: 7rem 10%;
 }
 .menu h2 {
     margin-bottom: 3rem;
+    text-transform: capitalize;
 }
 .menu .section{
     width: 100%;

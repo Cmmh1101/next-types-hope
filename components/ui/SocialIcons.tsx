@@ -1,5 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
+import {SiYoutubemusic, SiFacebook} from 'react-icons/si'
+import {FaFacebookSquare} from 'react-icons/fa'
+import {TiSocialInstagramCircular} from 'react-icons/ti'
+import classes from './socialIcons.module.css'
 
 interface Props {
     className?: string
@@ -7,22 +11,16 @@ interface Props {
 
 const SocialIcons = ({className}: Props) => {
   return (
-    <div className={className}>
-    <Link href="/">
-      <a>
-        Fb
+    <div className={classes.icons}>
+      <a href='https://facebook.com' className={classes.fb} target="_blank">
+        <SiFacebook />
       </a>
-    </Link>
-    <Link href="/">
-      <a>
-        In
+      <a href='https://instagram.com' className={classes.in} target="_blank">
+        <TiSocialInstagramCircular />
       </a>
-    </Link>
-    <Link href="/">
-      <a>
-        YT
+      <a href='https://youtube.com' className={classes.yt} target="_blank">
+        <SiYoutubemusic />
       </a>
-    </Link>
     </div>
     
   )

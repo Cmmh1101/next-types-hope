@@ -1,0 +1,42 @@
+.icons {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+.icons a {
+  margin: 1rem;
+  transition: all 0.3s ease-in-out;
+  color: rgb(0, 179, 255);
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
+}
+.icons a:hover {
+  margin: 0 1rem;
+  transform: scale(1.2);
+}
+.icons .fb:hover {
+  color: rgb(5, 5, 248);
+  background-color: #ffffff;
+}
+.icons .in:hover {
+  color: #ffffff;
+  background: #cf0cbc;
+  background: radial-gradient(
+    ellipse farthest-side at center center,
+    #cf0cbc 0%,
+    #ffa724 50%,
+    #941fcf 100%
+  );
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+}
+.icons .yt:hover {
+  color: rgb(231, 5, 5);
+}

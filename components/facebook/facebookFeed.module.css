@@ -1,0 +1,35 @@
+.section .div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.section .half {
+    text-align: center;
+    width: 48%;
+}
+
+.half iframe {
+    border-radius: 5px;
+}
+
+@media (max-width: 980px) {
+    .section {
+         flex-direction: column;
+    }
+    .section .info {
+        margin-right: 0;
+    }
+ }
+@media (max-width: 680px) {
+    .section {
+         flex-direction: column;
+    }
+    .section .half {
+        width: 100%;
+    }
+    .section .info {
+        margin-right: 0;
+    }
+ }
