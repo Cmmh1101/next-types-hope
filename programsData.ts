@@ -180,21 +180,21 @@ The project integrates solutions to socio-economic and environmental challenges 
     name: "school-of-hope-program",
     title: "School of Hope",
     date: "04/16/2021",
-    image: "/images/programs/sports3.png",
-    icon: "/images/general/sports.png",
+    image: "/images/programs/school-1.jpg",
+    icon: "/images/general/open-book.png",
     // description: "Hope Sports Program",
     alt: "",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "/images/dylanStory/Dylan-escuela.jpeg",
+        image: "/images/programs/school-2.jpg",
         alt: "Dylan at School"
     },
     programImage2: {
-        image: "/images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        image: "/images/programs/school-3.jpg",
         alt: "Dylan"
     },
     programImage3: {
-        image: "/images/dylanStory/Dylan-Baseball.png",
+        image: "/images/programs/school-3.jpg",
         alt: "Dylan with a baseball trophy"
     },
     featured: true,

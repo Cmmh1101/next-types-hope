@@ -33,7 +33,7 @@ p {
   margin-bottom: 1rem;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -44,4 +44,4 @@ p {
   h1, h2, h3, h4, h5, h6 {
     color: #00b7ff;
   }
-}
+} */
