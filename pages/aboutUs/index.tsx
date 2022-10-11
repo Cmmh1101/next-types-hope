@@ -10,7 +10,7 @@ type Props = {}
 const AboutUs = (props: Props) => {
   return (
     <>
-      <Header title='About Us' description='About us' image={heroImg} altText='Hope for the nations Venezuela Volunteers group' />
+      <Header subtitleDeco='About Us' titleDeco='Who we are' image={heroImg} altText='Hope for the nations Venezuela Volunteers group' overlay="dark" />
       <ArticleSections>
         <Purpose />
         <Leadership />

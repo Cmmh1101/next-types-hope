@@ -11,7 +11,7 @@ interface Props {
   buttonText?: string | undefined;
   className?: string;
   bannerTitle?: string;
-  overlay?: boolean;
+  overlay?: string;
   image: StaticImageData | string
   altText?: string
 }
@@ -40,8 +40,9 @@ const Header = ({
                 {buttonText && <Button link="/programs" text={buttonText} />}
             </div>
         </div>
-        {overlay && <div className={classes.overlay}
-        ></div>}
+        {overlay && overlay === 'light' ? <div className={classes.overlay}
+        ></div> : <div className={classes.darkOverlay}
+        ></div> }
     </header>
   );
 };

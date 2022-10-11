@@ -28,7 +28,7 @@ const SingleStoryPage = (props: Props) => {
         titleDeco={story.title}
         image={story.image}
         altText={story.title}
-        overlay
+        overlay="dark"
       />
       <StoryPost story={story} />
       <StoriesList stories={stories} listTitle='More Stories' />

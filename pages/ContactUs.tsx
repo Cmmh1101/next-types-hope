@@ -9,7 +9,7 @@ import ContactForm from '../components/contactUs/ContactForm'
 const ContactUs = () => {
   return (
     <>
-      <Header title='Contact Us' image={heroImg} altText="Hope for the nations Venezuelan volunteers team" />
+      <Header title='Contact Us' image={heroImg} altText="Hope for the nations Venezuelan volunteers team" overlay='dark' />
       <MainSections>
         <Heading title='Contact Details' />
         <Contact />
