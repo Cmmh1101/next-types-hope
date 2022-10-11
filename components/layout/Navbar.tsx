@@ -6,6 +6,7 @@ import logo from '/public/logo.png'
 import NavLinks from './NavLinks'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import {AiOutlineClose} from 'react-icons/ai' 
+import DonateBtn from '../ui/DonateBtn'
 
 const Navbar = () => {
 
@@ -26,8 +27,9 @@ const Navbar = () => {
         </Link>
       </div>
       <div className={classes.navigation}>
+          <DonateBtn className={classes.donate} />
           <button className={classes.toggle} onClick={setNavOpen}>{open ? <AiOutlineClose />  : <GiHamburgerMenu />}</button>
-          <NavLinks className={open ? `${classes.mobileNav}` : `${classes.mobileNav} ${classes.hide}`} toggle={setNavOpen} />
+          <NavLinks donateLink={classes.donateLink} className={open ? `${classes.mobileNav}` : `${classes.mobileNav} ${classes.hide}`} toggle={setNavOpen} />
       </div>
     </nav>
   )

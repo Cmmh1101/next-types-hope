@@ -24,6 +24,14 @@
     align-items: center;
 }
 
+.donate {
+    display: none;
+    margin-right: 10px;
+}
+.donateLink {
+    display: block;
+}
+
 .logo a {
     width: 100%;
     height: 100%;
@@ -48,12 +56,6 @@
     position: relative;
     z-index: 40;
 }
-/* .navigation button {
-    color: #2934ca;
-    text-decoration: none;
-    font-size: 3rem;
-    z-index: 40;
-} */
 
 .navigation span {
     width: 15px;
@@ -72,7 +74,6 @@
 
 .navigation .toggle {
     display: none;
-    /* padding-bottom: 10px; */
     color: #2934ca;
     text-decoration: none;
     font-size: 2.5rem;
@@ -106,6 +107,14 @@
         transition: all 0.5s ease-in-out;
     }
 
+    .donate {
+        display: block;
+    }
+
+    .donateLink {
+        display: none;
+    }
+
     .navigation .hide {
         height: 0;
         opacity: 0;
@@ -122,7 +131,6 @@
     }
 
     .navigation .toggle {
-        /* width: 15px; */
         display: flex;
         justify-content: flex-end;
         cursor: pointer;
