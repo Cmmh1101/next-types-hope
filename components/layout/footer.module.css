@@ -28,42 +28,28 @@
     padding: 5px 5px 0;
 }
 
-.navigation span {
-    width: 15px;
-    height: 30px;
-    border-bottom: solid 3px #73b2ee;
-    animation-name: example;
-    animation-duration: 0.1s;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 100;
-    transition: all 0.3s ease-in-out;
-}
-
-.navigation div:hover span {
-    width: 100%;
-    border-bottom: solid 3px #2934ca;
-}
-
 .donateLink a {
     display: none;
 }
 .section {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-flow: wrap;
     margin-top: 20px;
 }
 .logo {
     width: 33%;
+    min-width: 100px;
+    max-width: 400px;
 }
 
 .socials {
     width: 33%;
     display: flex;
     justify-content: center;
+
 }
 
 .socials a {
@@ -96,6 +82,8 @@
     }
   }
 
-@media (max-width: 600px) {
-    
+@media (max-width: 680px) {
+    .section {
+        justify-content: center;
+    }
   }

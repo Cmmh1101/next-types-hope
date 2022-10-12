@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       <main>
         <Header
           title="Hope For The Nations"
-          description="Blesing our communities with the tools to improve their living situation through hope and God's word"
+          description="Blesing our communities with the tools to improve their living situation through hope and Gospel"
           buttonText="Go to our programs"
           image={heroImg}
           altText="Little kid seated on the steets"
