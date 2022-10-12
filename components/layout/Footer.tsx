@@ -6,14 +6,16 @@ import logo from "/public/logo.png";
 import NavLinks from "./NavLinks";
 import SocialIcons from "../ui/SocialIcons";
 import DonateBtn from "../ui/DonateBtn";
+import FooterNavLinks from "./FooterNavLinks";
 
 const Footer = () => {
   return (
     <footer className={`container ${classes.footer}`}>
-      <NavLinks
+      {/* <NavLinks
         className={classes.navigation}
         donateLink={classes.donateLink}
-      />
+      /> */}
+      <FooterNavLinks className={classes.navigation} />
       <div className={classes.section}>
         <div className={classes.logo}>
           <Link href="/">
