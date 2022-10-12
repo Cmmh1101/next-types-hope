@@ -130,3 +130,9 @@
         border: 0.8px solid #2934ca;
     }
 }
+@media (max-width: 980px) {
+    .logo a {
+        width: 100px;
+        height: 100px;
+    }
+}
