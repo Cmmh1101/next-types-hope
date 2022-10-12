@@ -36,7 +36,7 @@ const NavLinks = ({ className, donateLink, toggle }: Props) => {
           </a>
         </Link>
         <Link href="/events">
-          <a className={`${router.pathname.includes('/newsAndStories') && classes.active}`} onClick={toggle}>
+          <a className={`${router.pathname.includes('/events') && classes.active}`} onClick={toggle}>
             Events
           </a>
         </Link>

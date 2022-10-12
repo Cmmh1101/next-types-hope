@@ -29,12 +29,11 @@ const Header = ({
   image
 }: Props) => {
   return (
-    <header className={classes.header} style={{ backgroundImage: `url(${background})` }}>
+    <header className={classes.header}>
       <Image className={classes.imgBox} src={image} alt={altText} layout="fill" objectFit='cover' objectPosition='center bottom' />
         <div className={`${classes.container} container`}>
             <div className={classes.section}>
                 <h1>{title}</h1>
-
                 {titleDeco && <><span>{subtitleDeco}</span><h1 className={classes.titleDeco}>{titleDeco}</h1></>}
                 <p>{description}</p>
                 {buttonText && <Button link="/programs" text={buttonText} />}

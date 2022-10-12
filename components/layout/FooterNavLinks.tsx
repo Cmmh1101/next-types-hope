@@ -33,7 +33,7 @@ const FooterNavLinks = ({ className }: Props) => {
           </a>
         </Link>
         <Link href="/events">
-          <a className={`${router.pathname.includes('/newsAndStories') && classes.active}`}>
+          <a className={`${router.pathname.includes('/events') && classes.active}`}>
             Events
           </a>
         </Link>
@@ -42,9 +42,6 @@ const FooterNavLinks = ({ className }: Props) => {
             Contact Us
           </a>
         </Link>
-      {/* <div className={donateLink}>
-        <DonateBtn />
-      </div> */}
     </nav>
   )
 }
