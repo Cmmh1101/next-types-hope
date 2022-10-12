@@ -88,11 +88,11 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        top: 80px;
+        top: 95px;
         left: 0;
         transform: translateX(0);
         transition: all 0.5s ease-in-out;
-        z-index: 0;
+        z-index: -1;
     }
 
     .donate {
@@ -105,17 +105,15 @@
 
     .navigation .hide {
         height: 0;
-        /* opacity: 0; */
-        transform: translateX(-1500px);
-        transition: all 0.5s ease-in-out;
+        transform: translateX(1500px);
     }
 
     .navigation .mobileNav a {
-        width: 180px;
-        /* padding: 20px 0; */
+        width: 300px;
         margin: 10px 0;
         padding: 0;
         text-decoration: none;
+        text-align: center;
         font-size: 2rem;
     }
 
@@ -123,5 +121,12 @@
         display: flex;
         justify-content: flex-end;
         cursor: pointer;
+    }
+    .navigation .toggle:hover, .navigation .toggle:focus {
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 0.8px solid #2934ca;
     }
 }
