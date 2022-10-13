@@ -1,4 +1,4 @@
-.verse {
+.quote {
     color: #ffffff;
     background-color: rgb(214, 214, 213);
     padding: 20px;
@@ -11,7 +11,22 @@
     background-repeat: no-repeat;
     margin: 3rem 0 0;
 }
+.verse {
+    color: #ffffff;
+    background-color: rgb(214, 214, 213);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #171717b0;
+    margin: 3rem 0 0;
+}
 
+.quote q {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    font-style: italic;
+    padding: 20px;
+}
 .verse q {
     font-size: 1.2rem;
     letter-spacing: 1.5px;

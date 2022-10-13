@@ -10,6 +10,34 @@
   background-color: rgb(199, 199, 196);
 }
 
+.background {
+  min-height: 300px;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #13024f;
+  background-image: url("../public/images/general/sea.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background section {
+  margin-top: 0;
+}
+.events {
+  min-height: 300px;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.background section {
+  margin-top: 0;
+}
+
 /* .main {
   min-height: 100vh;
   padding: 4rem 0;

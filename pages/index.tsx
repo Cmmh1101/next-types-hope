@@ -13,6 +13,8 @@ import { getAllPrograms } from "../programsData";
 import heroImg from "../public/images/general/hero-image.jpg";
 import { getAllStories } from "../storiesData";
 import classes from "../styles/Home.module.css";
+import BibleVerses from "../components/verses/BibleVerses";
+import Events from "../components/events/Events";
 
 const Home: NextPage = () => {
   const programs = getAllPrograms();
@@ -40,6 +42,16 @@ const Home: NextPage = () => {
             decoText="Help, Love, Give!"
           />
           <HomeIntro />
+        </MainSections>
+        <MainSections className={classes.background}>
+          <BibleVerses />
+        </MainSections>
+        <MainSections className={classes.events}>
+        <Heading
+            title="Next Events"
+            decoText="Join us on our Harvest For Good!"
+          />
+          <Events />
         </MainSections>
         <Banner
           title="Mission"

@@ -35,11 +35,11 @@ const NavLinks = ({ className, donateLink, toggle }: Props) => {
             News & Stories
           </a>
         </Link>
-        <Link href="/events">
+        {/* <Link href="/events">
           <a className={`${router.pathname.includes('/events') && classes.active}`} onClick={toggle}>
             Events
           </a>
-        </Link>
+        </Link> */}
         <Link href="/ContactUs">
           <a className={`${router.pathname == '/ContactUs' && classes.active}`} onClick={toggle}>
             Contact Us
