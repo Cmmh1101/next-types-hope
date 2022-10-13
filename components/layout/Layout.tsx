@@ -12,7 +12,6 @@ const Layout = ({children}: Props) => {
   return (
     <>
       <Navbar />
-      {/* <MobileNav /> */}
       <main>{children}</main>
       <Footer />
     </>
