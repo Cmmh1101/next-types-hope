@@ -12,7 +12,7 @@ import FacebookFeed from "../components/facebook/FacebookFeed"
 import { getAllPrograms } from "../programsData";
 import heroImg from "../public/images/general/hero-image.jpg";
 import { getAllStories } from "../storiesData";
-import styles from "../styles/Home.module.css";
+import classes from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   const programs = getAllPrograms();
@@ -57,8 +57,9 @@ const Home: NextPage = () => {
           <StoriesList
             stories={stories}
             listTitle="Stories of hope"
+            className={classes.main}
           />
-        <MainSections>
+        <MainSections className={classes.gray}>
           <FacebookFeed />
         </MainSections>
       </main>

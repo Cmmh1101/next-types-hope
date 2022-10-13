@@ -8,11 +8,12 @@ import Heading from '../ui/Heading'
 interface IStories {
     stories: IStoriesData[]
     listTitle: string
+    className?: string 
 }
 
-const StoriesList = ({stories, listTitle}: IStories ) => {
+const StoriesList = ({stories, listTitle, className}: IStories ) => {
   return (
-    <main className={classes.menu}>
+    <main className={`${classes.menu} ${className}`}>
       <Heading title={listTitle} />
       <section className={classes.section}>
         {stories.map((story, i) => {

@@ -2,6 +2,14 @@
   padding: 0 2rem;
 }
 
+.main {
+  padding-bottom: 0;
+}
+
+.gray {
+  background-color: rgb(199, 199, 196);
+}
+
 /* .main {
   min-height: 100vh;
   padding: 4rem 0;
