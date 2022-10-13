@@ -12,13 +12,13 @@ interface Props {
 const SocialIcons = ({className}: Props) => {
   return (
     <div className={classes.icons}>
-      <a href='https://facebook.com' aria-valuetext="facebook link" className={classes.fb} target="_blank" rel="noreferrer">
+      <a href='https://facebook.com' aria-role="link" aria-label="facebook link" className={classes.fb} target="_blank" rel="noreferrer">
         <SiFacebook />
       </a>
-      <a href='https://instagram.com' aria-valuetext="instagram link" className={classes.in} target="_blank" rel="noreferrer">
+      <a href='https://instagram.com' aria-role="link" aria-label="instagram link" className={classes.in} target="_blank" rel="noreferrer">
         <TiSocialInstagramCircular />
       </a>
-      <a href='https://youtube.com' aria-valuetext="youtube link" className={classes.yt} target="_blank" rel="noreferrer">
+      <a href='https://youtube.com' aria-role="link" aria-label="youtube link" className={classes.yt} target="_blank" rel="noreferrer">
         <SiYoutubemusic />
       </a>
     </div>
