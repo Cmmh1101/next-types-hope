@@ -6,6 +6,10 @@
     margin-bottom: 3rem;
 }
 
+.heading h2, .heading h3 {
+    text-transform: capitalize;
+}
+
 .heading span {
     font-size: 3rem;
     font-family: 'Grape Nuts', cursive;

@@ -155,7 +155,7 @@ const articles: IStoriesData[] = [
     //     alt: "Daniela Castillo"
     // },
     alt: "Daniela Castillo receiving work tools to start his business",
-    featured: false,
+    featured: true,
     highligh:
       "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
     content: [
