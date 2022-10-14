@@ -11,14 +11,10 @@ import FooterNavLinks from "./FooterNavLinks";
 const Footer = () => {
   return (
     <footer className={`container ${classes.footer}`}>
-      {/* <NavLinks
-        className={classes.navigation}
-        donateLink={classes.donateLink}
-      /> */}
       <FooterNavLinks className={classes.navigation} />
       <div className={classes.section}>
         <div className={classes.logo}>
-          <Link href="/" aria-role="link" aria-name="home page link">
+          <Link href="/" role="link" aria-name="home page link">
             <a>
               <Image
                 src={logo}

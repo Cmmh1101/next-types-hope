@@ -17,7 +17,7 @@ const Events = (props: Props) => {
             <time dateTime="2022-12-16">December 16 2022</time>
             <time dateTime="18:00">6:00 pm</time>
             <h4>How?</h4>
-            <p>Tickets availabe now: <a href="/eventbrite.com" aria-role="link" className={classes.link}>Click here</a></p>
+            <p>Tickets availabe now: <a href="/eventbrite.com" role="link" className={classes.link}>Click here</a></p>
             <p>
             We would love it if you can join us on our Christmas Harvest for good help us give hope and happiness to as many children as possible this Christmas.
             </p>

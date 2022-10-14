@@ -27,8 +27,8 @@ const Navbar = () => {
         </Link>
       </div>
       <div className={classes.navigation}>
-          <DonateBtn className={classes.donate} />
-          <button aria-role="button" aria-name="open navigation" aria-value="open" className={classes.toggle} onClick={setNavOpen}>{open ? <AiOutlineClose />  : <GiHamburgerMenu />}</button>
+          <DonateBtn className={classes.donate}aria-name="donate link" />
+          <button role="button" aria-name="open navigation toggle" aria-value="open" className={classes.toggle} onClick={setNavOpen}>{open ? <AiOutlineClose />  : <GiHamburgerMenu />}</button>
           <NavLinks donateLink={classes.donateLink} className={open ? `${classes.mobileNav}` : `${classes.mobileNav} ${classes.hide}`} toggle={setNavOpen} />
       </div>
     </nav>

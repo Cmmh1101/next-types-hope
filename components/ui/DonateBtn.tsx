@@ -9,7 +9,7 @@ const DonateBtn = ({ className }: Props) => {
   return (
     <div className={`${classes.btn} ${className}` }>
         <a href="https://www.paypal.com/donate?hosted_button_id=JWBZEQHW76WC4"
-        target="_blank" rel="noreferrer" aria-role="button" aria-name="donate button" aria-value="donate">
+        target="_blank" rel="noreferrer" role="button" aria-name="donate button" aria-value="donate">
           Donate
         </a>
     </div>
