@@ -15,32 +15,27 @@ const NavLinks = ({ className, donateLink, toggle }: Props) => {
 
   return (
     <nav className={className}>
-        <Link href="/">
+        <Link href="/" aria-role="link" aria-name="home page link">
           <a className={`${router.pathname == '/' && classes.active}`} onClick={toggle}>
             Home
           </a>
         </Link>
-        <Link href="/aboutUs">
+        <Link href="/aboutUs" aria-role="link" aria-name="about us page link">
           <a className={`${router.pathname == '/aboutUs' && classes.active}`} onClick={toggle}>
             About us
           </a>
         </Link>
-        <Link href="/programs">
+        <Link href="/programs" aria-role="link" aria-name="programs page link">
           <a className={`${router.pathname.includes('/programs') && classes.active}`} onClick={toggle}>
             Programs
           </a>
         </Link>
-        <Link href="/newsAndStories">
+        <Link href="/newsAndStories" aria-role="link" aria-name="stories page link">
           <a className={`${router.pathname.includes('/newsAndStories') && classes.active}`} onClick={toggle}>
             News & Stories
           </a>
         </Link>
-        {/* <Link href="/events">
-          <a className={`${router.pathname.includes('/events') && classes.active}`} onClick={toggle}>
-            Events
-          </a>
-        </Link> */}
-        <Link href="/ContactUs">
+        <Link href="/ContactUs" aria-role="link" aria-name="contact us page link">
           <a className={`${router.pathname == '/ContactUs' && classes.active}`} onClick={toggle}>
             Contact Us
           </a>

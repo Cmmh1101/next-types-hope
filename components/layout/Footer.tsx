@@ -18,7 +18,7 @@ const Footer = () => {
       <FooterNavLinks className={classes.navigation} />
       <div className={classes.section}>
         <div className={classes.logo}>
-          <Link href="/">
+          <Link href="/" aria-role="link" aria-name="home page link">
             <a>
               <Image
                 src={logo}
