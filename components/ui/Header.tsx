@@ -28,7 +28,7 @@ const Header = ({
 }: Props) => {
   return (
     <header className={classes.header}>
-      <Image className={classes.imgBox} src={image} alt={altText} layout="fill" objectFit='cover' objectPosition='center bottom' />
+      <Image className={classes.imgBox} src={image} alt={altText} layout="fill" objectFit='cover' objectPosition='center top' />
         <div className={`${classes.container} container`}>
             <div className={classes.section}>
                 <h1>{title}</h1>

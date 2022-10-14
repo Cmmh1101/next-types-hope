@@ -91,7 +91,7 @@ The project integrates solutions to socio-economic and environmental challenges 
     name: "sustainable-work-program",
     title: "Lights Of Hope",
     date: "04/16/2021",
-    image: "/images/programs/entrepreneurship.png",
+    image: "/images/programs/work-program.jpg",
     icon: "/images/general/entrepreneurship.png",
     // description: "Sustainable Work Program, 'Lights of Hope'",
     alt: "",

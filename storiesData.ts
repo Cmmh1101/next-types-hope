@@ -71,11 +71,11 @@ const articles: IStoriesData[] = [
     name: "hector-story",
     title: "Hectors's story",
     date: "08/04/2021",
-    image: "/images/storiesImgs/ana1.jpg",
+    image: "/images/storiesImgs/hector-1.jpg",
     // icon: "/images/bread.png",
     // description: "Hector Romero Entrepreneurship Program",
     storyImage1: {
-        image: "/images/storiesImgs/ana1.jpg",
+        image: "/images/programs/work-program.jpg",
         alt: "Hector Romero"
     },
       storyImage2: {
@@ -83,7 +83,7 @@ const articles: IStoriesData[] = [
         alt: "Hector romero"
     },
     storyImage3: {
-        image: "/images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/hector-2.jpeg",
         alt: "Hector Romero"
     },
     // storyImage4: {
