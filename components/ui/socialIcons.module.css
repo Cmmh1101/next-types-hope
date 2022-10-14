@@ -9,11 +9,11 @@
   margin: 1rem;
   transition: all 0.3s ease-in-out;
   color: rgb(0, 179, 255);
-  background-color: #000000;
+  background-color: #fff;
   display: flex;
   align-items: center;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 15px;
   -webkit-box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
   box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
 }
@@ -23,7 +23,7 @@
   outline: 2px #333 solid;
 }
 .icons .fb:hover {
-  color: rgb(5, 5, 248);
+  color: #136aad;
   background-color: #ffffff;
 }
 .icons .in:hover {
@@ -32,8 +32,8 @@
   background: radial-gradient(
     ellipse farthest-side at center center,
     #cf0cbc 0%,
-    #ffa724 50%,
-    #941fcf 100%
+    #ffa724 20%,
+    #a338d8 100%
   );
   /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
