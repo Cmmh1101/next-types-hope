@@ -183,6 +183,8 @@ The project integrates solutions to socio-economic and environmental challenges 
       `,
       `Hope Sports program seeks to teach children the discipline required to build character and develop a sense of community.`, `Christ-centered athletic environments are created by coaches who believe in God's Word and use it for teaching, correcting, and training in righteousness.
       `,
+      `The Athletic Program provides opportunities for children in low-income areas. The funding provided by the Athletics program is important to assist these children  with the athletic tools they need. Contributions to Hope programs are used to support athletic funds to help pay for athletic equipment, uniforms, and travel expenses. Our goal for 2023 is to be able to sponsor hundred 100 children with the desire to participate in sports.
+      `,
     ],
   },
   {
