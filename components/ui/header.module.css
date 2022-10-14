@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   /* min-height: auto; */
   position: relative;
   z-index: 0 !important;
@@ -81,7 +81,7 @@
 
 @media (max-width: 980px) {
   .header {
-    min-height: 50vh;
+    min-height: 80vh;
     height: auto;
     display: flex;
   }
@@ -100,16 +100,20 @@
     letter-spacing: 2.5px;
   }
   .container span {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 }
 
 @media (max-width: 680px) {
   .header h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .container span {
-    font-size: 4rem;
+    font-size: 3.9rem;
+  }
+
+  .titleDeco {
+    margin-top: -1.5rem !important;
   }
 }

@@ -3,30 +3,28 @@ import classes from './header.module.css'
 import Image, { StaticImageData } from 'next/image'
 
 interface Props {
-  background?: string | StaticImageData;
   title?: string;
   titleDeco?: string
   subtitleDeco?: string;
   description?: string;
   buttonText?: string | undefined;
-  className?: string;
   bannerTitle?: string;
   overlay?: string;
   image: StaticImageData | string
   altText?: string
+  link: string
 }
 
 const Header = ({
-  background,
   title,
   subtitleDeco,
   buttonText,
   description,
-  className,
   titleDeco,
   overlay,
   altText,
-  image
+  image,
+  link
 }: Props) => {
   return (
     <header className={classes.header}>
@@ -36,7 +34,7 @@ const Header = ({
                 <h1>{title}</h1>
                 {titleDeco && <><span>{subtitleDeco}</span><h1 className={classes.titleDeco}>{titleDeco}</h1></>}
                 <p>{description}</p>
-                {buttonText && <Button link="/programs" text={buttonText} />}
+                {buttonText && <Button link={link} text={buttonText} />}
             </div>
         </div>
         {overlay && overlay === 'light' ? <div className={classes.overlay}

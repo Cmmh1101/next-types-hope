@@ -19,6 +19,7 @@
     margin: 2rem 0;
    }
 .section ul li {
+    color: #022F80; 
     line-height: 30px;
     font-size: 1.2rem;
     text-transform: capitalize;
@@ -53,13 +54,10 @@
         margin-top: 1rem;
         border-radius: 5px;
    }
-   .section ul li {
-    color: #022F80; 
-   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     .section ul li {
         color: #00b7ff;
     }
-  }
+  } */

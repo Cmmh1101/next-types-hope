@@ -7,9 +7,9 @@ interface Props {
 
 const DonateBtn = ({ className }: Props) => {
   return (
-    <div className={`${classes.btn} ${className}` }>
+    <div className={`${classes.btn} ${className}`} role="button">
         <a href="https://www.paypal.com/donate?hosted_button_id=JWBZEQHW76WC4"
-        target="_blank" rel="noreferrer" role="button" aria-name="donate button" aria-value="donate">
+        target="_blank" rel="noreferrer" role="button" aria-name="donate button" aria-label="donate">
           Donate
         </a>
     </div>

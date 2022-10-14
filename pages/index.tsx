@@ -31,10 +31,11 @@ const Home: NextPage = () => {
         <Header
           title="Hope For The Nations"
           description="Blesing our communities with the tools to improve their living situation through hope and Gospel"
-          buttonText="Go to our programs"
+          buttonText="Go to programs"
           image={heroImg}
           altText="Little kid seated on the steets"
           overlay="light"
+          link="/programs"
         />
         <MainSections>
           <Heading

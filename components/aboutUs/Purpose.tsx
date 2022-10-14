@@ -30,7 +30,7 @@ const Purpose = () => {
             I felt the need to help those in such an overwhelmingly difficult
             situation.
           </em>
-          It was necessary to bring hope to people who felt hopeless by sharing
+          {" "}It was necessary to bring hope to people who felt hopeless by sharing
           the hope we have in Christ. We can take a bad situation and be the
           hands and feet that the Lord uses to turn it into something good and
           special. My hope is for our brothers in Venezuela to know and embrace

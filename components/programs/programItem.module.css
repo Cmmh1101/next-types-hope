@@ -17,7 +17,6 @@
     font-size: 1.4rem;
     margin-top: 2rem;
     padding-bottom: 10px;
-    color: #134ef1;
 }
 .box p {
     font-size: 1rem;
@@ -47,8 +46,8 @@
     }
   }
 
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     .box h3{
         color: #00b7ff;
     }
-  }
+  } */
