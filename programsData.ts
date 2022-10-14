@@ -171,9 +171,18 @@ The project integrates solutions to socio-economic and environmental challenges 
     featured: true,
     highligh: `We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.`,
     content: [
-      `Hope for the Nations is a non-profit, Christian organization. We count on a ministry of ambassadors that serves children, older people, and families in Venezuela’s most impoverished area. As we help them, we bring the gospel nurturing not only with physical needs but we spiritual needs as well.`,
-
-      `Our purpose is to transform lives and communities through the Word of God. We created a different sustainable program to allow them to participate and grow as they become independent. Our mission is to serve disadvantaged communities while we show the love of God. We began our work formerly in 2018. In 2020 we started with a series of sustainable programs to bring solutions while bringing God’s Hope.`,
+      `We are an outreach Sports program. The Academy Hope Football program welcomes boys and girls from low-income communities who desire to play. We will work to accomplish this by following these principles and guidelines:`,
+      `We are Christ followers who share our faith openly and work to create men of Christ-centered character and God-given strength. There will be a time of prayer together at practices and games. Each player will be treated with respect by all who work with him.`,
+      `We believe we are called to go out into the world and make disciples for Christ. Children will learn through sports discipline that they can perform at a higher level when motivated by a higher cause.
+      We will follow some guidelines:`,
+      `We will pray and share our faith at all practices and games.
+      We will treat each player with the respect that he deserves.
+      We expect each player to show respect and honor for their faith. 
+      We will teach the benefits of a servant's heart.
+      We will be in constant pursuit of excellence in everything we do!
+      `,
+      `Hope Sports program seeks to teach children the discipline required to build character and develop a sense of community.`, `Christ-centered athletic environments are created by coaches who believe in God's Word and use it for teaching, correcting, and training in righteousness.
+      `,
     ],
   },
   {
