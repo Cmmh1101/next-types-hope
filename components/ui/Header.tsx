@@ -12,7 +12,7 @@ interface Props {
   overlay?: string;
   image: StaticImageData | string
   altText?: string
-  link: string
+  link?: string
 }
 
 const Header = ({

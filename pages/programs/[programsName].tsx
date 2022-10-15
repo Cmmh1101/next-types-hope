@@ -26,7 +26,7 @@ const SingleProgramPage = () => {
 
   return (
     <>
-      <Header link="" titleDeco={program.title} subtitleDeco='Programs' image={program.image} altText={program.title} overlay="dark" />
+      <Header titleDeco={program.title} subtitleDeco='Programs' image={program.image} altText={program.title} overlay="dark" />
       <SingleProgram program={program} />
       <ProgramsList programs={programs} listTitle='More Programs' />
     </>
