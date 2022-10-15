@@ -5,7 +5,7 @@ const programs: IProgramsData[] = [
     name: "hunger-relief",
     title: "Hunger Relief",
     date: "08/04/2021",
-    image: "/images/programs/hunger9.png",
+    image: "/images/programs/Hunger.jpg",
     icon: "/images/general/soup-light.png",
     // description: "Hunger Relief",
     alt: "hope for the nations crew serving the community",
@@ -15,11 +15,11 @@ const programs: IProgramsData[] = [
         alt: "Dylan at School"
     },
     programImage2: {
-        image: "/images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        image: "/images/programs/hunger7.png",
         alt: "Dylan"
     },
     programImage3: {
-        image: "/images/dylanStory/Dylan-Baseball.png",
+        image: "/images/programs/hunger2.jpg",
         alt: "Dylan with a baseball trophy"
     },
     featured: true,
@@ -34,21 +34,21 @@ const programs: IProgramsData[] = [
     name: "sustainable-community-garden",
     title: "Community Garden",
     date: "05/03/2021",
-    image: "/images/programs/community-garden-fruit.jpg",
+    image: "/images/programs/sembrando.jpg",
     icon: "/images/general/carrot-light.png",
     // description: "Sustainable Community Gardens and Raising chicken for Hope",
     alt: "",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "/images/programs/farming4.png",
+        image: "/images/programs/community-garden-fruit.jpg",
         alt: "Men working the garden"
     },
     programImage2: {
-        image: "/images/programs/community-garden-fruit.jpg",
+        image: "/images/programs/gallinas.jpg",
         alt: "Papaya from the community garden"
     },
     programImage3: {
-        image: "/images/programs/community-garden-banner.jpg",
+        image: "/images/programs/gallineros.jpg",
         alt: "Community garden banner"
     },
     featured: true,
@@ -105,14 +105,13 @@ The project integrates solutions to socio-economic and environmental challenges 
         alt: "Hair salon supplies beneficiary"
     },
     programImage3: {
-        image: "/images/programs/lights-of-hope-1.jpg",
+        image: "/images/programs/entrepreneurship.png",
         alt: "Dylan with a baseball trophy"
     },
     featured: false,
     highligh: `Participants will gain the necessary skills to confidently engage in society and help change not only their own lives but countless others through their local communities, with the essential knowledge and skills for the creation of new employment opportunities, a deeper understanding of sustainable development. Here some of the participants of the work program "Light of Hope."`,
     content: [
-      `This project enables families to become economically independent. We provide the tools and resources families needed to begin a micro-business and become independently self-sufficient.`,
-
+      `This program offers solutions to families allowing them to become economically independent through entrepreneurship programs. They are given the tools and resources they need to start a small business and become independently self-sufficient. Our team carefully selects the beneficiaries. Hope for the Nations ambassadors provide training and discipleship during this process, strengthening their faith and growing spiritually.`,`This program enables families to become economically independent. We provide the tools and resources families needed to begin a micro-business and become independently self-sufficient.`,
       `During this process, Hope for the Nations' ambassadors provides coaching and discipleship, strengthening their faith and growing spiritually. Our goal is that families are able to sustain themselves and give back to the communities.`,
       `Light of Hope's sustainable work program is rooted in sustainability principles; for a bit more than 100$, you help a family on her way out of poverty. On average, families make three times more income after being in the program. Minimum wages in Venezuela are approximately 1.61 USD/Month in 2020.`,
       `With an integrated approach, we will provide training where these families can acquire practical life skills rooted in sustainability principles, environmental stewardship, and biblical teachings while engaging in the self-awareness and personal transformation that will support their well-being. It will help them empower themselves and take leadership roles within their local communities.`,
@@ -120,7 +119,7 @@ The project integrates solutions to socio-economic and environmental challenges 
   },
   {
     name: "elderly-care-program",
-    title: "Elderly Minister",
+    title: "Elderly Ministry",
     date: "04/20/2021",
     image: "/images/programs/casa-Hogar-el-conde1.jpg",
     icon: "/images/general/couple.png",
@@ -165,7 +164,7 @@ The project integrates solutions to socio-economic and environmental challenges 
         alt: "Dylan"
     },
     programImage3: {
-        image: "/images/programs/sports3.png",
+        image: "/images/programs/hope-sports2.jpg",
         alt: "Dylan with a baseball trophy"
     },
     featured: true,
@@ -191,18 +190,18 @@ The project integrates solutions to socio-economic and environmental challenges 
     name: "school-of-hope-program",
     title: "School of Hope",
     date: "04/16/2021",
-    image: "/images/programs/school-1.jpg",
+    image: "/images/programs/school-3.jpg",
     icon: "/images/general/open-book.png",
     // description: "Hope Sports Program",
     alt: "",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
-        image: "/images/programs/school-2.jpg",
-        alt: "Dylan at School"
+        image: "/images/programs/school-1.jpg",
+        alt: "kids at school with teachers"
     },
     programImage2: {
-        image: "/images/programs/school-3.jpg",
-        alt: "Dylan"
+        image: "/images/programs/school-2.jpg",
+        alt: "Kids at school"
     },
     programImage3: {
         image: "/images/programs/school-3.jpg",
@@ -211,8 +210,8 @@ The project integrates solutions to socio-economic and environmental challenges 
     featured: true,
     highligh: `We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.`,
     content: [
-      `School of Hope supports schools in low-income communities with the tools they need to provide an excellent education focused on God’s Word. School of Hope equip schools with the resources they need to operate and provides children with a strong foundation in the Word of God.`,
-      `Our purpose is to transform lives and communities through the Word of God. We created a different sustainable program to allow them to participate and grow as they become independent. Our mission is to serve disadvantaged communities while we show the love of God. We began our work formerly in 2018. In 2020 we started with a series of sustainable programs to bring solutions while bringing God’s Hope.`,
+      `The School of Hope's mission is to provide and support schools in low-income communities with the tools they need to provide an excellent education focused on God's Word.`, `The School of Hope program offers a safe environment where students learn and honor Jesus Christ, seek God's truth and wisdom, and apply it to their daily lives.`, `School of Hope equips schools with the space, materials, and tools they need to develop their skills and talents.  Help them to pursue excellence and integrity in their academics and "grow in wisdom and stature and favor with God and men." Luke 2:52`,
+      `School of Hope combines the Word of God with the different disciplines to teach how God is present in every aspect of our lives and teaches biblical principles found in scripture.`,
     ],
   },
 ];

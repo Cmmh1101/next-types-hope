@@ -20,7 +20,7 @@ const SingleProgram = ({ program }: IPrograms) => {
           <div className={classes.text}>
             <div className={classes.float}>
               <Image
-                src={program.image}
+                src={program.programImage1.image}
                 alt={program.alt}
                 height={300}
                 width={300}
@@ -33,9 +33,9 @@ const SingleProgram = ({ program }: IPrograms) => {
           </div>
         </div>
         <ImagesSection
-          imageLeft={program.image}
+          imageLeft={program.programImage2.image}
           altLeft={program.alt}
-          imageRight={program.programImage1.image}
+          imageRight={program.programImage3.image}
           altRight={program.alt}
         />
       </section>

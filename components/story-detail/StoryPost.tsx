@@ -20,7 +20,7 @@ const StoryPost = ({ story }: Props) => {
           <div className={classes.text}>
             <div className={classes.float}>
               <Image
-                src={story.image}
+                src={story.storyImage3.image}
                 alt={story.alt}
                 height={300}
                 width={300}
@@ -32,7 +32,7 @@ const StoryPost = ({ story }: Props) => {
             })}
           </div>
         </div>
-        <ImagesSection imageLeft={story.image} altLeft={story.alt} imageRight={story.storyImage1.image} altRight={story.alt} />
+        <ImagesSection imageLeft={story.storyImage1.image} altLeft={story.alt} imageRight={story.storyImage2.image} altRight={story.alt} />
       </section>
       <QuoteBlock>
         <p>{story.highligh}</p>
