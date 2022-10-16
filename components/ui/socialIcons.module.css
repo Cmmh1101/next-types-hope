@@ -20,7 +20,6 @@
 .icons a:hover, .icons a:focus   {
   margin: 0 1rem;
   transform: scale(1.2);
-  outline: 2px #333 solid;
 }
 .icons .fb:hover {
   color: #136aad;
@@ -49,18 +48,6 @@
     justify-content: center;
     align-items: center;
     margin: 3rem 0;
-  }
-  .icons a {
-    margin: 1rem;
-    transition: all 0.3s ease-in-out;
-    color: rgb(0, 179, 255);
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
-    box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
   }
 }
 @media (max-width: 680px) {

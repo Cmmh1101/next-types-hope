@@ -24,7 +24,7 @@ const SingleStoryPage = (props: Props) => {
   return (
     <>
       <Header
-        subtitleDeco="Stories"
+        subtitleDeco="Stories of hope"
         titleDeco={story.title}
         image={story.image}
         altText={story.title}

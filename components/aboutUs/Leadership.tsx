@@ -7,11 +7,11 @@ import luzProfile from "../../public/images/team/profile-luz.png";
 
 const Leadership = () => {
   const teamMembers = [
-    {
-      fullName: "Luzbell Wood",
-      ocupation: "Founder & Director",
-      photo: "/images/team/profile-luz.png",
-    },
+    // {
+    //   fullName: "Luzbell Wood",
+    //   ocupation: "Founder & Director",
+    //   photo: "/images/team/profile-luz.png",
+    // },
     {
       fullName: "Aimee Wood",
       ocupation: "Director & Digital Designer",
@@ -30,7 +30,7 @@ const Leadership = () => {
     {
       fullName: "Maria Brady",
       ocupation: "Project Manager",
-      photo: "/images/team/face-placeholder.png",
+      photo: "/images/team/profile-maria.png",
     },
     {
       fullName: "Ana Salcedo",
@@ -111,8 +111,8 @@ const Leadership = () => {
               <div className={classes.teamImg}>
                 <Image
                   src={member.photo}
-                  width={100}
-                  height={100}
+                  width={200}
+                  height={200}
                   layout="fixed"
                   alt={member.fullName}
                 />

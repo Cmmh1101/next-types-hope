@@ -3,9 +3,9 @@ import { IStoriesData } from "./interfaces/StoriesData";
 const articles: IStoriesData[] = [
   {
     name: "dylans-story",
-    title: "Dylan's story",
+    title: "Dylan Perez",
     date: "08/04/2021",
-    image: "/images/storiesImgs/Dylan-Baseball.png",
+    image: "/images/storiesImgs/Dylan-bandera-Venezuela.jpeg",
     // icon: "/images/bread.png",
     // description: "Dylans's Story",
     storyImage1: {
@@ -17,7 +17,7 @@ const articles: IStoriesData[] = [
         alt: "Dylan at School"
     },
     storyImage3: {
-        image: "/images/storiesImgs/Dylan-bandera-Venezuela.jpeg",
+        image: "/images/storiesImgs/Dylan-Baseball.png",
         alt: "Dylan"
     },
     // storyImage4: {
@@ -36,7 +36,7 @@ const articles: IStoriesData[] = [
   },
   {
     name: "anas-story",
-    title: "Ana's story",
+    title: "Ana Jimenez",
     date: "08/04/2021",
     image: "/images/storiesImgs/ana1.jpg",
     // icon: "/images/bread.png",
@@ -69,7 +69,7 @@ const articles: IStoriesData[] = [
   },
   {
     name: "hector-story",
-    title: "Hectors's story",
+    title: "Hector Romero",
     date: "08/04/2021",
     image: "/images/storiesImgs/hector-1.jpg",
     // icon: "/images/bread.png",
@@ -101,7 +101,7 @@ const articles: IStoriesData[] = [
   },
   {
     name: "karla-story",
-    title: "Karla's story",
+    title: "Karla Reyes",
     date: "08/04/2021",
     image: "/images/storiesImgs/ana1.jpg",
     // icon: "/images/bread.png",
@@ -133,7 +133,7 @@ const articles: IStoriesData[] = [
   },
   {
     name: "daniela-story",
-    title: "Daniela's story",
+    title: "Daniela Castillo",
     date: "08/04/2021",
     image: "/images/storiesImgs/ana1.jpg",
     // icon: "/images/bread.png",
@@ -165,7 +165,7 @@ const articles: IStoriesData[] = [
   },
   {
     name: "alsimyr-story",
-    title: "Alsimyr's story",
+    title: "Alsimyr Vargas",
     date: "08/04/2021",
     image: "/images/storiesImgs/ana1.jpg",
     // icon: "/images/bread.png",

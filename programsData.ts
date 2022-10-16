@@ -58,33 +58,30 @@ const programs: IProgramsData[] = [
   },
   {
     name: "fish-farming-program",
-    title: "Farming Program",
+    title: "Fish Farming",
     date: "04/20/2021",
     image: "/images/programs/fish1.png",
     icon: "/images/general/fish.png",
     // description: "Fish Farming Program",
-    alt: "",
+    alt: "Fish farmin project",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     programImage1: {
         image: "/images/programs/fish1.png",
-        alt: "Dylan at School"
+        alt: "Fish farmin project"
     },
     programImage2: {
         image: "/images/programs/fish1.png",
-        alt: "Dylan"
+        alt: "Fish farmin project"
     },
     programImage3: {
         image: "/images/programs/fish1.png",
-        alt: "Dylan with a baseball trophy"
+        alt: "Fish farmin project"
     },
     featured: true,
-    highligh: `The fish harvest will provide a great resource of protein food sources. Also, farmers can sell part of the fish to the community in order to generate income. Fish will be selling for half price in order to benefit the community giving farmers a sustainable source of income.
-
-The project integrates solutions to socio-economic and environmental challenges and will empower Christians women and men from the city of Maracay, Aragua in Venezuela.`,
+    highligh: `John 21:5  Jesus called out to them "Friends, have you caught any fish?" "No," they replied. Then he said, "Throw out your net on the right-hand side of the boat, and you'll get some!" So they did, and they couldn't haul in the net because there were so many fish in it.  Jesus teaches us the importance of fish. Fish was useful for food, but it also was an income for many people.`,
     content: [
-      `The goal of fishing farming (aquaculture) is to teach fish farming skills to the community's people. The purpose is to provide a living for families and feeding the population that lives in disadvantaged areas.`,
-      `The idea of supporting the community with the project "Waters of Hope." Fish farming will help many families and bring food to these communities at the same time they become independently self-sufficient. Venezuela is going through a difficult economic situation where thousands of families suffer from food shortages.`,
-      `The idea of supporting the community with the project “Waters of Hope” starts with a group of Christians group that get together to find a solution with the current situation of the country. A fish farming initiative helps many families and brings food to the community. Hope for the Nations provides training, material, tools and support and work with other fish farmers from the United States.`,
+      `Our vision is to create fishing farming that allows us to be sustainable and helps promote and develop fishing farm activities that benefit the entire community.`,`The goal of fishing farming (aquaculture) is to teach fish farming skills to the community's people. The purpose is to provide a living for families and feeding the population that lives in disadvantaged areas.`,
+      `The idea of supporting the community with the project "Waters of Hope." Fish farming will help many families and bring food to these communities at the same time they become independently self-sufficient. Venezuela is going through a difficult economic situation where thousands of families suffer from food shortages.`,`The fish harvest will provide a great resource of protein food sources. Also, farmers can sell part of the fish to the community in order to generate income. Fish will be selling for half price in order to benefit the community giving farmers a sustainable source of income. The project integrates solutions to socio-economic and environmental challenges and will empower Christians women and men from the city of Maracay, Aragua in Venezuela.`,`The idea of supporting the community with the project “Waters of Hope” starts with a group of Christians group that get together to find a solution with the current situation of the country. A fish farming initiative helps many families and brings food to the community. Hope for the Nations provides training, material, tools and support and work with other fish farmers from the United States.`,`Providing food to the community is our priority. Venezuela is going through a difficult economic situation where thousands of families suffer from food shortages. The idea of supporting the community with the "Productive Waters" project arises. Planting fish can considerably help many families to bring food to their tables.`,`In the southwestern region of the country, the contamination of the rivers, the effect of overfishing, and the population increase, among others, have motivated agricultural producers to change their field and practice aquaculture as an alternative production and socioeconomic development. `,`The shrimp farms have incorporated factors of socioeconomic development through the construction of access roads, absorption of labor, and implementation of services, among the most important.`,`Our vision is to create fishing farming that allows us to be sustainable and helps promote and develop fishing farm activities that benefit the entire community. `, `Our goal is: To promote fishing and aquaculture activity. Dictate measures for the conservation of resources subject to fishing and aquaculture. Define research programs to be developed in coordination with the community.`, `As the disciples followed Jesus, they saw Jesus miraculously multiplying the fish and loaves and feeding the hungry as a sign of God's compassion. We believe God put these desires on us to help the needy, but we also know they need to get fed more than once. That's we believe this project would be a benefit to the community and the environment.`,
     ],
   },
   {

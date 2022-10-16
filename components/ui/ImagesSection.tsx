@@ -19,6 +19,7 @@ const ImagesSection = ({imageLeft, altLeft, imageRight, altRight}: Props) => {
               height={400}
               width={400}
               layout="responsive"
+              objectFit='cover'
             />
           </div>
           <div className={classes.img}>
@@ -28,6 +29,7 @@ const ImagesSection = ({imageLeft, altLeft, imageRight, altRight}: Props) => {
               height={400}
               width={400}
               layout="responsive"
+              objectFit='cover'
             />
           </div>
         </div>

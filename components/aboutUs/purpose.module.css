@@ -26,23 +26,24 @@
     letter-spacing: 2px;
     margin-bottom: 1rem;
    }
-.divImg {
+/* .divImg {
     width: 100%;
-}
-.div .imgFloat {
+} */
+/* .div .imgFloat {
     float: right;
-    width: 350px;
-    height: 350px;
+    width: 49%;
+    height: 300px;
+    max-height: 350px;
     margin-left: 1rem;
-}
-.div .imgFloatLeft {
+} */
+/* .div .imgFloatLeft {
     float: left;
-    width: 350px;
-    height: 350px;
-    margin: 0 3rem 2.5rem 0;
+    width: 49%;
+    max-height: 350px;
+    margin: 0 1rem 1rem 0;
     border-radius: 5px;
     overflow: hidden;
-}
+} */
 
 @media (max-width: 980px) {
    .section .div {

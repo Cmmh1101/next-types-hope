@@ -15,7 +15,7 @@ const StoryPost = ({ story }: Props) => {
   return (
     <ArticleSections>
       <section className={classes.section}>
-        <Heading title={story.title} />
+        {/* <Heading title={story.title} /> */}
         <div className={classes.article}>
           <div className={classes.text}>
             <div className={classes.float}>

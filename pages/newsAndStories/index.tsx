@@ -12,7 +12,7 @@ const story = getAllStories()
   return (
     <section className={classes.section}>
       <Header
-        title="Meet Some Of Our Beneficiaries"
+        title="Stories Of Hope"
         description="We have a variety of programs that benefit different communities, from the little ones to the elderly." image={heroImg} altText="Beneficiarie of light of hope program, receiving tools to open their heir style business"
       />
       <main>

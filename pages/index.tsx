@@ -59,8 +59,8 @@ const Home: NextPage = () => {
           description="Our mission is to bring hope through the gospel of Christ to Venezuelans by teaching  the word of God to all people so that everyone knows the good news of this Gospel and to meet the physical needs for families living in extreme poverty."
           background={"../../images/team/voluntarios.jpg"}
         />
-        <MainSections>
-          <ProgramsList programs={programs} listTitle="Our Programs" />
+        <MainSections className={classes.list}>
+          <ProgramsList programs={programs} listTitle="Our Programs" className={classes.ul} />
         </MainSections>
         <Banner
           title="What We Do"

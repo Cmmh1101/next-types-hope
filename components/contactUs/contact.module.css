@@ -17,6 +17,7 @@
          flex-direction: column;
     }
     .section div {
+        width: 100%;
         text-align: center;
     }
     .section .info {

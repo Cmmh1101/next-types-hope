@@ -5,6 +5,8 @@ import classes from "./purpose.module.css";
 import Heading from "../ui/Heading";
 import logo from "../../public/logo.png";
 import volunteeers from "../../public/images/team/voluntarios.jpg";
+import maracay from '../../public/images/team/leadership-maracay.jpg'
+import ImagesSection from "../ui/ImagesSection";
 
 const Purpose = () => {
   return (
@@ -38,16 +40,15 @@ const Purpose = () => {
         </p>
         <div className={classes.divImg}>
           <Heading subtitle="Who we are" />
-          <div className={classes.imgFloat}>
+          {/* <div className={classes.imgFloat}>
             <Image
               src={logo}
-              width={350}
-              height={350}
               alt="Founder Luzbell Woods"
-              layout="intrinsic"
-              priority
+              height={300}
+              width={300}
+              layout="responsive"
             />
-          </div>
+          </div> */}
           <p>
             Hope for the Nations is a non-profit, Christian organization. We
             count on a ministry of ambassadors that serves children, older
@@ -60,18 +61,20 @@ const Purpose = () => {
             of sustainable programs to bring solutions while bringing God`&aposs
             Hope.
           </p>
-        </div>
-        <div className={classes.divImg}>
+        {/* </div>
+        <div className={classes.divImg}> */}
           <Heading subtitle="Our Mission" />
-          <div className={classes.imgFloatLeft}>
+          {/* <div className={classes.imgFloatLeft}>
             <Image
               src={volunteeers}
-              width={350}
-              height={350}
+              height={300}
+              width={300}
+              layout="responsive"
               alt="Founder Luzbell Woods"
-              layout="intrinsic"
+              objectFit="cover"
+              objectPosition="top center"
             />
-          </div>
+          </div> */}
           <p>
             Our mission is to bring hope through the gospel of Christ to
             Venezuelans by teaching the word of God to all people so that
@@ -89,7 +92,12 @@ const Purpose = () => {
             participate and grow as they become independent and productive
             community members.
           </p>
+          <Heading subtitle="Our Vision" />
+          <p>
+          Hope for the Nations desires to preach the Gospel and make the Word of God known in every corner of Venezuela, that there be more witnesses to his love, fidelity, and mercy every day.
+          </p>
         </div>
+        <ImagesSection imageLeft={volunteeers} altLeft={""} imageRight={maracay} altRight={""} />
         <QuoteBlock>
           <q>
             We plant the seed in them, and we hope this seed flourish and give

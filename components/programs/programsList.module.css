@@ -6,6 +6,30 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 3rem;
-    padding: 0;
-    /* padding: 3rem 10%; */
+    padding: 3rem 10%;
+}
+
+@media (max-width: 980px) {
+    .menu ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        padding: 0 6%;
+    }
+}
+@media (max-width: 680px) {
+    .menu ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        padding: 0;
+    }
 }
