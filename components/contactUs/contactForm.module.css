@@ -23,6 +23,7 @@
 
 .form input[type=text], .form input[type=email], .form textarea {
   width: 100%;
+  color: #ffffff;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
