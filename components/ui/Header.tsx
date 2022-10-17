@@ -37,6 +37,7 @@ const Header = ({
         layout="fill"
         objectFit="cover"
         objectPosition="center top"
+        priority
       />
       <div className={`${classes.container} container`}>
         <div className={classes.section}>

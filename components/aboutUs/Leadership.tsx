@@ -24,7 +24,7 @@ const Leadership = () => {
     // },
     {
       fullName: "Carla Montano",
-      ocupation: "Tech Director",
+      ocupation: "Software Engineer",
       photo: "/images/team/profile-carla.png",
     },
     {
@@ -34,7 +34,7 @@ const Leadership = () => {
     },
     {
       fullName: "Ana Salcedo",
-      ocupation: "Leader - Caracas, Vzla",
+      ocupation: "Director Ejecutivo - Venezuela",
       photo: "/images/team/profile-ana.png",
     },
     // {
@@ -49,6 +49,11 @@ const Leadership = () => {
       fullName: "Nancy Valera",
       ocupation: "Assist. Director Development",
       project: "",
+    },
+    {
+      fullName: "Evel Castro",
+      ocupation: "Director Executive - Venezuela",
+      // photo: "../../../images/leadership/profile-carla.png",
     },
     { fullName: "Lerymar Castillo", ocupation: "Media", project: "" },
     { fullName: "Barbara Poncio", ocupation: "Operativa", project: "" },
