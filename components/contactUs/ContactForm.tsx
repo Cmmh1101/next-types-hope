@@ -9,7 +9,7 @@ const ContactForm = (props: Props) => {
       className={classes.form}
       name="contact"
       method="POST"
-      action="/Success"
+      action="/success"
       data-netlify="true"
     >
       <input type="hidden" name="contact" value="contact" />

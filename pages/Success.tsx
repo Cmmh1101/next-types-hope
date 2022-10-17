@@ -24,7 +24,6 @@ const Success = () => {
           layout="responsive"
         />
         </div>
-       
       </MainSections>
   );
 };
