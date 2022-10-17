@@ -57,7 +57,7 @@ const Home: NextPage = () => {
         <Banner
           title="Mission"
           description="Our mission is to bring hope through the gospel of Christ to Venezuelans by teaching  the word of God to all people so that everyone knows the good news of this Gospel and to meet the physical needs for families living in extreme poverty."
-          background={"../../images/team/voluntarios.jpg"}
+          background={"/images/team/voluntarios.jpg"}
         />
         <MainSections className={classes.list}>
           <ProgramsList programs={programs} listTitle="Our Programs" className={classes.ul} />
@@ -65,7 +65,7 @@ const Home: NextPage = () => {
         <Banner
           title="What We Do"
           description="At the present time, we have programs are open to communities in need from the children to the elder members. We believe we can make a difference in the lives of children, parents, grandparents and families, to break the circle of poverty in our community."
-          background={"../../images/programs/hunger9.png"}
+          background={"/images/programs/hunger9.png"}
         />
           <StoriesList
             stories={stories}

@@ -1,11 +1,11 @@
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 import React from "react";
 import classes from "./contactForm.module.css";
 
 type Props = {};
 
 const ContactForm = (props: Props) => {
-  const router = useRouter();
+  // const router = useRouter();
 
   // const handleSubmit = () => {
   //   router.push("/ContactUs/success");
