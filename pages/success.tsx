@@ -11,9 +11,6 @@ const Success = () => {
   return (
       <MainSections className={classes.section}>
         <Heading title="Form successfully submitted!" />
-        {/* <Link href="/">
-          <a>Go To Home Page</a>
-        </Link> */}
         <Button link="/" text="Go To Home Page" />
         <div>
         <Image

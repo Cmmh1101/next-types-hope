@@ -1,15 +1,23 @@
+import { useRouter } from "next/router";
 import React from "react";
 import classes from "./contactForm.module.css";
 
 type Props = {};
 
 const ContactForm = (props: Props) => {
+  const router = useRouter()
+
+  const handleSubmit = () => {
+    router.push('/success')
+  }
+
   return (
     <form
       className={classes.form}
       name="contact"
       method="POST"
-      action="/success"
+      // action="/success"
+      onSubmit={handleSubmit}
       data-netlify="true"
     >
       <input type="hidden" name="contact" value="contact" />
