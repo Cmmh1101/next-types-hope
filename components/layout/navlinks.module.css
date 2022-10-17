@@ -1,5 +1,6 @@
 .active {
-    color: #023490;
+    color: #2934ca;
+    transform: scale(1.2);
 }
 
 /* @media (prefers-color-scheme: dark) {

@@ -23,7 +23,11 @@
   font-size: 6rem;
   margin-top: 0;
   letter-spacing: 3px;
-  color: #ffffff;
+  color:#ffffff;
+  /* color: #0f98fa;
+  background: -webkit-linear-gradient(90deg, #82d6f7, #e6f2f7 ); */
+  /* background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .titleDeco {

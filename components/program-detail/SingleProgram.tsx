@@ -15,7 +15,7 @@ const SingleProgram = ({ program }: IPrograms) => {
   return (
     <ArticleSections>
       <section className={classes.section}>
-        <Heading title={program.title} />
+        {/* <Heading title={program.title} /> */}
         <div className={classes.article}>
           <div className={classes.text}>
             <div className={classes.float}>
@@ -25,6 +25,7 @@ const SingleProgram = ({ program }: IPrograms) => {
                 height={300}
                 width={300}
                 layout="responsive"
+                objectFit="cover"
               />
             </div>
             {program.content?.map((paragraph, i) => {

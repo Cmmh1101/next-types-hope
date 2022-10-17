@@ -14,8 +14,8 @@ const NavLinks = ({ className, donateLink, toggle }: Props) => {
   const router = useRouter()
 
   return (
-    <nav className={className}>
-        <Link href="/" role="link" aria-name="home page link">
+    <nav className={`${className} ${classes.navLinks}`}>
+      <Link href="/" role="link" aria-name="home page link">
           <a className={`${router.pathname == '/' && classes.active}`} onClick={toggle}>
             Home
           </a>
@@ -40,9 +40,10 @@ const NavLinks = ({ className, donateLink, toggle }: Props) => {
             Contact Us
           </a>
         </Link>
-      <div className={donateLink}>
+      <div className={`${donateLink} ${classes.bonate}`}>
         <DonateBtn />
       </div>
+       
     </nav>
   );
 };

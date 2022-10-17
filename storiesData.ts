@@ -99,55 +99,55 @@ const articles: IStoriesData[] = [
       `He does not complain about the condition in which he was born but diligently works with his hands. He needed a razor to be able to continue working, and he lovingly told us that God listened to his request.`,
     ],
   },
-  {
-    name: "karla-story",
-    title: "Karla Reyes",
-    date: "08/04/2021",
-    image: "/images/storiesImgs/ana1.jpg",
-    // icon: "/images/bread.png",
-    // description: "Hector Romero Entrepreneurship Program",
-    storyImage1: {
-        image: "/images/storiesImgs/ana1.jpg",
-        alt: "Karla Reyes"
-    },
-      storyImage2: {
-        image: "/images/storiesImgs/ana2.jpg",
-        alt: "Karla Reyes"
-    },
-    storyImage3: {
-        image: "/images/storiesImgs/ana1.jpg",
-        alt: "Karla Reyes"
-    },
-    // storyImage4: {
-    //     image: "/images/storiesImgs/ana1.jpg",
-    //     alt: "Karla Reyes"
-    // },
-    alt: "Hector receiving work tools to start his business",
-    featured: false,
-    highligh:
-      "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
-    content: [
-      `Karla Reyes lives with her husband, her children and is waiting for a new member of her family. They live in Caracas - Montalban Urbanism Juan Vive Suria.`,
-      `Although she already works as a hairdresser, she lacked some tools to be able to do her job. He was given two tools to continue supporting his entrepreneurship. His goal is to find a place to place his hairdressing business.`,
-    ],
-  },
+  // {
+  //   name: "karla-story",
+  //   title: "Karla Reyes",
+  //   date: "08/04/2021",
+  //   image: "/images/storiesImgs/ana1.jpg",
+  //   // icon: "/images/bread.png",
+  //   // description: "Hector Romero Entrepreneurship Program",
+  //   storyImage1: {
+  //       image: "/images/storiesImgs/ana1.jpg",
+  //       alt: "Karla Reyes"
+  //   },
+  //     storyImage2: {
+  //       image: "/images/storiesImgs/ana2.jpg",
+  //       alt: "Karla Reyes"
+  //   },
+  //   storyImage3: {
+  //       image: "/images/storiesImgs/ana1.jpg",
+  //       alt: "Karla Reyes"
+  //   },
+  //   // storyImage4: {
+  //   //     image: "/images/storiesImgs/ana1.jpg",
+  //   //     alt: "Karla Reyes"
+  //   // },
+  //   alt: "Hector receiving work tools to start his business",
+  //   featured: false,
+  //   highligh:
+  //     "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
+  //   content: [
+  //     `Karla Reyes lives with her husband, her children and is waiting for a new member of her family. They live in Caracas - Montalban Urbanism Juan Vive Suria.`,
+  //     `Although she already works as a hairdresser, she lacked some tools to be able to do her job. He was given two tools to continue supporting his entrepreneurship. His goal is to find a place to place his hairdressing business.`,
+  //   ],
+  // },
   {
     name: "daniela-story",
     title: "Daniela Castillo",
     date: "08/04/2021",
-    image: "/images/storiesImgs/ana1.jpg",
+    image: "/images/storiesImgs/daniela1.jpg",
     // icon: "/images/bread.png",
     // description: "Hector Romero Entrepreneurship Program",
     storyImage1: {
-        image: "/images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/daniela3.jpeg",
         alt: "Daniela Castillo"
     },
     storyImage2: {
-        image: "/images/storiesImgs/ana2.jpg",
+        image: "/images/storiesImgs/daniela5.jpeg",
         alt: "Daniela Castillo"
     },
     storyImage3: {
-        image: "/images/storiesImgs/ana1.jpg",
+        image: "/images/storiesImgs/daniela2.jpg",
         alt: "Daniela Castillo"
     },
     // storyImage4: {
@@ -163,38 +163,38 @@ const articles: IStoriesData[] = [
       `The day after she received her pastry kit, Daniela sent a photo with her first order, which fills us with joy because although this is a drop in the ocean, we are pleased to see a mother full of hope for her and her children.`,
     ],
   },
-  {
-    name: "alsimyr-story",
-    title: "Alsimyr Vargas",
-    date: "08/04/2021",
-    image: "/images/storiesImgs/ana1.jpg",
-    // icon: "/images/bread.png",
-    // description: "Alsimyr Vargas Entrepreneurship Program",
-    storyImage1: {
-        image: "/images/storiesImgs/ana1.jpg",
-        alt: "Alsimyr Vargas"
-    },
-      storyImage2: {
-        image: "/images/storiesImgs/ana2.jpg",
-        alt: "Alsimyr Vargas"
-    },
-    storyImage3: {
-        image: "/images/storiesImgs/ana1.jpg",
-        alt: "Alsimyr Vargas"
-    },
-    // storyImage4: {
-    //     image: "/images/storiesImgs/ana1.jpg",
-    //     alt: "Alsimyr Vargas"
-    // },
-    alt: "Daniela Castillo receiving work tools to start his business",
-    featured: false,
-    highligh:
-      "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
-    content: [
-      `Alsimyr Vargas is an 18-year-old girl who lives in Caracas, Quinta Crespo- Venezuela. Unfortunately, her mother passed away, but she has the support of her father, Rafael Vargas.`,
-      ` Alsimyr finished her high school studies, but she wants to continue her studies in Architecture. She requested a pastry kit to work selling delicious cakes and thus help her in her studies.`,
-    ],
-  },
+  // {
+  //   name: "alsimyr-story",
+  //   title: "Alsimyr Vargas",
+  //   date: "08/04/2021",
+  //   image: "/images/storiesImgs/ana1.jpg",
+  //   // icon: "/images/bread.png",
+  //   // description: "Alsimyr Vargas Entrepreneurship Program",
+  //   storyImage1: {
+  //       image: "/images/storiesImgs/ana1.jpg",
+  //       alt: "Alsimyr Vargas"
+  //   },
+  //     storyImage2: {
+  //       image: "/images/storiesImgs/ana2.jpg",
+  //       alt: "Alsimyr Vargas"
+  //   },
+  //   storyImage3: {
+  //       image: "/images/storiesImgs/ana1.jpg",
+  //       alt: "Alsimyr Vargas"
+  //   },
+  //   // storyImage4: {
+  //   //     image: "/images/storiesImgs/ana1.jpg",
+  //   //     alt: "Alsimyr Vargas"
+  //   // },
+  //   alt: "Daniela Castillo receiving work tools to start his business",
+  //   featured: false,
+  //   highligh:
+  //     "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
+  //   content: [
+  //     `Alsimyr Vargas is an 18-year-old girl who lives in Caracas, Quinta Crespo- Venezuela. Unfortunately, her mother passed away, but she has the support of her father, Rafael Vargas.`,
+  //     ` Alsimyr finished her high school studies, but she wants to continue her studies in Architecture. She requested a pastry kit to work selling delicious cakes and thus help her in her studies.`,
+  //   ],
+  // },
 
 ];
 

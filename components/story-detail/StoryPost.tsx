@@ -25,6 +25,7 @@ const StoryPost = ({ story }: Props) => {
                 height={300}
                 width={300}
                 layout="responsive"
+                objectFit="cover"
               />
             </div>
             {story.content.map((paragraph, i) => {

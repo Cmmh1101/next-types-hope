@@ -23,7 +23,7 @@ const StoryItem = ({ story }: IStory) => {
       <div className={classes.description}>
         <h3>{story.title}</h3>
         <p>{story.content.toString().substring(0, 100)}...</p>
-        <span>Read full story...</span>
+        <span>Read story...</span>
       </div>
     </section>
   );
