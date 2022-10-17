@@ -16,7 +16,7 @@ const ContactForm = (props: Props) => {
       className={classes.form}
       name="contact"
       method="POST"
-      // action="/success"
+      action="/success"
       // onSubmit={() => handleSubmit()}
       data-netlify="true"
     >
