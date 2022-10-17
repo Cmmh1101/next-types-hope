@@ -15,15 +15,15 @@ const ContactForm = (props: Props) => {
       <input type="hidden" name="contact" value="contact" />
       <p>
         <label htmlFor="name">Your Name:</label> <br />
-        <input type="text" name="name" id="name" />
+        <input type="text" name="name" id="name" required />
       </p>
       <p>
         <label htmlFor="email">Your Email:</label> <br />
-        <input type="email" name="email" id="email" />
+        <input type="email" name="email" id="email" required />
       </p>
       <p>
         <label htmlFor="message">Message:</label> <br />
-        <textarea name="message" id="message"></textarea>
+        <textarea name="message" id="message" required></textarea>
       </p>
       <p>
         <button type="submit">Send</button>
