@@ -5,11 +5,11 @@ import classes from "./contactForm.module.css";
 type Props = {};
 
 const ContactForm = (props: Props) => {
-  const router = useRouter()
+  const router = useRouter();
 
-  const handleSubmit = () => {
-    router.push('/success')
-  }
+  // const handleSubmit = () => {
+  //   router.push("/ContactUs/success");
+  // };
 
   return (
     <form
@@ -17,7 +17,7 @@ const ContactForm = (props: Props) => {
       name="contact"
       method="POST"
       // action="/success"
-      onSubmit={handleSubmit}
+      // onSubmit={() => handleSubmit()}
       data-netlify="true"
     >
       <input type="hidden" name="contact" value="contact" />
