@@ -7,21 +7,11 @@ import luzProfile from "../../public/images/team/profile-luz.png";
 
 const Leadership = () => {
   const teamMembers = [
-    // {
-    //   fullName: "Luzbell Wood",
-    //   ocupation: "Founder & Director",
-    //   photo: "/images/team/profile-luz.png",
-    // },
     {
       fullName: "Aimee Wood",
       ocupation: "Director & Digital Designer",
       photo: "/images/team/profile-gaby.png",
     },
-    // {
-    //   fullName: "Nancy Valera",
-    //   ocupation: "Assist. Director Development",
-    //   photo: "/images/face-placeholder.png",
-    // },
     {
       fullName: "Carla Montano",
       ocupation: "Software Engineer",
@@ -34,14 +24,9 @@ const Leadership = () => {
     },
     {
       fullName: "Ana Salcedo",
-      ocupation: "Director Ejecutivo - Venezuela",
+      ocupation: "Excutive Director - Venezuela",
       photo: "/images/team/profile-ana.png",
     },
-    // {
-    //   fullName: "Evel Castro",
-    //   ocupation: "Leader - Caracas, Vzla",
-    //   photo: "../../../images/leadership/profile-carla.png",
-    // },
   ];
 
   const volunteers = [
@@ -52,7 +37,7 @@ const Leadership = () => {
     },
     {
       fullName: "Evel Castro",
-      ocupation: "Director Executive - Venezuela",
+      ocupation: "Executive Director - Venezuela",
       // photo: "../../../images/leadership/profile-carla.png",
     },
     { fullName: "Lerymar Castillo", ocupation: "Media", project: "" },
@@ -88,13 +73,13 @@ const Leadership = () => {
           <p>
             Luzbell Woods Founder of Hope for The Nations, is from Venezuela and
             currently resides in Tennessee, US. Where she serves youth students
-            teaching and sharing God`&aposs word.
+            teaching and sharing God&apos;s word.
           </p>
           <p>
             Her passion has always been to help and serve others, which lead her
             to found Hope For The Nations, where her and her family have been
             dedicating to help unfortunate communities in her home country
-            Venezuela through God`&aposs word and donations received she shares Hope
+            Venezuela through God&apos;s word and donations received she shares Hope
             and opportunities to the needed.
           </p>
         </div>
