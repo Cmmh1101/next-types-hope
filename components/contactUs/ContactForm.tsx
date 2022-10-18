@@ -19,7 +19,7 @@ const ContactForm = (props: Props) => {
       method="POST"
       onSubmit={handleSubmit}
       netlify-honeypot="bot-field"
-      data-netlify-recaptcha="true"
+      // data-netlify-recaptcha="true"
       data-netlify="true"
     >
       <p className={classes.hidden}>

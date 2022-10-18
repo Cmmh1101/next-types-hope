@@ -1,9 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import QuoteBlock from "../ui/QuoteBlock";
 import classes from "./purpose.module.css";
 import Heading from "../ui/Heading";
-import logo from "../../public/logo.png";
 import volunteeers from "../../public/images/team/voluntarios.jpg";
 import maracay from '../../public/images/team/leadership-maracay.jpg'
 import ImagesSection from "../ui/ImagesSection";
@@ -40,41 +38,19 @@ const Purpose = () => {
         </p>
         <div className={classes.divImg}>
           <Heading subtitle="Who we are" />
-          {/* <div className={classes.imgFloat}>
-            <Image
-              src={logo}
-              alt="Founder Luzbell Woods"
-              height={300}
-              width={300}
-              layout="responsive"
-            />
-          </div> */}
           <p>
             Hope for the Nations is a non-profit, Christian organization. We
             count on a ministry of ambassadors that serves children, older
-            people, and families in Venezuela`&aposs most impoverished area. As we
+            people, and families in Venezuela&apos;s most impoverished area. As we
             help them, we bring the gospel nurturing not only with physical
             needs but we spiritual needs as well.
           </p>
           <p>
             We began our work formerly in 2018. In 2020 we started with a series
-            of sustainable programs to bring solutions while bringing God`&aposs
+            of sustainable programs to bring solutions while bringing God&apos;s
             Hope.
           </p>
-        {/* </div>
-        <div className={classes.divImg}> */}
           <Heading subtitle="Our Mission" />
-          {/* <div className={classes.imgFloatLeft}>
-            <Image
-              src={volunteeers}
-              height={300}
-              width={300}
-              layout="responsive"
-              alt="Founder Luzbell Woods"
-              objectFit="cover"
-              objectPosition="top center"
-            />
-          </div> */}
           <p>
             Our mission is to bring hope through the gospel of Christ to
             Venezuelans by teaching the word of God to all people so that
