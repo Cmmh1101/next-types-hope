@@ -1,23 +1,24 @@
-// import { useRouter } from "next/router";
-import React from "react";
+import { useRouter } from "next/router";
+import React, { SyntheticEvent } from "react";
 import classes from "./contactForm.module.css";
 
 type Props = {};
 
 const ContactForm = (props: Props) => {
-  // const router = useRouter();
+  const router = useRouter();
 
-  // const handleSubmit = () => {
-  //   router.push("/ContactUs/success");
-  // };
+  const handleSubmit = (e: SyntheticEvent) => {
+    e.preventDefault()
+    router.push("/success");
+  };
 
   return (
     <form
       className={classes.form}
       name="contact"
       method="POST"
-      action="/success"
-      // onSubmit={() => handleSubmit()}
+      // action="/success"
+      onSubmit={handleSubmit}
       data-netlify="true"
     >
       <input type="hidden" name="contact" value="contact" />

@@ -104,12 +104,13 @@ const Leadership = () => {
             width={350}
             height={350}
             alt="Founder Luzbell Woods"
-            layout="intrinsic"
+            layout="responsive"
+            objectFit="cover"
           />
         </div>
       </div>
       <Heading subtitle="Leadership Team" />
-      <div className={classes.flex}>
+      <div className={classes.team}>
         {teamMembers.map((member) => {
           return (
             <div key={member.fullName} className={classes.memberBox}>
@@ -131,7 +132,7 @@ const Leadership = () => {
         })}
       </div>
       <Heading subtitle="Venezuelan Team" />
-      <div className={classes.flex}>
+      <div className={classes.team}>
         {volunteers.map((member) => {
           return (
             <div key={member.fullName} className={classes.memberBox}>
