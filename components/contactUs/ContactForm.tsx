@@ -17,6 +17,7 @@ const ContactForm = (props: Props) => {
       className={classes.form}
       name="contact"
       method="POST"
+      action="/success"
       onSubmit={handleSubmit}
       netlify-honeypot="bot-field"
       data-netlify="true"
