@@ -11,7 +11,7 @@ const MobileNav = (props: Props) => {
   return (
     <nav className={classes.header}>
       <div className={classes.logo}>
-        <Link href="/" role="link" aria-name="home page link">
+        <Link href="/" role="link" aria-label="home page link">
           <a>
           <Image src={logo} alt="logo" layout='responsive' width={200} height={200} priority />
           </a>
