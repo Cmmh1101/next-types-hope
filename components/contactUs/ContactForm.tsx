@@ -19,12 +19,11 @@ const ContactForm = (props: Props) => {
       method="POST"
       onSubmit={handleSubmit}
       netlify-honeypot="bot-field"
-      // data-netlify-recaptcha="true"
       data-netlify="true"
     >
       <p className={classes.hidden}>
     <label>
-      Don't fill this out if you're human: <input name="bot-field" />
+      Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
     </label>
   </p>
       <p>
@@ -39,7 +38,6 @@ const ContactForm = (props: Props) => {
         <label htmlFor="message">Message:</label> <br />
         <textarea name="message" id="message"></textarea>
       </p>
-      {/* <div data-netlify-recaptcha="true"></div> */}
       <p>
         <button type="submit">Send</button>
       </p>
