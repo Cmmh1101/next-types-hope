@@ -7,10 +7,10 @@ type Props = {};
 const ContactForm = (props: Props) => {
   const router = useRouter();
 
-  const handleSubmit = (e: SyntheticEvent) => {
-    e.preventDefault()
-    router.push("/success");
-  };
+  // const handleSubmit = (e: SyntheticEvent) => {
+  //   e.preventDefault()
+  //   router.push("/success");
+  // };
 
   return (
     <form
@@ -18,16 +18,18 @@ const ContactForm = (props: Props) => {
       name="contact"
       method="POST"
       action="/success"
-      onSubmit={handleSubmit}
+      // onSubmit={handleSubmit}
       netlify-honeypot="bot-field"
       data-netlify="true"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <p className={classes.hidden}>
-    <label>
-      Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
-    </label>
-  </p>
-  <input type="hidden" name="contact" value="contact" />
+        <label>
+          Don&apos;t fill this out if you&apos;re human:{" "}
+          <input name="bot-field" />
+        </label>
+      </p>
+
       <p>
         <label htmlFor="name">Your Name:</label> <br />
         <input type="text" name="name" id="name" />
