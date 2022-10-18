@@ -26,6 +26,7 @@ const ContactForm = (props: Props) => {
       Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
     </label>
   </p>
+  <input type="hidden" name="form-name" value="contact" />
       <p>
         <label htmlFor="name">Your Name:</label> <br />
         <input type="text" name="name" id="name" />
