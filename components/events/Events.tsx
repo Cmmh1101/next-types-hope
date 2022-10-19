@@ -29,7 +29,6 @@ const Events = (props: Props) => {
         <h4>How?</h4>
         <p style={{marginBottom: 0}}>
           <em>
-            Tickets availabe{" "} 
             <a href="/eventbrite.com" role="link" className={classes.link}>
               Buy ticket here
             </a>
