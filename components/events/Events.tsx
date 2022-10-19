@@ -31,7 +31,7 @@ const Events = (props: Props) => {
           <em>
             Tickets availabe{" "} 
             <a href="/eventbrite.com" role="link" className={classes.link}>
-              here
+              Buy ticket here
             </a>
           </em>
         </p>
