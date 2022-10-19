@@ -39,6 +39,7 @@ const Navbar = () => {
           aria-label="open navigation toggle"
           aria-expanded={open ? true : false}
           aria-haspopup="true"
+          aria-controls="menu"
           className={classes.toggle}
           onClick={setNavOpen}
         >
@@ -46,6 +47,7 @@ const Navbar = () => {
         </button>
         <NavLinks
           donateLink={classes.donateLink}
+          open={open}
           className={
             open
               ? `${classes.mobileNav}`
