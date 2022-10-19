@@ -8,13 +8,14 @@ interface Props {
   className?: string;
   donateLink?: string
   toggle?: () => void
+  open?: boolean 
 }
 
-const NavLinks = ({ className, donateLink, toggle }: Props) => {
+const NavLinks = ({ className, donateLink, toggle, open }: Props) => {
   const router = useRouter()
 
   return (
-    <nav className={`${className} ${classes.navLinks}`}>
+    <nav id="menu" className={`${className} ${classes.navLinks}`} aria-hidden={open ? false : true}>
       <Link href="/" role="link" aria-label="home page link">
           <a className={`${router.pathname == '/' && classes.active}`} onClick={toggle}>
             Home

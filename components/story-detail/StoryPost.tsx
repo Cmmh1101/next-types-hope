@@ -15,7 +15,6 @@ const StoryPost = ({ story }: Props) => {
   return (
     <ArticleSections>
       <section className={classes.section}>
-        {/* <Heading title={story.title} /> */}
         <div className={classes.article}>
           <div className={classes.text}>
             <div className={classes.float}>
@@ -26,6 +25,7 @@ const StoryPost = ({ story }: Props) => {
                 width={300}
                 layout="responsive"
                 objectFit="cover"
+                priority
               />
             </div>
             {story.content.map((paragraph, i) => {
