@@ -35,8 +35,6 @@ const Navbar = () => {
       <div className={classes.navigation}>
         <DonateBtn className={classes.donate} aria-label="donate link" />
         <button
-          role="button"
-          aria-label="open navigation toggle"
           aria-expanded={open ? true : false}
           aria-haspopup="true"
           aria-controls="menu"
