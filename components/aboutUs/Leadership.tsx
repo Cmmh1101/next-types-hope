@@ -18,11 +18,6 @@ const Leadership = () => {
       photo: "/images/team/profile-carla.png",
     },
     {
-      fullName: "Maria Brady",
-      ocupation: "Project Manager",
-      photo: "/images/team/profile-maria.png",
-    },
-    {
       fullName: "Ana Salcedo",
       ocupation: "Excutive Director - Venezuela",
       photo: "/images/team/profile-ana.png",
@@ -79,8 +74,8 @@ const Leadership = () => {
             Her passion has always been to help and serve others, which lead her
             to found Hope For The Nations, where her and her family have been
             dedicating to help unfortunate communities in her home country
-            Venezuela through God&apos;s word and donations received she shares Hope
-            and opportunities to the needed.
+            Venezuela through God&apos;s word and donations received she shares
+            Hope and opportunities to the needed.
           </p>
         </div>
         <div className={classes.img}>
