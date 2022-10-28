@@ -33,7 +33,6 @@ const Leadership = () => {
     {
       fullName: "Evel Castro",
       ocupation: "Executive Director - Venezuela",
-      // photo: "../../../images/leadership/profile-carla.png",
     },
     { fullName: "Lerymar Castillo", ocupation: "Media", project: "" },
     { fullName: "Barbara Poncio", ocupation: "Operativa", project: "" },
