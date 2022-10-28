@@ -36,11 +36,15 @@ const Events = (props: Props) => {
         </time>
         <h3>How?</h3>
         <p style={{ marginBottom: 0 }}>
-          <em>
-            <a href="/eventbrite.com" role="link" className={classes.link}>
-              Buy your tickets here
-            </a>
-          </em>
+          <a
+            href="https://www.eventbrite.com/e/444950668427"
+            role="link"
+            target="_blank"
+            rel="noreferrer"
+            className={classes.link}
+          >
+            Buy your tickets here
+          </a>
         </p>
       </div>
       <div className={`${classes.div} ${classes.img}`}>
