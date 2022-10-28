@@ -14,10 +14,10 @@ const Events = (props: Props) => {
       <div className={classes.div}>
         <p>
           You are invited to join us for a{" "}
-          <em>Latin Christmas Dinner "A NIGHT OF HOPE"</em> to raise fund to
-          build "Casa Esperanza": a house of hope in Venezuela which will
-          provide the space needed to continue our programs with children,
-          youth, and the elderly.
+          <em>Latin Christmas Dinner &quot; A NIGHT OF HOPE&quot;</em> to raise
+          fund to build &quot;Casa Esperanza&quot;: a house of hope in Venezuela
+          which will provide the space needed to continue our programs with
+          children, youth, and the elderly.
         </p>
         <h3>Where?</h3>
         <address>
