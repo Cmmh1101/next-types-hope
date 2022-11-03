@@ -48,7 +48,7 @@ const Events = (props: Props) => {
         </p>
       </div>
       <div className={`${classes.div} ${classes.img}`}>
-        <Image src={eventPost} alt="Event Post" layout="responsive" />
+        <Image src={eventPost} alt="Event Post" layout="responsive" priority />
       </div>
       <div className={classes.donate}>
         <p>
