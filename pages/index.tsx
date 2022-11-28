@@ -8,7 +8,7 @@ import Header from "../components/ui/Header";
 import Heading from "../components/ui/Heading";
 import MainSections from "../components/ui/MainSections";
 import SocialIcons from "../components/ui/SocialIcons";
-import FacebookFeed from "../components/facebook/FacebookFeed"
+import FacebookFeed from "../components/facebook/FacebookFeed";
 import { getAllPrograms } from "../programsData";
 import heroImg from "../public/images/general/hero-image.jpg";
 import { getAllStories } from "../storiesData";
@@ -47,31 +47,35 @@ const Home: NextPage = () => {
         <MainSections className={classes.background}>
           <BibleVerses />
         </MainSections>
-        <MainSections className={classes.events}>
-        <Heading
+        {/* <MainSections className={classes.events}>
+          <Heading
             title="Next Events"
             decoText="Join us on our Harvest For Good!"
           />
           <Events />
-        </MainSections>
+        </MainSections> */}
         <Banner
           title="Mission"
           description="Our mission is to bring hope through the gospel of Christ to Venezuelans by teaching  the word of God to all people so that everyone knows the good news of this Gospel and to meet the physical needs for families living in extreme poverty."
           background={"../../images/team/voluntarios.jpg"}
         />
         <MainSections className={classes.list}>
-          <ProgramsList programs={programs} listTitle="Our Programs" className={classes.ul} />
+          <ProgramsList
+            programs={programs}
+            listTitle="Our Programs"
+            className={classes.ul}
+          />
         </MainSections>
         <Banner
           title="What We Do"
           description="At the present time, we have programs are open to communities in need from the children to the elder members. We believe we can make a difference in the lives of children, parents, grandparents and families, to break the circle of poverty in our community."
           background={"../../images/programs/hunger9.png"}
         />
-          <StoriesList
-            stories={stories}
-            listTitle="Stories of hope"
-            className={classes.main}
-          />
+        <StoriesList
+          stories={stories}
+          listTitle="Stories of hope"
+          className={classes.main}
+        />
         <MainSections className={classes.gray}>
           <FacebookFeed />
         </MainSections>
