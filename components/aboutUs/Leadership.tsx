@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { FC } from "react";
+import React from "react";
 import Heading from "../ui/Heading";
 import classes from "./leadership.module.css";
 import luzProfile from "../../public/images/team/profile-luz.png";
