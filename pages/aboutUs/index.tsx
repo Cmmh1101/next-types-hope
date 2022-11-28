@@ -4,17 +4,24 @@ import Leadership from "../../components/aboutUs/Leadership";
 import Purpose from "../../components/aboutUs/Purpose";
 import ArticleSections from "../../components/ui/ArticleSection";
 import Header from "../../components/ui/Header";
-import { getAllMembers, teamMembers } from "../../leadership";
+import { getAllMembers, getAllVolunteers, volunteers } from "../../leadership";
 import heroImg from "../../public/images/team/voluntarios.jpg";
 
 interface Members {
   teamMembers: TeamMemberProps[];
+  volunteers: VolunteerProps[];
 }
 
 interface TeamMemberProps {
   fullName: string;
   ocupation: string;
   photo: string;
+}
+
+interface VolunteerProps {
+  fullName: string;
+  ocupation: string;
+  project: string;
 }
 
 const AboutUs: NextPage<Members> = ({ teamMembers }) => {
@@ -29,29 +36,21 @@ const AboutUs: NextPage<Members> = ({ teamMembers }) => {
         altText="Hope for the nations Venezuela Volunteers group"
         overlay="dark"
       />
-      {/* <div>
-        {teamMembers.map((item, i) => {
-          return (
-            <div key={i}>
-              <p>{item.fullName}</p>
-            </div>
-          );
-        })}
-        team
-      </div> */}
       <ArticleSections>
         <Purpose />
-        <Leadership teamMembers={teamMembers} />
+        <Leadership teamMembers={teamMembers} volunteers={volunteers} />
       </ArticleSections>
     </>
   );
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const member = await getAllMembers();
+  const members = await getAllMembers();
+  const volunteers = await getAllVolunteers();
   return {
     props: {
-      teamMembers: member,
+      teamMembers: members,
+      volunteers: volunteers,
     },
   };
 };

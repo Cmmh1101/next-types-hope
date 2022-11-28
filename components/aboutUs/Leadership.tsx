@@ -3,11 +3,12 @@ import React, { FC } from "react";
 import Heading from "../ui/Heading";
 import classes from "./leadership.module.css";
 import luzProfile from "../../public/images/team/profile-luz.png";
-import { getAllMembers } from "../../leadership";
+import { getAllMembers, getAllVolunteers } from "../../leadership";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
 
 interface Members {
   teamMembers: TeamMemberProps[];
+  volunteers: VolunteerProps[];
 }
 
 interface TeamMemberProps {
@@ -16,79 +17,13 @@ interface TeamMemberProps {
   photo: string;
 }
 
-const Leadership = ({ teamMembers }: Members) => {
-  // const { team } = props;
-  // console.log(team, "team");
+interface VolunteerProps {
+  fullName: string;
+  ocupation: string;
+  project: string;
+}
 
-  // const teamMembers = [
-  //   // {
-  //   //   fullName: "Luzbell Wood",
-  //   //   ocupation: "Founder & Director",
-  //   //   photo: "/images/team/profile-luz.png",
-  //   // },
-  //   {
-  //     fullName: "Aimee Wood",
-  //     ocupation: "Director & Digital Designer",
-  //     photo: "/images/team/profile-gaby.png",
-  //   },
-  //   // {
-  //   //   fullName: "Nancy Valera",
-  //   //   ocupation: "Assist. Director Development",
-  //   //   photo: "/images/face-placeholder.png",
-  //   // },
-  //   {
-  //     fullName: "Carla Montano",
-  //     ocupation: "Tech Director",
-  //     photo: "/images/team/profile-carla.png",
-  //   },
-  //   {
-  //     fullName: "Maria Brady",
-  //     ocupation: "Project Manager",
-  //     photo: "/images/team/profile-maria.png",
-  //   },
-  //   {
-  //     fullName: "Ana Salcedo",
-  //     ocupation: "Leader - Caracas, Vzla",
-  //     photo: "/images/team/profile-ana.png",
-  //   },
-  //   // {
-  //   //   fullName: "Evel Castro",
-  //   //   ocupation: "Leader - Caracas, Vzla",
-  //   //   photo: "../../../images/leadership/profile-carla.png",
-  //   // },
-  // ];
-
-  const volunteers = [
-    {
-      fullName: "Nancy Valera",
-      ocupation: "Assist. Director Development",
-      project: "",
-    },
-    { fullName: "Lerymar Castillo", ocupation: "Media", project: "" },
-    { fullName: "Barbara Poncio", ocupation: "Operativa", project: "" },
-    {
-      fullName: "Lizllisay de Lopez",
-      ocupation: "Assist. Director Finance",
-      project: "",
-    },
-    { fullName: "Yliana Sosa", ocupation: "Legal Dpt", project: "" },
-    {
-      fullName: "Eladio Lopez",
-      ocupation: "Operations",
-      project: "Fishing Farming Program",
-    },
-    {
-      fullName: "Cecilio Olivo",
-      ocupation: "Communities affairs",
-      project: "Community Garden Program",
-    },
-    {
-      fullName: "Hugo Valera",
-      ocupation: "Ambassador",
-      project: "Community Garden Program",
-    },
-  ];
-
+const Leadership = ({ teamMembers, volunteers }: Members) => {
   return (
     <section className={classes.section}>
       <Heading subtitle="Meet Our Leadership Team" />
@@ -141,7 +76,7 @@ const Leadership = ({ teamMembers }: Members) => {
       </div>
       <Heading subtitle="Venezuelan Team" />
       <div className={classes.flex}>
-        {volunteers.map((member) => {
+        {volunteers?.map((member) => {
           return (
             <div key={member.fullName} className={classes.memberBox}>
               <div className={classes.smallBox}>
@@ -156,33 +91,14 @@ const Leadership = ({ teamMembers }: Members) => {
   );
 };
 
-// Leadership.defaultProps = {
-//   content: {
-//     features: [{ title: "default feature", body: "default body" }],
-//     hero: { title: "default title", body: "default body" },
-//   },
-// };
-
-// export const getStaticProps: GetStaticProps = async () => {
-//   const lead = leadership.published.leaders;
-
+// export const getStaticProps: GetStaticProps = async (context) => {
+//   const members = await getAllMembers();
+//   const volunteers = await getAllVolunteers();
 //   return {
 //     props: {
-//       content: lead,
-//       // content: [{ name: "carla", title: "developer" }],
-//       // volunteers: leadership.published.volunteers
+//       teamMembers: members,
+//       volunteers: volunteers,
 //     },
-//   };
-// };
-
-// export const getStaticProps: GetStaticProps = async () => {
-//   const leaders = await getAllMembers();
-
-//   return {
-//     props: {
-//       leaders: leaders,
-//     },
-//     revalidate: 60,
 //   };
 // };
 

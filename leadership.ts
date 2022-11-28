@@ -10,11 +10,6 @@ export const teamMembers = [
       photo: "/images/team/profile-carla.png",
     },
     {
-      fullName: "Maria Brady",
-      ocupation: "Project Manager",
-      photo: "/images/team/profile-maria.png",
-    },
-    {
       fullName: "Ana Salcedo",
       ocupation: "Leader - Caracas, Vzla",
       photo: "/images/team/profile-ana.png",
@@ -112,3 +107,7 @@ export const leadership = {
       project: "Community Garden Program",
     },
   ];
+
+  export function getAllVolunteers() {
+  return volunteers;
+}
