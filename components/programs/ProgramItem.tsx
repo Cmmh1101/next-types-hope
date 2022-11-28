@@ -14,7 +14,7 @@ const ProgramItem = ({program}: IProgram) => {
       <Image src={program.icon} alt={program.alt} width={70} height={70} />
       <h3>{program.title}</h3>
       <p>{program?.content?.toString().substring(0, 110)}...</p>
-      <Button link={`/programs/${program.name}`} text="Learn More" className={classes.btn} />
+      <Button link={`/programs/${program.name}`} text="Go to program" className={classes.btn} />
     </div>
   )
 }

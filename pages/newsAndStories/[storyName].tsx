@@ -5,6 +5,8 @@ import { getAllStories, getStoryByName } from "../../storiesData";
 import StoryPost from "../../components/story-detail/StoryPost";
 import heroImg from "../../public/images/programs/light-of-hope-hair-style.jpg";
 import StoriesList from "../../components/stories/StoriesList";
+import BibleVerses from "../../components/verses/BibleVerses";
+import MainSections from "../../components/ui/MainSections";
 
 type Props = {};
 
@@ -15,7 +17,7 @@ const SingleStoryPage = (props: Props) => {
 
   const story = getStoryByName(storyName);
 
-  const stories = getAllStories().filter(story => story.name !== storyName)
+  const stories = getAllStories().filter((story) => story.name !== storyName);
 
   if (!story) {
     return <p>No story found</p>;
@@ -31,7 +33,7 @@ const SingleStoryPage = (props: Props) => {
         overlay="dark"
       />
       <StoryPost story={story} />
-      <StoriesList stories={stories} listTitle='More Stories' />
+      <StoriesList stories={stories} listTitle="More Stories" />
     </>
   );
 };

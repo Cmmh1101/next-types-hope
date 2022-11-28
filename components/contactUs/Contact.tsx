@@ -11,12 +11,12 @@ const Contact = () => {
         <h3>Locations</h3>
         <p>Memphis, TN - Caracas, Venezuela.</p>
         <h3>Contact us</h3>
-        <p>
+        {/* <p>
           Phone: <a href="tel:+1555-555-1212">+1(901)555-5555</a>
-        </p>
+        </p> */}
         <p>
           Email:{" "}
-          <a href="mailto:support@example.com, subject=Mail from our Website">
+          <a href="mailto:admin@hopeforthenations7.org, subject=Mail from our Website">
             Send Email
           </a>
         </p>

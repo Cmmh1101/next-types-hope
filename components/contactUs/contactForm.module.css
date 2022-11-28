@@ -23,6 +23,7 @@
 
 .form input[type=text], .form input[type=email], .form textarea {
   width: 100%;
+  color: #ffffff;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -51,6 +52,13 @@
   font-weight: 600;
 }
 
-@media (max-width: 980px) {
+.hidden {
+  display: none;
+}
 
+@media (min-width: 1200px) {
+  .form {
+    width: 60%;
+    justify-content: center;
+  }
 }

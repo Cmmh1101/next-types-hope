@@ -32,11 +32,10 @@ const Header = ({
         className={classes.imgBox}
         src={image}
         alt={altText}
-        height={400}
-        width={400}
         layout="fill"
         objectFit="cover"
         objectPosition="center top"
+        priority
       />
       <div className={`${classes.container} container`}>
         <div className={classes.section}>
