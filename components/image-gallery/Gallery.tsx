@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "react-image-gallery/styles/css/image-gallery.css";
-import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
-import useSWR from "swr";
-import Image from "next/image";
+import ImageGallery from "react-image-gallery";
+// import useSWR from "swr";
+// import Image from "next/image";
 import { images } from "../../Gallery";
+import classes from "./Gallery.module.css";
 
 // const fetcher = (url: string) => fetch(url).then((r) => r.json());
 
@@ -22,8 +23,13 @@ const Gallery = () => {
   // console.log(Object.values(arrImg), "val");
 
   return (
-    <div>
-      <ImageGallery items={images} autoPlay lazyLoad />
+    <div className={classes.img}>
+      <ImageGallery
+        items={images}
+        autoPlay
+        lazyLoad
+        additionalClass={classes.imageGallery}
+      />
     </div>
   );
 };
