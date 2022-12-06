@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
 // import useSWR from "swr";
@@ -9,7 +9,7 @@ import classes from "./Gallery.module.css";
 // const fetcher = (url: string) => fetch(url).then((r) => r.json());
 
 const Gallery = () => {
-  const [imagesArr, setImagesArr] = useState([]);
+  // const [imagesArr, setImagesArr] = useState([]);
 
   // let arrImg: any = [];
   // const imgs = images.map((img) => img.photo);
