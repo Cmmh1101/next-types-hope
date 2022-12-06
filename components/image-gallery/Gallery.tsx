@@ -1,37 +1,29 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "react-image-gallery/styles/css/image-gallery.css";
-import ImageGallery from "react-image-gallery";
+import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 import useSWR from "swr";
 import Image from "next/image";
+import { images } from "../../Gallery";
 
-const fetcher = (url: string) => fetch(url).then((r) => r.json());
+// const fetcher = (url: string) => fetch(url).then((r) => r.json());
 
 const Gallery = () => {
-  const { data, error } = useSWR(
-    "https://hope-a0b0b-default-rtdb.firebaseio.com/images.json",
-    fetcher
-  );
+  const [imagesArr, setImagesArr] = useState([]);
 
-  console.log(data);
+  // let arrImg: any = [];
+  // const imgs = images.map((img) => img.photo);
 
-  useEffect(() => {
-    if (data) {
-      const galleryItems = [];
-    }
-  }, []);
+  // useEffect(() => {
+  //   // const imgs = images.map((img) => img.photo);
+  //   arrImg.push(imgs);
+  //   console.log(arrImg);
+  // }, []);
+
+  // console.log(Object.values(arrImg), "val");
 
   return (
     <div>
-      {data &&
-        data.map((item: any) => {
-          return (
-            <div>
-              <h4>{item?.title}</h4>
-              <p>{item?.alt}</p>
-              <Image src={item?.url} alt={item?.alt} width={100} height={100} />
-            </div>
-          );
-        })}
+      <ImageGallery items={images} autoPlay lazyLoad />
     </div>
   );
 };
