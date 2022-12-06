@@ -32,3 +32,71 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<!-- ## gallery setup
+
+import React, { useEffect, useState } from "react";
+import "react-image-gallery/styles/css/image-gallery.css";
+import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
+import useSWR from "swr";
+import Image from "next/image";
+import { images } from "../../Gallery";
+
+// const fetcher = (url: string) => fetch(url).then((r) => r.json());
+
+const Gallery = () => {
+  const [imagesArr, setImagesArr] = useState<[]>([]);
+  // const { data, error } = useSWR(
+  //   "https://hope-a0b0b-default-rtdb.firebaseio.com/images.json",
+  //   fetcher
+  // );
+
+  // console.log(data);
+
+  // useEffect(() => {
+  //   if (data) {
+  //     const galleryItems = [];
+  //   }
+  // }, []);
+  // const imagesData = images.map((image) => image.photo);
+
+  let arrImg: any = null;
+
+  useEffect(() => {
+    images.map((img) => arrImg.push(img.photo));
+
+    // arrImg.push()
+    // setImagesArr();
+  }, []);
+  console.log(arrImg);
+
+  return (
+    <div>
+      {images.map((item: any, i: number) => {
+        return (
+          <div key={i}>
+            {item !== null && (
+              <>
+                {" "}
+                <h4>{item?.title}</h4>
+                <p>{item?.alt}</p>
+                <Image
+                  src={item?.url}
+                  alt={item?.alt}
+                  width={300}
+                  height={300}
+                />
+                {/* <img src={item?.image} alt={item.alt} /> */}
+              </>
+            )}
+          </div>
+        );
+      })}
+      <ImageGallery items={arrImg} />
+    </div>
+  );
+};
+
+export default Gallery;
+
+// https://photos.app.goo.gl/JeaPoYTow9WdfEJQ9 -->
