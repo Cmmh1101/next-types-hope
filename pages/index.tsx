@@ -47,13 +47,13 @@ const Home: NextPage = () => {
         <MainSections className={classes.background}>
           <BibleVerses />
         </MainSections>
-        <MainSections className={classes.events}>
+        {/* <MainSections className={classes.events}>
           <Heading
             title="Next Events"
             decoText="Latin Christmas Dinner A NIGHT OF HOPE!"
           />
           <Events />
-        </MainSections>
+        </MainSections> */}
         <Banner
           title="Mission"
           description="Our mission is to bring hope through the gospel of Christ to Venezuelans by teaching  the word of God to all people so that everyone knows the good news of this Gospel and to meet the physical needs for families living in extreme poverty."
@@ -70,6 +70,11 @@ const Home: NextPage = () => {
           title="What We Do"
           description="At the present time, we have programs are open to communities in need from the children to the elder members. We believe we can make a difference in the lives of children, parents, grandparents and families, to break the circle of poverty in our community."
           background={"/images/programs/hunger9.png"}
+        />
+        <StoriesList
+          stories={stories}
+          listTitle="Stories of hope"
+          className={classes.main}
         />
         <StoriesList
           stories={stories}

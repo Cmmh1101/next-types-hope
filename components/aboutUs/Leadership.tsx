@@ -1,64 +1,29 @@
 import Image from "next/image";
 import React from "react";
 import Heading from "../ui/Heading";
-import QuoteBlock from "../ui/QuoteBlock";
 import classes from "./leadership.module.css";
 import luzProfile from "../../public/images/team/profile-luz.png";
+// import { getAllMembers, getAllVolunteers } from "../../leadership";
+// import { GetStaticProps, InferGetStaticPropsType } from "next";
 
-const Leadership = () => {
-  const teamMembers = [
-    {
-      fullName: "Aimee Wood",
-      ocupation: "Director & Digital Designer",
-      photo: "/images/team/profile-gaby.png",
-    },
-    {
-      fullName: "Carla Montano",
-      ocupation: "Software Engineer",
-      photo: "/images/team/profile-carla.png",
-    },
-    {
-      fullName: "Ana Salcedo",
-      ocupation: "Excutive Director - Venezuela",
-      photo: "/images/team/profile-ana.png",
-    },
-  ];
+interface Members {
+  teamMembers: TeamMemberProps[];
+  volunteers: VolunteerProps[];
+}
 
-  const volunteers = [
-    {
-      fullName: "Nancy Valera",
-      ocupation: "Assist. Director Development",
-      project: "",
-    },
-    {
-      fullName: "Evel Castro",
-      ocupation: "Executive Director - Venezuela",
-    },
-    { fullName: "Lerymar Castillo", ocupation: "Media", project: "" },
-    { fullName: "Barbara Poncio", ocupation: "Operativa", project: "" },
-    {
-      fullName: "Lizllisay de Lopez",
-      ocupation: "Assist. Director Finance",
-      project: "",
-    },
-    { fullName: "Yliana Sosa", ocupation: "Legal Dpt", project: "" },
-    {
-      fullName: "Eladio Lopez",
-      ocupation: "Operations",
-      project: "Fishing Farming Program",
-    },
-    {
-      fullName: "Cecilio Olivo",
-      ocupation: "Communities affairs",
-      project: "Community Garden Program",
-    },
-    {
-      fullName: "Hugo Valera",
-      ocupation: "Ambassador",
-      project: "Community Garden Program",
-    },
-  ];
+interface TeamMemberProps {
+  fullName: string;
+  ocupation: string;
+  photo: string;
+}
 
+interface VolunteerProps {
+  fullName: string;
+  ocupation: string;
+  project: string;
+}
+
+const Leadership = ({ teamMembers, volunteers }: Members) => {
   return (
     <section className={classes.section}>
       <Heading subtitle="Meet Our Leadership Team" />
@@ -73,6 +38,7 @@ const Leadership = () => {
             Her passion has always been to help and serve others, which lead her
             to found Hope For The Nations, where her and her family have been
             dedicating to help unfortunate communities in her home country
+
             Venezuela through God&apos;s word and donations received she shares
             Hope and opportunities to the needed.
           </p>
@@ -89,8 +55,8 @@ const Leadership = () => {
         </div>
       </div>
       <Heading subtitle="Leadership Team" />
-      <div className={classes.team}>
-        {teamMembers.map((member) => {
+      <div className={classes.flex}>
+        {teamMembers?.map((member) => {
           return (
             <div key={member.fullName} className={classes.memberBox}>
               <div className={classes.teamImg}>
@@ -111,8 +77,8 @@ const Leadership = () => {
         })}
       </div>
       <Heading subtitle="Venezuelan Team" />
-      <div className={classes.team}>
-        {volunteers.map((member) => {
+      <div className={classes.flex}>
+        {volunteers?.map((member) => {
           return (
             <div key={member.fullName} className={classes.memberBox}>
               <div className={classes.smallBox}>
@@ -126,5 +92,16 @@ const Leadership = () => {
     </section>
   );
 };
+
+// export const getStaticProps: GetStaticProps = async (context) => {
+//   const members = await getAllMembers();
+//   const volunteers = await getAllVolunteers();
+//   return {
+//     props: {
+//       teamMembers: members,
+//       volunteers: volunteers,
+//     },
+//   };
+// };
 
 export default Leadership;

@@ -1,7 +1,7 @@
 import React from "react";
-import ReactPlayer from "react-player/youtube";
-import QuoteBlock from "../ui/QuoteBlock";
-import BibleVerses from "../verses/BibleVerses";
+// import ReactPlayer from 'react-player/youtube'
+// import QuoteBlock from '../ui/QuoteBlock'
+// import BibleVerses from '../verses/BibleVerses'
 import classes from "./HomeIntro.module.css";
 
 const HomeIntro = () => {
@@ -29,13 +29,13 @@ const HomeIntro = () => {
       </div>
       {/* <div>
         <iframe
-          src="https://www.youtube.com/embed/Pch09DVpw10"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-      </div> */}
+              src="https://www.youtube.com/embed/Pch09DVpw10"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+        </div> */}
     </section>
   );
 };
