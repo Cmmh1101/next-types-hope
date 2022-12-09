@@ -9,11 +9,17 @@
 
 .gallery,
 .text {
+  min-width: 400px;
   width: 48%;
+  max-width: 800px;
   height: auto;
   margin-top: 1rem !important;
   overflow: hidden;
   border-radius: 5px;
+}
+
+.text div {
+  margin-bottom: 1rem;
 }
 
 .gallery .img {
@@ -65,3 +71,22 @@
 /* .moveUp {
   transform: translateY(-200px);
 } */
+
+@media (max-width: 1040px) {
+  .section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .gallery,
+  .text {
+    width: 80%;
+  }
+
+  .img {
+    order: 12;
+  }
+  .text {
+    order: 1;
+  }
+}

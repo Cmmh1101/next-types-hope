@@ -11,34 +11,19 @@ interface ImageProps {
 }
 
 const Gallery = () => {
-  const [next, setNext] = useState(false);
-  const [distance, setDistance] = useState<number>(0);
   const [counter, setCounter] = useState<number>(0);
-  const [display, setDisplay] = useState<number>(0);
 
   const handleNext = () => {
     setCounter((prevCount) => prevCount + 1);
-    // setDisplay((prev) => prev + 1);
   };
 
   const handlePrev = () => {
     setCounter((prevCount) => prevCount - 1);
-    // setDisplay((prev) => prev - 1);
   };
 
   const entries = Object.entries(images);
 
   const imagesArr: string[] = [];
-
-  const mapping = entries.map((ent) => imagesArr.push(ent[1].url));
-
-  console.log(
-    entries
-      .filter((current, index) => index === counter)
-      .map((img, i) => {
-        console.log(img[1].url, "UUUURRRRLLLLL", i);
-      })
-  );
 
   console.log(imagesArr, "IMAGES ARRAY");
 
@@ -60,6 +45,24 @@ const Gallery = () => {
 
   return (
     <section className={classes.section}>
+      <div className={classes.text}>
+        <div>
+          <p>
+            Your support is helping us change lives in Venezuelan-needed
+            communities. We have blessed families, the elderly, and children
+            thanks to supporters like you, so we want to say, THANK YOU! <br />
+          </p>
+          <p>
+            This Christmas, we plan to bring joy to Venezuelan children and we
+            still need your help to provide Christmas presents to as many
+            children as possible.
+          </p>
+          <strong>Thank you for your continued support!</strong>
+          <br />
+          <small>Hope For The Nations</small>
+        </div>
+        <DonateBtn />
+      </div>
       <div className={classes.gallery}>
         <div className={classes.img}>
           <span className={classes.btnGroup}>
@@ -101,16 +104,8 @@ const Gallery = () => {
             objectFit="cover"
             className={`${classes.img}`}
           />
-          <figcaption>{currentImage?.alt}</figcaption>
+          {/* <figcaption>{currentImage?.alt}</figcaption> */}
         </div>
-      </div>
-      <div className={classes.text}>
-        <p>
-          We are getting ready to bring some joy children in need in Venezuela,
-          thank you for your donations and for helping us contunie to bring Hope
-          to our Venezuelan kids.
-        </p>
-        <DonateBtn />
       </div>
     </section>
   );
