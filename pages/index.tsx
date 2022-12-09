@@ -7,14 +7,12 @@ import Banner from "../components/ui/Banner";
 import Header from "../components/ui/Header";
 import Heading from "../components/ui/Heading";
 import MainSections from "../components/ui/MainSections";
-import SocialIcons from "../components/ui/SocialIcons";
 import FacebookFeed from "../components/facebook/FacebookFeed";
 import { getAllPrograms } from "../programsData";
 import heroImg from "../public/images/general/hero-image.jpg";
 import { getAllStories } from "../storiesData";
 import classes from "../styles/Home.module.css";
 import BibleVerses from "../components/verses/BibleVerses";
-import Events from "../components/events/Events";
 import Gallery from "../components/image-gallery/Gallery";
 
 const Home: NextPage = () => {

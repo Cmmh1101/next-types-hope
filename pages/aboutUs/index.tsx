@@ -2,8 +2,6 @@ import { GetStaticProps, NextPage } from "next";
 import React from "react";
 import Leadership from "../../components/aboutUs/Leadership";
 import Purpose from "../../components/aboutUs/Purpose";
-import Gallery from "../../components/image-gallery/Gallery";
-// import Gallery from "../../components/image-gallery/Gallery";
 import ArticleSections from "../../components/ui/ArticleSection";
 import Header from "../../components/ui/Header";
 import { getAllMembers, getAllVolunteers, volunteers } from "../../leadership";
@@ -38,9 +36,7 @@ const AboutUs: NextPage<Members> = ({ teamMembers }) => {
         altText="Hope for the nations Venezuela Volunteers group"
         overlay="dark"
       />
-      <Gallery />
       <ArticleSections>
-        {/* <Gallery /> */}
         <Purpose />
         <Leadership teamMembers={teamMembers} volunteers={volunteers} />
       </ArticleSections>

@@ -4,14 +4,13 @@
   justify-content: space-between;
   align-items: center;
   flex-flow: wrap;
-  /* flex-direction: row !important; */
 }
 
 .gallery,
 .text {
   min-width: 400px;
   width: 48%;
-  max-width: 800px;
+  max-width: 700px;
   height: auto;
   margin-top: 1rem !important;
   overflow: hidden;
@@ -24,7 +23,6 @@
 
 .gallery .img {
   width: 100%;
-  /* height: 100%; */
   overflow: hidden;
   background-color: #03307d;
   color: #ffffff;
@@ -55,8 +53,6 @@
 .gallery img {
   width: 100%;
   border: 5px solid;
-  /* display: inline-block; */
-  /* display: flex; */
 }
 
 .gallery figcaption {
@@ -64,13 +60,6 @@
   height: auto;
   padding: 7px 10px 12px;
 }
-/* .img img {
-  border: 5px solid red;
-} */
-
-/* .moveUp {
-  transform: translateY(-200px);
-} */
 
 @media (max-width: 1040px) {
   .section {
