@@ -29,48 +29,4 @@ export const images = [
     url: "/images/programs/entrepreneurship.jpg",
     alt: "description 3",
   },
-  {
-    url: "/images/programs/school-3.jpg",
-    alt: "description 4",
-  },
-  {
-    url: "/images/programs/entrepreneurship.jpg",
-    alt: "description 5",
-  },
-  {
-    url: "/images/programs/school-3.jpg",
-    alt: "description 6",
-  },
-  {
-    url: "/images/programs/entrepreneurship.jpg",
-    alt: "description 7",
-  },
-  {
-    url: "/images/programs/casa-Hogar-el-conde1.jpg",
-    alt: "description 8",
-  },
-  {
-    url: "/images/programs/school-3.jpg",
-    alt: "description 9",
-  },
-  {
-    url: "/images/programs/entrepreneurship.jpg",
-    alt: "description 10",
-  },
-  {
-    url: "/images/programs/school-3.jpg",
-    alt: "description 11",
-  },
-  {
-    url: "/images/programs/entrepreneurship.jpg",
-    alt: "description 12",
-  },
-  {
-    url: "/images/programs/school-3.jpg",
-    alt: "description 13",
-  },
-  {
-    url: "/images/programs/entrepreneurship.jpg",
-    alt: "description 14",
-  },
 ];

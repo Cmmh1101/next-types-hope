@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { images } from "../../Gallery";
 import classes from "./Gallery.module.css";
-import image1 from "public/images/programs/entrepreneurship.jpg";
-import ImagesSection from "../ui/ImagesSection";
-import ImagesDisplay from "./ImagesDisplay";
 import DonateBtn from "../ui/DonateBtn";
+import { FaAngleDoubleRight, FaAngleDoubleLeft } from "react-icons/fa";
 
 interface ImageProps {
   url: string;
@@ -18,50 +16,21 @@ const Gallery = () => {
   const [counter, setCounter] = useState<number>(0);
   const [display, setDisplay] = useState<number>(0);
 
-  // const onNextClick = () => {
-  //   setNext(true);
-  //   setCounter(+1);
-  //   console.log("next clicked");
-  //   setDistance(200);
-  //   const move = distance * 2;
-  //   setDistance(move);
-  // };
-
   const handleNext = () => {
     setCounter((prevCount) => prevCount + 1);
     // setDisplay((prev) => prev + 1);
-    // setDistance((dist) => dist * counter);
   };
 
   const handlePrev = () => {
     setCounter((prevCount) => prevCount - 1);
     // setDisplay((prev) => prev - 1);
-    // setDistance((dist) => dist * counter);
   };
 
-  // useEffect(() => {
-  //   setDistance(distance + counter);
-  // }, [counter]);
-
   const entries = Object.entries(images);
-  console.log(Object.entries(entries), "entries");
-  const single = Object.values(entries[display][1]);
 
   const imagesArr: string[] = [];
 
   const mapping = entries.map((ent) => imagesArr.push(ent[1].url));
-  // } console.log(ent[1].url, "ent"));
-
-  // console.log(single[0], "single");
-
-  console.log(
-    entries.map((currElement, index) => {
-      console.log("The current iteration is: " + index);
-      console.log("The current element is: " + currElement);
-      console.log("\n");
-      return currElement; //equivalent to list[index]
-    })
-  );
 
   console.log(
     entries
@@ -83,10 +52,7 @@ const Gallery = () => {
       });
   };
 
-  // getImage();
-
   useEffect(() => {
-    // setDisplay(counter);
     getImage();
   }, [counter]);
 
@@ -103,31 +69,39 @@ const Gallery = () => {
               onClick={() => {
                 handlePrev();
               }}
+              style={
+                counter === 0
+                  ? { backgroundColor: "#03307d98", color: "#ffffff9d" }
+                  : {}
+              }
             >
-              PREV
+              <FaAngleDoubleLeft aria-label="previous image" />
             </button>
-            <p>{counter}</p>
             <button
               className={classes.btnNext}
               disabled={counter === images.length - 1}
               onClick={() => {
                 handleNext();
               }}
+              style={
+                counter === images.length - 1
+                  ? { backgroundColor: "#03307d98", color: "#ffffff9d" }
+                  : {}
+              }
             >
-              NEXT
+              <FaAngleDoubleRight aria-label="next image" />
             </button>
           </span>
-          <p>{currentImage?.alt}</p>
           <Image
             src={currentImage?.url!}
             alt={currentImage?.alt}
             width={600}
-            height="600"
-            // layout="fill"
-            layout="intrinsic"
+            height={600}
+            layout="responsive"
             objectFit="cover"
             className={`${classes.img}`}
           />
+          <figcaption>{currentImage?.alt}</figcaption>
         </div>
       </div>
       <div className={classes.text}>
@@ -143,5 +117,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-
-// https://photos.app.goo.gl/JeaPoYTow9WdfEJQ9

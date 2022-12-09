@@ -10,7 +10,7 @@
 .gallery,
 .text {
   width: 48%;
-  height: 500px;
+  height: auto;
   margin-top: 1rem !important;
   overflow: hidden;
   border-radius: 5px;
@@ -37,16 +37,26 @@
 }
 .btnGroup > * {
   color: #ffffff;
+  font-size: 1rem;
   background-color: #03307d;
+  display: flex;
+  align-items: center;
   padding: 5px;
   border-radius: 50%;
   border: none;
 }
 
 .gallery img {
+  width: 100%;
   border: 5px solid;
   /* display: inline-block; */
   /* display: flex; */
+}
+
+.gallery figcaption {
+  width: 100%;
+  height: auto;
+  padding: 7px 10px 12px;
 }
 /* .img img {
   border: 5px solid red;
