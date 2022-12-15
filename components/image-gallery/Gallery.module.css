@@ -36,18 +36,36 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
-  top: 50%;
+  top: 45%;
   z-index: 10;
+  transition: all 0.4s ease-in-out;
 }
+
 .btnGroup > * {
   color: #ffffff;
-  font-size: 1rem;
-  background-color: #03307d;
+  background-color: transparent;
   display: flex;
   align-items: center;
   padding: 5px;
   border-radius: 50%;
   border: none;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnGroup:hover > * {
+  transform: scale(1.2);
+}
+
+.btnGroup svg {
+  filter: drop-shadow(4px 1px 5px #03307d);
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.inactive {
+  opacity: 0;
 }
 
 .gallery img {
@@ -58,7 +76,10 @@
 .gallery figcaption {
   width: 100%;
   height: auto;
-  padding: 7px 10px 12px;
+  background-color: #03307db0;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 10px;
 }
 
 @media (max-width: 1040px) {

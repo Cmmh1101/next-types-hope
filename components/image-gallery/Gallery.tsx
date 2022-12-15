@@ -3,7 +3,7 @@ import Image from "next/image";
 import { images } from "../../Gallery";
 import classes from "./Gallery.module.css";
 import DonateBtn from "../ui/DonateBtn";
-import { FaAngleDoubleRight, FaAngleDoubleLeft } from "react-icons/fa";
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
 interface ImageProps {
   url: string;
@@ -28,6 +28,9 @@ const Gallery = () => {
   console.log(imagesArr, "IMAGES ARRAY");
 
   const [currentImage, setCurrentImage] = useState<ImageProps>();
+
+  const prevIsDisable = counter === 0;
+  const nextIsDisable = counter === images.length - 1;
 
   const getImage = () => {
     entries
@@ -67,32 +70,22 @@ const Gallery = () => {
         <div className={classes.img}>
           <span className={classes.btnGroup}>
             <button
-              className={classes.btnPrev}
+              className={prevIsDisable ? classes.inactive : ""}
               disabled={counter === 0}
               onClick={() => {
                 handlePrev();
               }}
-              style={
-                counter === 0
-                  ? { backgroundColor: "#03307d98", color: "#ffffff9d" }
-                  : {}
-              }
             >
-              <FaAngleDoubleLeft aria-label="previous image" />
+              <FaAngleLeft aria-label="previous image" />
             </button>
             <button
-              className={classes.btnNext}
-              disabled={counter === images.length - 1}
+              className={nextIsDisable ? classes.inactive : ""}
+              disabled={nextIsDisable}
               onClick={() => {
                 handleNext();
               }}
-              style={
-                counter === images.length - 1
-                  ? { backgroundColor: "#03307d98", color: "#ffffff9d" }
-                  : {}
-              }
             >
-              <FaAngleDoubleRight aria-label="next image" />
+              <FaAngleRight aria-label="next image" />
             </button>
           </span>
           <Image
@@ -104,7 +97,7 @@ const Gallery = () => {
             objectFit="cover"
             className={`${classes.img}`}
           />
-          {/* <figcaption>{currentImage?.alt}</figcaption> */}
+          <figcaption>{currentImage?.alt}</figcaption>
         </div>
       </div>
     </section>
