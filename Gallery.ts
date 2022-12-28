@@ -31,5 +31,8 @@ export const images = [
     url: "/images/programs/entrepreneurship.png",
     alt: "Empowering new family businesses",
   },
-  
 ];
+
+export function getAllImages() {
+  return images;
+}

@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { images } from "../../Gallery";
+import { getAllImages } from "../../Gallery";
 import classes from "./Gallery.module.css";
 import DonateBtn from "../ui/DonateBtn";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import { GetStaticProps, NextPage } from "next";
 
+interface Images {
+  imagesArr: ImageProps[];
+}
 interface ImageProps {
   url: string;
   alt: string;
 }
 
-const Gallery = () => {
+const Gallery: NextPage<Images> = ({ imagesArr }) => {
   const [counter, setCounter] = useState<number>(0);
 
   const handleNext = () => {
@@ -21,16 +25,14 @@ const Gallery = () => {
     setCounter((prevCount) => prevCount - 1);
   };
 
-  const entries = Object.entries(images);
+  const entries = Object.entries(imagesArr);
 
-  const imagesArr: string[] = [];
-
-  console.log(imagesArr, "IMAGES ARRAY");
+  // console.log(imagesArr);
 
   const [currentImage, setCurrentImage] = useState<ImageProps>();
 
   const prevIsDisable = counter === 0;
-  const nextIsDisable = counter === images.length - 1;
+  const nextIsDisable = counter === imagesArr.length - 1;
 
   const getImage = () => {
     entries
@@ -44,7 +46,7 @@ const Gallery = () => {
     getImage();
   }, [counter]);
 
-  console.log();
+  // console.log(imagesObj, "images here");
 
   return (
     <section className={classes.section}>
@@ -102,6 +104,15 @@ const Gallery = () => {
       </div>
     </section>
   );
+};
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  const allImages = await getAllImages();
+  return {
+    props: {
+      imagesArr: allImages,
+    },
+  };
 };
 
 export default Gallery;
