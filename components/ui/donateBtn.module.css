@@ -1,7 +1,7 @@
 .btn {
   color: #1323b6;
   font-weight: 400;
-  padding: 5px 5px;
+  padding: 8px 15px;
   font-size: 1.5rem;
   border-radius: 5px;
   text-transform: uppercase;
@@ -14,6 +14,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.btn:hover a,
+.btn:focus a {
+  color: #fff;
 }
 .btn:hover,
 .btn:focus {
