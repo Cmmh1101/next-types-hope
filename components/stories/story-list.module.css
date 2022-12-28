@@ -1,39 +1,39 @@
 .menu {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 7rem 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 7rem 10%;
 }
 .menu h2 {
-    margin-bottom: 3rem;
-    text-transform: capitalize;
+  /* margin-bottom: 3rem; */
+  text-transform: capitalize;
 }
-.menu .section{
-    width: 100%;
-    display: flex; 
-    align-items: center;
-    justify-content: center; 
-    flex-wrap: wrap; 
+.menu .section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .menu a {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 3rem 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
 }
 
 @media (max-width: 980px) {
-    .menu a {
-        width: 300px;
-        margin: 3rem 1rem;
-    }
+  .menu a {
+    width: 300px;
+    margin: 3rem 1rem;
+  }
 }
 @media (max-width: 680px) {
-    .menu a {
-        width: 100%;
-    }
+  .menu a {
+    width: 100%;
+  }
 }

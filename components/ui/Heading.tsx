@@ -10,7 +10,8 @@ interface Props {
 const Heading = ({ title, subtitle, decoText }: Props) => {
   return (
     <div className={classes.heading}>
-      <h2 className="wavy">{title}</h2>
+      <h2>{title}</h2>
+      {title && <div className={classes.wavy} />}
       {subtitle && <h3 className="wavy">{subtitle}</h3>}
       {decoText && <span>{decoText}</span>}
     </div>
