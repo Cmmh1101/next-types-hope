@@ -10,21 +10,22 @@
   background-color: #00b7ff;
 }
 .btn a {
+  color: #1323b6;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.btn a:hover {
+/* .btn a:hover {
   color: #fff;
-}
+} */
 
-.btn:hover a,
-.btn:focus a {
-  color: #fff;
-  transform: scale(1.05);
-}
 .btn:hover,
 .btn:focus {
   transform: scale(1.05);
+}
+.btn:hover a,
+.btn:focus a {
+  transform: scale(1.05);
+  color: #fff;
 }
