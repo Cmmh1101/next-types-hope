@@ -15,6 +15,9 @@
   justify-content: center;
   align-items: center;
 }
+.btn a:hover {
+  color: #fff;
+}
 
 .btn:hover a,
 .btn:focus a {
