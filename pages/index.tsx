@@ -73,11 +73,6 @@ const Home: NextPage = () => {
           listTitle="Stories of hope"
           className={classes.main}
         />
-        <StoriesList
-          stories={stories}
-          listTitle="Stories of hope"
-          className={classes.main}
-        />
         <MainSections className={classes.gray}>
           <FacebookFeed />
         </MainSections>
