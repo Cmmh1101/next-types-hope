@@ -46,11 +46,11 @@ const Home: NextPage = () => {
         <MainSections className={classes.background}>
           <BibleVerses />
         </MainSections>
-        <MainSections className={classes.events}>
-          <Heading title="Next Events" decoText="Christmas 2022" />
-          {/* <Events /> */}
+        {/* <MainSections className={classes.events}>
+          <Heading title="Past Events" decoText="Christmas 2022" />
+          <Events />
           <Gallery />
-        </MainSections>
+        </MainSections> */}
         <Banner
           title="Mission"
           description="Our mission is to bring hope through the gospel of Christ to Venezuelans by teaching  the word of God to all people so that everyone knows the good news of this Gospel and to meet the physical needs for families living in extreme poverty."
