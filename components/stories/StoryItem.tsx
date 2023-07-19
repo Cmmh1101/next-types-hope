@@ -16,7 +16,7 @@ const StoryItem = ({ story }: IStory) => {
           alt={story.title}
           width={300}
           height={300}
-          layout="responsive"
+          loading="lazy"
         />
       </div>
 

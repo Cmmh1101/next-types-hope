@@ -3,8 +3,6 @@ import React from "react";
 import Heading from "../ui/Heading";
 import classes from "./leadership.module.css";
 import luzProfile from "../../public/images/team/profile-luz.png";
-// import { getAllMembers, getAllVolunteers } from "../../leadership";
-// import { GetStaticProps, InferGetStaticPropsType } from "next";
 
 interface Members {
   teamMembers: TeamMemberProps[];
@@ -48,8 +46,8 @@ const Leadership = ({ teamMembers, volunteers }: Members) => {
             width={350}
             height={350}
             alt="Founder Luzbell Woods"
-            layout="responsive"
-            objectFit="cover"
+            placeholder="blur"
+            loading="lazy"
           />
         </div>
       </div>
@@ -63,8 +61,8 @@ const Leadership = ({ teamMembers, volunteers }: Members) => {
                   src={member.photo}
                   width={200}
                   height={200}
-                  layout="fixed"
                   alt={member.fullName}
+                  loading="lazy"
                 />
               </div>
               <div className={classes.info}>

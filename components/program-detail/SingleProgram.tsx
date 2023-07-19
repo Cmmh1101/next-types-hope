@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import { IProgramsData } from "../../interfaces/ProgramsData";
 import ArticleSections from "../ui/ArticleSection";
-import Heading from "../ui/Heading";
 import QuoteBlock from "../ui/QuoteBlock";
 import classes from "./singleProgram.module.css";
 import ImagesSection from "../ui/ImagesSection";
@@ -23,9 +22,7 @@ const SingleProgram = ({ program }: IPrograms) => {
                 alt={program.alt}
                 height={300}
                 width={300}
-                layout="responsive"
-                objectFit="cover"
-                property=""
+                loading="lazy"
               />
             </div>
             {program.content?.map((paragraph, i) => {

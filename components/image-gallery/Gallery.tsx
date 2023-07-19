@@ -7,7 +7,7 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
 interface ImageProps {
   url: string;
-  alt: string;
+  alt: string | undefined;
 }
 
 const Gallery = () => {
@@ -90,11 +90,12 @@ const Gallery = () => {
           </span>
           <Image
             src={currentImage?.url!}
-            alt={currentImage?.alt}
+            alt={currentImage?.alt!}
             width={600}
             height={600}
-            layout="responsive"
-            objectFit="cover"
+            // commented for now. needs version update change
+            // layout="responsive"
+            // objectFit="cover"
             className={`${classes.img}`}
           />
           <figcaption>{currentImage?.alt}</figcaption>

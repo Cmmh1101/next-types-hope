@@ -16,8 +16,9 @@ const ImagesDisplay = ({ url, alt, customClass, imgClass }: Props) => {
         alt={alt}
         width="400"
         height="400"
+        // commented for now. needs v13 changes update
         // layout="fill"
-        objectFit="cover"
+        // objectFit="cover"
         className={imgClass}
       />
     </span>

@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import { IStoriesData } from "../../interfaces/StoriesData";
 import ArticleSections from "../ui/ArticleSection";
-import Heading from "../ui/Heading";
 import QuoteBlock from "../ui/QuoteBlock";
 import classes from "./story-post.module.css";
 import ImagesSection from "../ui/ImagesSection";
@@ -23,8 +22,6 @@ const StoryPost = ({ story }: Props) => {
                 alt={story.alt}
                 height={300}
                 width={300}
-                layout="responsive"
-                objectFit="cover"
                 priority
               />
             </div>

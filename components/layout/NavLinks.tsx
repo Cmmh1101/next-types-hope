@@ -16,30 +16,20 @@ const NavLinks = ({ className, donateLink, toggle, open }: Props) => {
 
   return (
     <nav id="menu" className={`${className} ${classes.navLinks}`} aria-hidden={open ? false : true}>
-      <Link href="/" role="link" aria-label="home page link">
-          <a className={`${router.pathname == '/' && classes.active}`} onClick={toggle}>
+      <Link href="/" className={`${router.pathname == '/' && classes.active}`} onClick={toggle} role="link" aria-label="home page link">
             Home
-          </a>
         </Link>
-        <Link href="/aboutUs" role="link" aria-label="about us page link">
-          <a className={`${router.pathname == '/aboutUs' && classes.active}`} onClick={toggle}>
+        <Link href="/aboutUs" className={`${router.pathname == '/aboutUs' && classes.active}`} onClick={toggle} role="link" aria-label="about us page link">
             About us
-          </a>
         </Link>
-        <Link href="/programs" role="link" aria-label="programs page link">
-          <a className={`${router.pathname.includes('/programs') && classes.active}`} onClick={toggle}>
+        <Link href="/programs" className={`${router.pathname.includes('/programs') && classes.active}`} onClick={toggle} role="link" aria-label="programs page link">
             Programs
-          </a>
         </Link>
-        <Link href="/newsAndStories" role="link" aria-label="stories page link">
-          <a className={`${router.pathname.includes('/newsAndStories') && classes.active}`} onClick={toggle}>
+        <Link href="/newsAndStories" className={`${router.pathname.includes('/newsAndStories') && classes.active}`} onClick={toggle} role="link" aria-label="stories page link">
             News & Stories
-          </a>
         </Link>
-        <Link href="/ContactUs" role="link" aria-label="contact us page link">
-          <a className={`${router.pathname == '/ContactUs' && classes.active}`} onClick={toggle}>
+        <Link href="/ContactUs" className={`${router.pathname == '/ContactUs' && classes.active}`} onClick={toggle} role="link" aria-label="contact us page link">
             Contact Us
-          </a>
         </Link>
       <div className={`${donateLink} ${classes.bonate}`}>
         <DonateBtn />

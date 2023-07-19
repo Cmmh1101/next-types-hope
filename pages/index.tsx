@@ -31,10 +31,9 @@ const Home: NextPage = () => {
           title="Hope For The Nations"
           description="Blesing our communities with the tools to improve their living situation through hope and Gospel"
           buttonText="Go to programs"
-          image={heroImg}
-          altText="Little kid seated on the steets"
           overlay="light"
           link="/programs"
+          videoSrc="../images/videos/shortVideo.mp4"
         />
         <MainSections>
           <Heading

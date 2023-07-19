@@ -10,9 +10,10 @@ interface Props {
   buttonText?: string | undefined;
   bannerTitle?: string;
   overlay?: string;
-  image: StaticImageData | string;
+  image?: StaticImageData | string;
   altText?: string;
   link?: string;
+  videoSrc: string;
 }
 
 const Header = ({
@@ -25,18 +26,21 @@ const Header = ({
   altText,
   image,
   link,
+  videoSrc,
 }: Props) => {
   return (
-    <header className={classes.header}>
-      <Image
+    <header className={ image ? classes.smallHeader : classes.header}>
+      {image ? <Image
         className={classes.imgBox}
         src={image}
-        alt={altText}
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center top"
+        alt={altText!}
+        fill
+        style={{objectFit: 'cover', objectPosition: 'center top'}}
         priority
-      />
+      /> : <video className={classes.imgBox} loop autoPlay muted playsInline>
+      <source src={videoSrc} type="video/mp4" />
+    </video>}
+      
       <div className={`${classes.container} container`}>
         <div className={classes.section}>
           <h1>{title}</h1>

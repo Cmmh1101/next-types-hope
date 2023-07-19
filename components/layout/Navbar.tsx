@@ -20,16 +20,13 @@ const Navbar = () => {
     <nav className={classes.header}>
       <div className={classes.logo}>
         <Link href="/">
-          <a>
             <Image
               src={logo}
               alt="logo"
               width={200}
               height={200}
-              layout="responsive"
               priority
             />
-          </a>
         </Link>
       </div>
       <div className={classes.navigation}>

@@ -19,7 +19,7 @@ const StoriesList = ({stories, listTitle, className}: IStories ) => {
         {stories.map((story, i) => {
           return (
             (
-              <Link href={`/newsAndStories/${story.name}`} key={i}><a><StoryItem story={story} /></a></Link>
+              <Link href={`/newsAndStories/${story.name}`} key={i}><StoryItem story={story} /></Link>
           )
           )
       })}

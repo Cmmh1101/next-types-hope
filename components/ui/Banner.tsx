@@ -18,7 +18,7 @@ const Banner = ({ background, title, description }: Props) => {
       </main>
       <div className={classes.overlay}></div>
       <div className={classes.img}>
-        <Image src={background!} alt="" layout="fill" objectFit="cover" />
+        <Image src={background!} alt="Venezuela Volunteers" width={400} height={400}/>
       </div>
     </section>
   );

@@ -12,36 +12,24 @@ const FooterNavLinks = ({ className }: Props) => {
   const router = useRouter();
   return (
     <nav className={className}>
-      <Link href="/" role="link" aria-label="home page link">
-        <a className={`${router.pathname == "/" && classes.active}`}>Home</a>
+      <Link href="/" role="link" className={`${router.pathname == "/" && classes.active}`} aria-label="home page link">
+        Home
       </Link>
-      <Link href="/aboutUs" role="link" aria-label="about us page link">
-        <a className={`${router.pathname == "/aboutUs" && classes.active}`}>
+      <Link href="/aboutUs" className={`${router.pathname == "/aboutUs" && classes.active}`} role="link" aria-label="about us page link">
           About us
-        </a>
       </Link>
-      <Link href="/programs" role="link" aria-label="programs page link">
-        <a
-          className={`${
+      <Link href="/programs" className={`${
             router.pathname.includes("/programs") && classes.active
-          }`}
-        >
+          }`} role="link" aria-label="programs page link">
           Programs
-        </a>
       </Link>
-      <Link href="/newsAndStories" role="link" aria-label="stories page link">
-        <a
-          className={`${
+      <Link href="/newsAndStories" className={`${
             router.pathname.includes("/newsAndStories") && classes.active
-          }`}
-        >
+          }`} role="link" aria-label="stories page link">
           News & Stories
-        </a>
       </Link>
-      <Link href="/ContactUs" role="link" aria-label="contact us page link">
-        <a className={`${router.pathname == "/ContactUs" && classes.active}`}>
+      <Link href="/ContactUs" className={`${router.pathname == "/ContactUs" && classes.active}`} role="link" aria-label="contact us page link">
           Contact Us
-        </a>
       </Link>
     </nav>
   );

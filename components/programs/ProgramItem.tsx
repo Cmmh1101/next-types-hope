@@ -11,7 +11,7 @@ interface IProgram {
 const ProgramItem = ({program}: IProgram) => {
   return (
     <div className={classes.box}>
-      <Image src={program.icon} alt={program.alt} width={70} height={70} />
+      <Image src={program.icon} alt={program.alt} width={70} height={70} loading='lazy' />
       <h3>{program.title}</h3>
       <p>{program?.content?.toString().substring(0, 110)}...</p>
       <Button link={`/programs/${program.name}`} text="Go to program" className={classes.btn} />

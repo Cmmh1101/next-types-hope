@@ -18,8 +18,7 @@ const ImagesSection = ({ imageLeft, altLeft, imageRight, altRight }: Props) => {
           alt={altLeft}
           height={400}
           width={400}
-          layout="responsive"
-          objectFit="cover"
+          loading="lazy"
         />
       </div>
       <div className={classes.img}>
@@ -28,8 +27,7 @@ const ImagesSection = ({ imageLeft, altLeft, imageRight, altRight }: Props) => {
           alt={altRight}
           height={400}
           width={400}
-          layout="responsive"
-          objectFit="cover"
+          loading="lazy"
         />
       </div>
     </div>

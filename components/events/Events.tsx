@@ -48,14 +48,14 @@ const Events = (props: Props) => {
         </p>
       </div>
       <div className={`${classes.div} ${classes.img}`}>
-        <Image src={eventPost} alt="Event Post" layout="responsive" priority />
+        <Image src={eventPost} alt="Event Post" priority />
       </div>
       <div className={classes.donate}>
         <p>
           If you would like to become one of our sponsors for this event, please{" "}
-          <Link href="/ContactUs">
-            <a className={classes.link}>contact us</a>
-          </Link>{" "}
+          <Link href="/ContactUs" className={classes.link}>
+            Contact us
+          </Link>
           and we will give you more details. If you can not attend, but you
           would like to support our cause and projects, you can use the button
           below to donate

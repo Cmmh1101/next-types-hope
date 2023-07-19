@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import Button from "../components/ui/Button";
 import MainSections from "../components/ui/MainSections";
@@ -12,13 +11,12 @@ const Success = () => {
       <MainSections className={classes.section}>
         <Heading title="Form successfully submitted!" />
         <Button link="/" text="Go To Home Page" />
-        <div>
+        <div className={classes.imageBox}>
         <Image
           src={success}
           alt="success mail sent"
           width={300}
           height={300}
-          layout="responsive"
         />
         </div>
       </MainSections>
