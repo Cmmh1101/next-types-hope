@@ -13,7 +13,7 @@ interface Props {
   image?: StaticImageData | string;
   altText?: string;
   link?: string;
-  videoSrc: string;
+  videoSrc?: string;
 }
 
 const Header = ({
