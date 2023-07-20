@@ -18,7 +18,7 @@ const SocialIcons = ({className}: Props) => {
       <a href='https://www.instagram.com/hopeforthenations7' role="link" aria-label="instagram link" className={classes.in} target="_blank" rel="noreferrer">
         <BsInstagram aria-label="instagram link" />
       </a>
-      <a href='https://www.youtube.com/channel/UCN0GdsHHo__oHqqZ63IUB7g' role="link" aria-label="youtube link" className={classes.yt} target="_blank" rel="noreferrer">
+      <a href='https://www.youtube.com/channel/UCknlRAt1zFByIgx-5MaRrLA' role="link" aria-label="youtube link" className={classes.yt} target="_blank" rel="noreferrer">
         <FaYoutubeSquare aria-label="youtube link" />
       </a>
     </div>
