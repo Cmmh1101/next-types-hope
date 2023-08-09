@@ -29,7 +29,7 @@ const Home: NextPage = () => {
       <main>
         <Header
           title="Hope For The Nations"
-          description="Blesing our communities with the tools to improve their living situation through hope and Gospel"
+          description="Blessing our communities with the tools to improve their living situation through hope and Gospel"
           buttonText="Go to programs"
           overlay="light"
           link="/programs"
