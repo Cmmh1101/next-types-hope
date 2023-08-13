@@ -28,7 +28,7 @@ const Leadership = ({ teamMembers, volunteers }: Members) => {
       <div className={`${classes.flex} ${classes.founder}`}>
         <div className={classes.content}>
           <p>
-            Luzbell Woods Founder of Hope for The Nations, is from Venezuela and
+            Luzbell Wood Founder of Hope for The Nations, is from Venezuela and
             currently resides in Tennessee, US. Where she serves youth students
             teaching and sharing God&apos;s word.
           </p>
@@ -45,7 +45,7 @@ const Leadership = ({ teamMembers, volunteers }: Members) => {
             src={luzProfile}
             width={350}
             height={350}
-            alt="Founder Luzbell Woods"
+            alt="Founder Luzbell Wood"
             placeholder="blur"
             loading="lazy"
           />
