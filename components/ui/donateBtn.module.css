@@ -1,7 +1,7 @@
 .btn {
   color: #1323b6;
   font-weight: 400;
-  padding: 8px 15px;
+  padding: 8px 10px;
   font-size: 1.5rem;
   border-radius: 5px;
   text-transform: uppercase;
@@ -15,10 +15,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0!important;
 }
-/* .btn a:hover {
-  color: #fff;
-} */
 
 .btn:hover,
 .btn:focus {
