@@ -5,7 +5,7 @@ import Purpose from "../../components/aboutUs/Purpose";
 import ArticleSections from "../../components/ui/ArticleSection";
 import Header from "../../components/ui/Header";
 import { getAllMembers, getAllVolunteers, volunteers } from "../../leadership";
-import heroImg from "../../public/images/team/voluntarios.jpg";
+import heroImg from "../../public/images/team/voluntarios-1.jpeg";
 
 interface Members {
   teamMembers: TeamMemberProps[];
