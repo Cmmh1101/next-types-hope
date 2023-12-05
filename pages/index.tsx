@@ -45,9 +45,6 @@ const Home: NextPage = () => {
         <MainSections className={classes.background}>
           <BibleVerses />
         </MainSections>
-        <MainSections>
-          <FacebookFeed />
-        </MainSections>
         {/* <MainSections className={classes.events}>
           <Heading title="Past Events" decoText="Christmas 2022" />
           <Events />
@@ -75,9 +72,9 @@ const Home: NextPage = () => {
           listTitle="Stories of hope"
           className={classes.main}
         />
-        {/* <MainSections className={classes.gray}>
+        <MainSections className={classes.gray}>
           <FacebookFeed />
-        </MainSections> */}
+        </MainSections>
       </main>
     </section>
   );
