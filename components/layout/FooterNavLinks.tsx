@@ -28,9 +28,6 @@ const FooterNavLinks = ({ className }: Props) => {
           }`} role="link" aria-label="stories page link">
           News & Stories
       </Link>
-      <Link href="/ContactUs" className={`${router.pathname == "/ContactUs" && classes.active}`} role="link" aria-label="contact us page link">
-          Contact Us
-      </Link>
     </nav>
   );
 };
