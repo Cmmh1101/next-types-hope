@@ -76,10 +76,10 @@
   }
   .banner main h2 {
     font-size: 3rem;
-    color: #0f98fa;
-    background: -webkit-linear-gradient(90deg, #0875f1, #fdfdfd);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* color: #0f98fa; */
+    /* background: -webkit-linear-gradient(90deg, #0875f1, #fdfdfd);
+    background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
     margin: 0 0 1rem;
   }
   .banner main {

@@ -2,6 +2,10 @@
   padding: 0 2rem;
 }
 
+.list {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .list ul {
   padding: 0 0;
 }

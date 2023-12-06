@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import eventPost from "../../public/images/general/eventPost.svg";
+import christmas2024 from "../../public/images/general/christmas2023.png";
 import classes from "./events.module.css";
 import Heading from "../ui/Heading";
 import DonateBtn from "../ui/DonateBtn";
@@ -11,7 +11,7 @@ type Props = {};
 const Events = (props: Props) => {
   return (
     <section className={classes.section}>
-      <div className={classes.div}>
+      {/* <div className={classes.div}>
         <p>
           You are invited to join us for a{" "}
           <em>Latin Christmas Dinner &quot; A NIGHT OF HOPE&quot;</em> to raise
@@ -46,11 +46,11 @@ const Events = (props: Props) => {
             Buy your tickets here
           </a>
         </p>
-      </div>
-      <div className={`${classes.div} ${classes.img}`}>
-        <Image src={eventPost} alt="Event Post" priority />
-      </div>
-      <div className={classes.donate}>
+      </div> */}
+        <Image src={christmas2024} className={classes.img}  alt="Christmas banner" priority />
+      
+      <DonateBtn className={classes.button } />
+      {/* <div className={classes.donate}>
         <p>
           If you would like to become one of our sponsors for this event, please{" "}
           <Link href="/ContactUs" className={classes.link}>
@@ -61,7 +61,7 @@ const Events = (props: Props) => {
           below to donate
         </p>
         <DonateBtn />
-      </div>
+      </div> */}
     </section>
   );
 };

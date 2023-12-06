@@ -13,6 +13,8 @@ import heroImg from "../public/images/general/hero-image.jpg";
 import { getAllStories } from "../storiesData";
 import classes from "../styles/Home.module.css";
 import BibleVerses from "../components/verses/BibleVerses";
+import Events from "../components/events/Events";
+import Gallery from "../components/image-gallery/Gallery";
 // import Gallery from "../components/image-gallery/Gallery";
 
 const Home: NextPage = () => {
@@ -36,42 +38,50 @@ const Home: NextPage = () => {
           videoSrc="../images/videos/shortVideo.mp4"
         />
         <MainSections>
-          <Heading
-            title="How is God calling you to..."
-            decoText="Help, Love, Give!"
-          />
-          <HomeIntro />
+        <Banner
+          title="What We Do"
+          description="At the present time, we have programs are open to communities in need from the children to the elder members. We believe we can make a difference in the lives of children, parents, grandparents and families, to break the circle of poverty in our community."
+          background={"/images/programs/hunger9.png"}
+        />
         </MainSections>
-        <MainSections className={classes.background}>
-          <BibleVerses />
-        </MainSections>
-        {/* <MainSections className={classes.events}>
-          <Heading title="Past Events" decoText="Christmas 2022" />
-          <Events />
-          <Gallery />
-        </MainSections> */}
+        <Events />
+        <MainSections>
         <Banner
           title="Mission"
           description="Our mission is to bring hope through the gospel of Christ to Venezuelans by teaching  the word of God to all people so that everyone knows the good news of this Gospel and to meet the physical needs for families living in extreme poverty."
           background={"/images/team/leaders.jpg"}
-        />
+          />
+          </MainSections>
+        
         <MainSections className={classes.list}>
           <ProgramsList
             programs={programs}
             listTitle="Our Programs"
             className={classes.ul}
           />
-        </MainSections>
-        <Banner
-          title="What We Do"
-          description="At the present time, we have programs are open to communities in need from the children to the elder members. We believe we can make a difference in the lives of children, parents, grandparents and families, to break the circle of poverty in our community."
-          background={"/images/programs/hunger9.png"}
-        />
-        <StoriesList
+          
+          {/* <Heading
+            title="How is God calling you to..."
+            decoText="Help, Love, Give!"
+          /> */}
+          {/* <HomeIntro /> */}
+          {/* <StoriesList
           stories={stories}
           listTitle="Stories of hope"
           className={classes.main}
-        />
+          /> */}
+        </MainSections>
+        <MainSections className={classes.background}>
+          <BibleVerses />
+        </MainSections>
+        <MainSections className={classes.list}>
+          <StoriesList
+          stories={stories}
+          listTitle="Stories of hope"
+          className={classes.main}
+          />
+        </MainSections>
+        
         <MainSections className={classes.gray}>
           <FacebookFeed />
         </MainSections>

@@ -7,9 +7,9 @@ import SocialIcons from "../ui/SocialIcons";
 import DonateBtn from "../ui/DonateBtn";
 import FooterNavLinks from "./FooterNavLinks";
 import {FaMailBulk} from 'react-icons/fa'
-import Heading from "../ui/Heading";
 
 const Footer = () => {
+  const fullYear = new Date().getFullYear();
   return (
     <footer className={`container ${classes.footer}`}>
       <FooterNavLinks className={classes.navigation} />
@@ -34,6 +34,9 @@ const Footer = () => {
         <DonateBtn />
         <SocialIcons className={classes.socials} />
       </div>
+      <div className="flex justify-center items-center h-10">
+      <small className="text-small">{fullYear} | Hope For The Nations </small>
+    </div>
     </footer>
   );
 };
