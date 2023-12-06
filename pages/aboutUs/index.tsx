@@ -14,13 +14,13 @@ interface Members {
 
 interface TeamMemberProps {
   fullName: string;
-  ocupation: string;
+  occupation: string;
   photo: string;
 }
 
 interface VolunteerProps {
   fullName: string;
-  ocupation: string;
+  occupation: string;
   project: string;
 }
 

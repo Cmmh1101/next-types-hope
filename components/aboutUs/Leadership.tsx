@@ -11,7 +11,7 @@ interface Members {
 
 interface TeamMemberProps {
   fullName: string;
-  ocupation: string;
+  occupation: string;
   photo: string;
 }
 
@@ -67,7 +67,7 @@ const Leadership = ({ teamMembers, volunteers }: Members) => {
               </div>
               <div className={classes.info}>
                 <h4>{member.fullName}</h4>
-                <p>{member.ocupation}</p>
+                <p>{member.occupation}</p>
               </div>
             </div>
           );

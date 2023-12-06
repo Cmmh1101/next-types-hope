@@ -1,20 +1,16 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import HomeIntro from "../components/homePage/HomeIntro";
 import ProgramsList from "../components/programs/ProgramsList";
 import StoriesList from "../components/stories/StoriesList";
 import Banner from "../components/ui/Banner";
 import Header from "../components/ui/Header";
-import Heading from "../components/ui/Heading";
 import MainSections from "../components/ui/MainSections";
 import FacebookFeed from "../components/facebook/FacebookFeed";
 import { getAllPrograms } from "../programsData";
-import heroImg from "../public/images/general/hero-image.jpg";
 import { getAllStories } from "../storiesData";
 import classes from "../styles/Home.module.css";
 import BibleVerses from "../components/verses/BibleVerses";
 import Events from "../components/events/Events";
-import Gallery from "../components/image-gallery/Gallery";
 // import Gallery from "../components/image-gallery/Gallery";
 
 const Home: NextPage = () => {
@@ -59,17 +55,6 @@ const Home: NextPage = () => {
             listTitle="Our Programs"
             className={classes.ul}
           />
-          
-          {/* <Heading
-            title="How is God calling you to..."
-            decoText="Help, Love, Give!"
-          /> */}
-          {/* <HomeIntro /> */}
-          {/* <StoriesList
-          stories={stories}
-          listTitle="Stories of hope"
-          className={classes.main}
-          /> */}
         </MainSections>
         <MainSections className={classes.background}>
           <BibleVerses />

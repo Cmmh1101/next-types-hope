@@ -9,8 +9,22 @@ import ImagesSection from "../ui/ImagesSection";
 const Purpose = () => {
   return (
     <section className={classes.section}>
-      <Heading
-        title="Our Beginning"
+      <div className={classes.divImg}>
+          <Heading title="Who we are" />
+          <p>
+            Hope for the Nations is a non-profit, Christian organization. We
+            count on a ministry of ambassadors that serves children, older
+            people, and families in Venezuela&apos;s most impoverished area. As we
+            help them, we bring the gospel nurturing not only with physical
+            needs but we spiritual needs as well.
+          </p>
+          <p>
+            We began our work formerly in 2018. In 2020 we started with a series
+            of sustainable programs to bring solutions while bringing God&apos;s
+            Hope.
+        </p>
+        <Heading
+        subtitle="Our Beginning"
       />
       <div className={classes.div}>
         <p>
@@ -36,21 +50,17 @@ const Purpose = () => {
           special. My hope is for our brothers in Venezuela to know and embrace
           “The Hope” and to know that God has NOT forgotten this nation.
         </p>
-        <div className={classes.divImg}>
-          <Heading subtitle="Who we are" />
-          <p>
-            Hope for the Nations is a non-profit, Christian organization. We
-            count on a ministry of ambassadors that serves children, older
-            people, and families in Venezuela&apos;s most impoverished area. As we
-            help them, we bring the gospel nurturing not only with physical
-            needs but we spiritual needs as well.
-          </p>
-          <p>
-            We began our work formerly in 2018. In 2020 we started with a series
-            of sustainable programs to bring solutions while bringing God&apos;s
-            Hope.
-          </p>
-          <Heading subtitle="Our Mission" />
+        
+        <ImagesSection imageLeft={volunteeers} altLeft={""} imageRight={maracay} altRight={""} />
+        <QuoteBlock>
+          <q>
+            We plant the seed in them, and we hope this seed flourish and give
+            back their fruits. All these projects aim to help people be
+            sustainable because we do not want to treat the problem; we are
+            looking for long-term solutions.
+          </q>
+        </QuoteBlock>
+          <Heading subtitle="Our Mission"/>
           <p>
             Our mission is to bring hope through the gospel of Christ to
             Venezuelans by teaching the word of God to all people so that
@@ -72,17 +82,9 @@ const Purpose = () => {
           <p>
           Hope for the Nations desires to preach the Gospel and make the Word of God known in every corner of Venezuela, that there be more witnesses to his love, fidelity, and mercy every day.
           </p>
+          </div>
         </div>
-        <ImagesSection imageLeft={volunteeers} altLeft={""} imageRight={maracay} altRight={""} />
-        <QuoteBlock>
-          <q>
-            We plant the seed in them, and we hope this seed flourish and give
-            back their fruits. All these projects aim to help people be
-            sustainable because we do not want to treat the problem; we are
-            looking for long-term solutions.
-          </q>
-        </QuoteBlock>
-      </div>
+      
       <div></div>
     </section>
   );
