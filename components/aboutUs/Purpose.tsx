@@ -2,7 +2,7 @@ import React from "react";
 import QuoteBlock from "../ui/QuoteBlock";
 import classes from "./purpose.module.css";
 import Heading from "../ui/Heading";
-import volunteeers from "../../public/images/team/voluntarios.jpg";
+import volunteers from "../../public/images/team/voluntarios.jpg";
 import maracay from '../../public/images/team/leadership-maracay.jpg'
 import ImagesSection from "../ui/ImagesSection";
 
@@ -51,7 +51,7 @@ const Purpose = () => {
           “The Hope” and to know that God has NOT forgotten this nation.
         </p>
         
-        <ImagesSection imageLeft={volunteeers} altLeft={""} imageRight={maracay} altRight={""} />
+        <ImagesSection imageLeft={volunteers} altLeft={""} imageRight={maracay} altRight={""} />
         <QuoteBlock>
           <q>
             We plant the seed in them, and we hope this seed flourish and give
@@ -62,21 +62,10 @@ const Purpose = () => {
         </QuoteBlock>
           <Heading subtitle="Our Mission"/>
           <p>
-            Our mission is to bring hope through the gospel of Christ to
-            Venezuelans by teaching the word of God to all people so that
-            everyone knows the good news of this Gospel to meet the physical
-            needs for families living in extreme poverty, to transform lives and
-            communities through the Word of God.
+          At Hope for the Nations, we are dedicated to fostering sustainable change in the lives of low-income families and children across Venezuela. Our mission is to empower, educate, and uplift communities through the Word of God. 
           </p>
           <p>
-            We created different sustainable programs to allow them to
-            participate and grow as they become independent.
-          </p>
-          <p>
-            Our purpose is to transform lives and communities through the Word
-            of God. We created different sustainable programs to allow them to
-            participate and grow as they become independent and productive
-            community members.
+          We believe in the power of economic empowerment to transform communities. By supporting sustainable programs, we empower families to create sustainable livelihoods, fostering economic independence and resilience.
           </p>
           <Heading subtitle="Our Vision" />
           <p>

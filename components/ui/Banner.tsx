@@ -10,11 +10,12 @@ interface Props {
 }
 
 const Banner = ({ background, title, description }: Props) => {
+  const splitText = description?.split(".")
   return (
     <section className={classes.banner}>
       <main className="container">
         <h2>{title}</h2>
-        <p>{description}</p>
+        {splitText?.map(text => <p>{text}.</p>)}
       </main>
       <div className={classes.overlay}></div>
       <div className={classes.img}>
