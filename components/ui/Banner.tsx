@@ -15,7 +15,7 @@ const Banner = ({ background, title, description }: Props) => {
     <section className={classes.banner}>
       <main className="container">
         <h2>{title}</h2>
-        {splitText?.map(text => <p>{text}.</p>)}
+        {splitText?.map((text, i) => <p key={i}>{text}.</p>)}
       </main>
       <div className={classes.overlay}></div>
       <div className={classes.img}>
