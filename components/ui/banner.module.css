@@ -1,56 +1,59 @@
 .banner {
   width: 100%;
-  min-height: 60vh;
+  /* min-height: 30vh; */
   height: auto;
   display: flex;
+  flex-flow: wrap;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  box-shadow: 1px;
-  box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
-  -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
-  z-index: 0;
 }
 
-.banner main {
-  z-index: 10;
+.imgLeft {
+  width: 100%;
+  /* min-height: 30vh; */
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.banner main, .imgLeft main {
+  /* z-index: 10; */
+  /* min-width: 400px; */
+  width: 50%;
   text-align: center;
-  padding: 0 10%;
+  padding: 0 30px;
 }
 
-.banner main h2 {
+.banner h2, .imgLeft h2 {
   font-size: 5rem;
-  color: #ffffff;
   margin: 0 0 1rem;
 }
 
-.banner main p {
+.banner p, .imgLeft p {
   font-size: 1.3rem;
-  margin: 0;
-  color: #ffffff;
+  margin-bottom: 8px;
 }
 
 .img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  /* min-width: 400px; */
+  width: 50%;
   height: 100%;
+  border-radius: 10px;
   background-color: rgba(28, 32, 32, 0.84);
-  z-index: 0;
-}
-.img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  overflow: hidden;
 }
 
-.overlay {
+.img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -58,23 +61,30 @@
   height: 100%;
   background-color: rgba(28, 32, 32, 0.635);
   z-index: 2;
-}
+} */
 
 @media (max-width: 1200px) {
-  .banner main {
-    padding: 0 100px;
+  .banner, .imgLeft {
+    width: 100%!important;
+    height: auto;
+    padding: 0;
+  }
+  .banner main, .imgLeft main {
+    width: 100%;
+    height: auto;
+  }
+  .img {
+    width: 100%;
+    height: auto;
   }
 }
 @media (max-width: 980px) {
-  .banner {
+  .banner, .imgLeft {
+    width: 100%;
     height: auto;
-    padding: 30px;
   }
-  .banner main h2 {
+  .banner h2, .imgLeft h2{
     font-size: 3rem;
-    margin: 0 0 1rem;
-  }
-  .banner main {
-    padding: 0 5%;
+    /* margin: 0 0 1rem; */
   }
 }

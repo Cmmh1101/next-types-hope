@@ -7,19 +7,20 @@ interface Props {
   title?: string;
   description?: string;
   className?: string;
+  imgLeft?: boolean;
 }
 
-const Banner = ({ background, title, description }: Props) => {
+const Banner = ({ background, title, description, imgLeft }: Props) => {
   const splitText = description?.split(".")
   return (
-    <section className={classes.banner}>
-      <main className="container">
+    <section className={imgLeft ? classes.imgLeft : classes.banner}>
+      <main>
         <h2>{title}</h2>
         {splitText?.map((text, i) => <p key={i}>{text}.</p>)}
       </main>
-      <div className={classes.overlay}></div>
+      {/* <div className={classes.overlay}></div> */}
       <div className={classes.img}>
-        <Image src={background!} alt="Venezuela Volunteers" width={400} height={400}/>
+        <Image src={background!} alt="Venezuela Volunteers" width={500} height={400}/>
       </div>
     </section>
   );

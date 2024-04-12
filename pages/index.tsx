@@ -35,16 +35,17 @@ const Home: NextPage = () => {
         />
         <MainSections>
         <Banner
-          title="What We Do"
-          description="At the present time, we have programs are open to communities in need from the children to the elder members. We believe we can make a difference in the lives of children, parents, grandparents and families, to break the circle of poverty in our community."
+          title="Our Mission"
+          description="At Hope for the Nations, we are dedicated to fostering sustainable change in the lives of low-income families and children across Venezuela. Our mission is to empower, educate, and uplift communities through the Word of God. We believe in the power of economic empowerment to transform communities. By supporting sustainable programs, we empower families to create sustainable livelihoods, fostering economic independence and resilience"
           background={"/images/programs/hunger9.png"}
         />
-        </MainSections>
+        {/* </MainSections>
         <Events />
-        <MainSections>
+        <MainSections> */}
         <Banner
-          title="Mission"
-          description="At Hope for the Nations, we are dedicated to fostering sustainable change in the lives of low-income families and children across Venezuela. Our mission is to empower, educate, and uplift communities through the Word of God. We believe in the power of economic empowerment to transform communities. By supporting sustainable programs, we empower families to create sustainable livelihoods, fostering economic independence and resilience."
+          title="What We Do"
+          imgLeft
+          description="At the present time, we have programs are open to communities in need from the children to the elder members. We believe we can make a difference in the lives of children, parents, grandparents and families, to break the circle of poverty in our community"
           background={"/images/team/leaders.jpg"}
           />
           </MainSections>
