@@ -67,11 +67,12 @@
   .banner, .imgLeft {
     width: 100%!important;
     height: auto;
-    padding: 0;
+    padding: 0!important;
   }
   .banner main, .imgLeft main {
     width: 100%;
     height: auto;
+    padding: 0!important;
   }
   .img {
     width: 100%;

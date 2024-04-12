@@ -10,7 +10,6 @@ import { getAllPrograms } from "../programsData";
 import { getAllStories } from "../storiesData";
 import classes from "../styles/Home.module.css";
 import BibleVerses from "../components/verses/BibleVerses";
-import Events from "../components/events/Events";
 // import Gallery from "../components/image-gallery/Gallery";
 
 const Home: NextPage = () => {
