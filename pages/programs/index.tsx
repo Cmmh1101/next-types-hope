@@ -2,7 +2,7 @@ import React from "react";
 import ProgramsList from "../../components/programs/ProgramsList";
 import Header from "../../components/ui/Header";
 import { getAllPrograms } from "../../programsData";
-import heroImg from "../../public/images/programs/hunger5.png";
+import heroImg from "../../public/images/programs/main-photo-programs.jpg";
 import classes from "../../components/ui/list.module.css";
 
 type Props = {};

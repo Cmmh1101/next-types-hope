@@ -36,7 +36,7 @@ const Home: NextPage = () => {
         <Banner
           title="Our Mission"
           description="At Hope for the Nations, we are dedicated to fostering sustainable change in the lives of low-income families and children across Venezuela. Our mission is to empower, educate, and uplift communities through the Word of God. We believe in the power of economic empowerment to transform communities. By supporting sustainable programs, we empower families to create sustainable livelihoods, fostering economic independence and resilience"
-          background={"/images/programs/hunger9.png"}
+          background={"/images/general/home-mission-hope.jpg"}
         />
         {/* </MainSections>
         <Events />

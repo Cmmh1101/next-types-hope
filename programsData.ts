@@ -118,13 +118,13 @@ const programs: IProgramsData[] = [
     name: "elderly-care-program",
     title: "Elderly Ministry",
     date: "04/20/2021",
-    image: "/images/programs/casa-Hogar-el-conde1.jpg",
+    image: "/images/programs/main-elderly.jpg",
     icon: "/images/general/couple.png",
     // description: "Elderly Care Program",
     video:"https://www.youtube.com/embed/Pch09DVpw10",
     alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers.",
     programImage1: {
-        image: "/images/programs/elderly-program.jpg",
+        image: "/images/programs/elderly-2.jpg",
         alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers."
     },
     programImage2: {
