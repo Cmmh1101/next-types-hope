@@ -2,7 +2,7 @@ import React from "react";
 import QuoteBlock from "../ui/QuoteBlock";
 import classes from "./purpose.module.css";
 import Heading from "../ui/Heading";
-import volunteers from "../../public/images/team/voluntarios.jpg";
+import volunteers from "../../public/images/team/our-beginning-group.jpg";
 import maracay from '../../public/images/team/leadership-maracay.jpg'
 import ImagesSection from "../ui/ImagesSection";
 
